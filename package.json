@@ -2,13 +2,32 @@
   "name": "jumokz",
   "version": "0.1.0",
   "private": true,
+  "proxy": "http://localhost:3001",
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.29",
+    "@fortawesome/free-solid-svg-icons": "^5.13.1",
+    "@fortawesome/react-fontawesome": "^0.1.11",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
+    "axios": "^0.19.2",
+    "bootstrap": "^4.5.0",
+    "emailjs-com": "^2.6.3",
+    "history": "^5.0.0",
+    "pdfjs-dist": "^2.4.456",
     "react": "^16.13.1",
+    "react-bootstrap": "^1.0.1",
+    "react-bootstrap-sidebar": "0.0.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1"
+    "react-pdf": "^4.1.0",
+    "react-responsive": "^8.1.0",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.1",
+    "react-social-icons": "^4.1.0"
+  },
+  "resolutions": {
+    "react-router": "5.2.0"
   },
   "scripts": {
     "start": "react-scripts start",

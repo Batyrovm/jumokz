@@ -11,3 +11,108 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.navbar-brand {
+  width: 100px;
+  margin-top: -7;
+}
+
+.navbar-brand>img {
+  padding: 7px 14px;
+}
+
+.border-bottom {
+  background-color: #203367;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content-wrap {
+  flex: 1;
+}
+
+.container1 {
+  background-image: url('https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO/30205.jpg');
+  position: relative;
+  width: 100%;
+  height: 750px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.ruk {
+  background-image: url('https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO/31284.jpg?resize=864px:576px&crop=864:487;0,45');
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin: 0 0 1rem;
+  margin-top: 2rem;
+  width: 100%;
+  height: 500px;
+  padding: 2rem;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bernhard {
+  background-image: url('https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO/29331.jpg?resize=686px:457px&crop=686:457;0,0');
+  position: relative;
+  display: flex;
+  margin: 0 0 1rem;
+  margin-top: 2rem;
+  justify-content: center;
+  width: 100%;
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.search-box:hover>.search-txt {
+  width: 240px;
+  padding: 0 10px;
+}
+
+.search-box {
+  position: absolute;
+  top: auto;
+  padding: 0;
+  height: 40px;
+  width: 40px;
+  border-radius: 40px;
+
+}
+
+.search-btn {
+  float: right;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-txt {
+  border-radius: 10px;
+  border: none;
+  background: none;
+  outline: none;
+  float: left;
+  padding: 0;
+  color: #203367;
+  font-size: 16px;
+  transition: 0.4s;
+  line-height: 40px;
+  width: 0;
+  background-color: white;
+}
+

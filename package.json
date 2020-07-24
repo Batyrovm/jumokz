@@ -2,7 +2,10 @@
   "name": "jumokz",
   "version": "0.1.0",
   "private": true,
-  "proxy": "http://localhost:3001",
+  "engines": {
+    "npm":"6.14.5",
+    "node":"12.16.1"
+  },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.29",
     "@fortawesome/free-solid-svg-icons": "^5.13.1",

@@ -36,7 +36,7 @@ class SideBar extends React.Component {
                         <Navbar.Collapse id="navbar-toggle">
                 <Nav defaultActiveKey="/home" className="flex-column" >
                                 
-                 <Nav.Link style={{ color: "white" }} href="/termometry">
+                 <Nav.Link style={{ color: "white" }} href="/termometry ">
                 <Image src={first} style={{borderRadius:"1000px",width:"35px",height:"30px"}}/> Термометры
                 </Nav.Link>
                  <Nav.Link style={{ color: "white" }} href="/analitika">

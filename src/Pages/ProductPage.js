@@ -8,62 +8,142 @@ const product = [
     {
         id: 1,
         first:'JUMO TDA-300 и JUMO TDA-3000',
-        second: 'Термометры'
-    }
-]
-const product1 = [
+        second: 'Термометры',
+        link:'/termometry',
+        imgSrc:'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294970847.png?downsize=*:297px'
+    },
     {
         id: 2,
-        first:'JUMO IMAGO F3000',
-        second: 'Регуляторы'
-    }
-]
-const product2 = [
-    {
+        first: 'JUMO IMAGO F3000',
+        second: 'Регуляторы',
+        link:'/regulyatory',
+        imgSrc:'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO/28730.png?downsize=*:297px'
+    },
+     {
         id: 3,
         first: 'JUMO MIDAS',
-        second:'Давление'
-    }
-]
-const product3 = [
+        second: 'Давление',
+        link:'/davlenie',
+         imgSrc:'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294969730.png?downsize=*:297px'
+    },
     {
         id: 4,
         first: 'JUMO MAERA S25',
-        second: 'Уровень'
-    }
-]
-const product4 = [
+        second: 'Уровень',
+        link:'/uroven',
+        imgSrc:'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294976981.png?downsize=*:475px'
+    },
     {
         id: 5,
         first: 'JUMO MAERA S26',
-        second: 'Уровень'
-    }
-]
-const product5 = [
+        second: 'Уровень',
+        link:'/uroven',
+        imgSrc:'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294976517.png?downsize=*:475px'
+    },
     {
         id: 6,
         first: 'JUMO MAERA F27',
-        second: 'Уровень'
-    }
-]
-const product6 = [
+        second: 'Уровень',
+        link:'/uroven',
+        imgSrc:'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO/28700.png?downsize=*:475px'
+    },
     {
         id: 7,
         first: 'JUMO MAERA S28',
-        second: 'Уровень'
-    }
-]
-const product7 = [
+        second: 'Уровень',
+        link:'/uroven',
+        imgSrc:'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294976985.png?downsize=*:475px'
+    },
     {
         id: 8,
         first: 'JUMO dTrans p33',
-        second: 'Уровень'
+        second: 'Уровень',
+        link:'/uroven',
+        imgSrc:'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO/28702.png?downsize=*:475px'
+    },
+    {
+        id: 9,
+        first: 'JUMO dTRANS p02 DELTA',
+        second: 'Расход',
+        link: '/rashod',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294987380.png?downsize=*:475px'
+    },
+    {
+        id: 10,
+        first: 'JUMO dTRANS p20 DELTA Ex d',
+        second: 'Расход',
+        link: '/rashod',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294983341.png?downsize=*:475px'
+    },
+    {
+        id: 11,
+        first: 'JUMO dTRANS p20 DELTA',
+        second: 'Расход',
+        link: '/rashod',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294981188.png?downsize=*:475px'
+    },
+    {
+        id: 12,
+        first: 'JUMO SVS 3000',
+        second: 'Программное обеспечение',
+        link: '/po',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO/28731.png?downsize=*:475px'
+    },
+     {
+        id: 13,
+         first: 'Измерительные преобразователи относительной влажности',
+        second: 'Влажность',
+        link: '/vlazhnost',
+         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294996284.png?downsize=*:475px'
+    },
+    {
+        id: 14,
+        first: 'Искробезопасные измерительные преобразователи относительной влажности',
+        second: 'Влажность',
+        link: '/vlazhnost',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294979684.png?downsize=*:475px'
+    },
+    {
+        id: 15,
+        first: 'Измерительные преобразователи относительной влажности(промышленная серия)',
+        second: 'Влажность',
+        link: '/vlazhnost',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294981083.png?downsize=*:475px'
+    },
+    {
+        id: 16,
+        first: 'Измерительные преобразователи относительной влажности (с гигрометрическими полимерными волокнами) и температуры',
+        second: 'Влажность',
+        link: '/vlazhnost',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294996338.png?downsize=*:475px'
+    },
+    {
+        id: 17,
+        first: 'Гигростаты',
+        second: 'Влажность',
+        link: '/vlazhnost',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO/28867.png?downsize=*:475px'
+    },
+    {
+        id: 18,
+        first: 'Измерительные преобразователи относительной влажности (с емкостным сенсором)',
+        second: 'Влажность',
+        link: '/vlazhnost',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294987301.png?downsize=*:475px'
+    },
+    {
+        id: 19,
+        first: 'Измерительные преобразователи относительной влажности  температуры и концентрации CO2',
+        second: 'Влажность',
+        link: '/vlazhnost',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294988425.png?downsize=*:475px'
     }
 ]
 
+
 function searchingFor(term) {
     return function (x) {
-        return x.first.toLowerCase().includes(term.toLowerCase()) || !term;
+        return x.first.toLowerCase().includes(term.toLowerCase()) || x.second.toLowerCase().includes(term.toLowerCase()) || !term;
         
     }
 }
@@ -73,7 +153,7 @@ class ProductPage extends React.Component  {
     constructor(props) {
         super(props);
         this.state = {
-            product: product, product1, product2,
+            product: product, 
             item: '',
 
         }
@@ -84,14 +164,18 @@ class ProductPage extends React.Component  {
     }
     
     render(){
-        const { item, product, product1, product2 } = this.state;
+        const { item, product } = this.state;
     
     return (
         <div >
                 <Container fluid={false}>
-                <CardDeck>
-                  <SideBar />
-                    <Card style={{
+                <CardDeck style={{width:"100%"}}>
+                    
+                        <div style={{top:"0"}}>
+                  <SideBar/>
+                    </div>
+                
+                    <Card ml="auto" style={{
                         backgroundColor: "rgba(0,0,0,0)",
                         borderColor: "rgba(0,0,0,0)",marginBottom:"2rem"}}>
                   
@@ -111,209 +195,45 @@ class ProductPage extends React.Component  {
                         </InputGroup>
 
                          
-                        <ListGroup >
-                                <ListGroup.Item > <Link to="/termometry">
+                        <ListGroup style={{ border: "1px solid #203367"}} >
+                            <ListGroup.Item > 
                                 {product.filter(searchingFor(item)).map(product =>
                                     <div key={product.id}>
                              
                                     <Row>
                                        <Col>
                                       <Image style={{width:"100px",height:"100px"}} 
-                                                    src=" https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294970847.png?downsize=*:297px"></Image>
+                                                 alt="Image"   src={product.imgSrc}/>
                                         </Col>
                                         <Col>
                                                 <h4 style={{ color: "#203367" }}>{product.second}</h4>
                                                 <h5 style={{ color: "#203367" }}>{product.first}</h5>
                                                 
-                                        </Col>
-                                        <Col>
-                                                <Button style={{
-                                                    color: "#203367", backgroundColor: "#50e3c2", borderColor: "#50e3c2",
-                                    width:"100px",fontSize:"12px"}}>
-                                            Подробнее</Button>
-                                            
+                                                <br></br>
+                                                <br></br>
+                                                
                                         </Col>
                                         
-                                    </Row> 
+                                    </Row>
+                                    <Row className="justify-content-center">
+                                        <Col>
+                                        </Col>
+                                            
+                                            <Col></Col>
+                                            <Col >
+                                                <Link to={product.link} >   <Button style={{
+                                                    color: "#203367", backgroundColor: "#50e3c2", borderColor: "#50e3c2",
+                                                    width: "100px", fontSize: "12px"
+                                                }}>
+                                                    Подробнее</Button></Link>
+                                            </Col>
+                                    </Row>
+                                        <hr style={{ border: "0.5px solid #203367" }} /> 
                                     </div>
                                 )
                                }
-                                </Link> </ListGroup.Item>
-                            <ListGroup.Item > <Link to="/regulyatory">
-                                {product1.filter(searchingFor(item)).map(product1 =>
-                                    <div key={product1.id}>
-                                        <Row>
-                                            <Col>
-                                                <Image style={{ width: "100px", height: "100px" }}
-                                                    src="https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO/28730.png?downsize=*:297px"></Image>
-                                            </Col>
-                                            <Col>
-                                                <h4 style={{ color: "#203367" }}>{product1.second}</h4>
-                                                <h5 style={{ color: "#203367" }}>{product1.first}</h5>
-                                            </Col>
-                                            <Col>
-                                                <Button style={{
-                                                    color: "#203367", backgroundColor: "#50e3c2", borderColor: "#50e3c2",
-                                                    width: "100px", fontSize: "12px"
-                                                }}>
-                                                    Подробнее</Button>
-
-                                            </Col>
-                                        </Row>
-                                    </div>
-                                )
-                                }
-                            </Link> </ListGroup.Item>
-                            <ListGroup.Item > <Link to="/davlenie">
-                                {product2.filter(searchingFor(item)).map(product2 =>
-                                    <div key={product2.id}>
-                                        <Row>
-                                            <Col>
-                                                <Image style={{ width: "100px", height: "100px" }}
-                                                    src="https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294969730.png?downsize=*:297px"></Image>
-                                            </Col>
-                                            <Col>
-                                                <h4 style={{ color: "#203367" }}>{product2.second}</h4>
-                                                <h5 style={{ color: "#203367" }}>{product2.first}</h5>
-                                            </Col>
-                                            <Col>
-                                                <Button style={{
-                                                    color: "#203367", backgroundColor: "#50e3c2", borderColor: "#50e3c2",
-                                                    width: "100px", fontSize: "12px"
-                                                }}>
-                                                    Подробнее</Button>
-
-                                            </Col>
-                                        </Row>
-                                    </div>
-                                )
-                                }
-                            </Link> </ListGroup.Item>
-                            <ListGroup.Item > <Link to="/uroven">
-                                {product3.filter(searchingFor(item)).map(product3 =>
-                                    <div key={product3.id}>
-                                        <Row>
-                                            <Col>
-                                                <Image style={{ width: "100px", height: "100px" }}
-                                                    src="https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294976981.png?downsize=*:475px"></Image>
-                                            </Col>
-                                            <Col>
-                                                <h4 style={{ color: "#203367" }}>{product3.second}</h4>
-                                                <h5 style={{ color: "#203367" }}>{product3.first}</h5>
-                                            </Col>
-                                            <Col>
-                                                <Button style={{
-                                                    color: "#203367", backgroundColor: "#50e3c2", borderColor: "#50e3c2",
-                                                    width: "100px", fontSize: "12px"
-                                                }}>
-                                                    Подробнее</Button>
-
-                                            </Col>
-                                        </Row>
-                                    </div>
-                                )
-                                }
-                            </Link> </ListGroup.Item>
-                            <ListGroup.Item > <Link to="/uroven">
-                                {product4.filter(searchingFor(item)).map(product4 =>
-                                    <div key={product4.id}>
-                                        <Row>
-                                            <Col>
-                                                <Image style={{ width: "100px", height: "100px" }}
-                                                    src="https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294976517.png?downsize=*:475px"></Image>
-                                            </Col>
-                                            <Col>
-                                                <h4 style={{ color: "#203367" }}>{product4.second}</h4>
-                                                <h5 style={{ color: "#203367" }}>{product4.first}</h5>
-                                            </Col>
-                                            <Col>
-                                                <Button style={{
-                                                    color: "#203367", backgroundColor: "#50e3c2", borderColor: "#50e3c2",
-                                                    width: "100px", fontSize: "12px"
-                                                }}>
-                                                    Подробнее</Button>
-
-                                            </Col>
-                                        </Row>
-                                    </div>
-                                )
-                                }
-                            </Link> </ListGroup.Item>
-                            <ListGroup.Item > <Link to="/uroven">
-                                {product5.filter(searchingFor(item)).map(product5 =>
-                                    <div key={product5.id}>
-                                        <Row>
-                                            <Col>
-                                                <Image style={{ width: "100px", height: "100px" }}
-                                                    src="https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO/28700.png?downsize=*:475px"></Image>
-                                            </Col>
-                                            <Col>
-                                                <h4 style={{ color: "#203367" }}>{product5.second}</h4>
-                                                <h5 style={{ color: "#203367" }}>{product5.first}</h5>
-                                            </Col>
-                                            <Col>
-                                                <Button style={{
-                                                    color: "#203367", backgroundColor: "#50e3c2", borderColor: "#50e3c2",
-                                                    width: "100px", fontSize: "12px"
-                                                }}>
-                                                    Подробнее</Button>
-
-                                            </Col>
-                                        </Row>
-                                    </div>
-                                )
-                                }
-                            </Link> </ListGroup.Item>
-                            <ListGroup.Item > <Link to="/uroven">
-                                {product6.filter(searchingFor(item)).map(product6 =>
-                                    <div key={product6.id}>
-                                        <Row>
-                                            <Col>
-                                                <Image style={{ width: "100px", height: "100px" }}
-                                                    src="https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294976985.png?downsize=*:475px"></Image>
-                                            </Col>
-                                            <Col>
-                                                <h4 style={{ color: "#203367" }}>{product6.second}</h4>
-                                                <h5 style={{ color: "#203367" }}>{product6.first}</h5>
-                                            </Col>
-                                            <Col>
-                                                <Button style={{
-                                                    color: "#203367", backgroundColor: "#50e3c2", borderColor: "#50e3c2",
-                                                    width: "100px", fontSize: "12px"
-                                                }}>
-                                                    Подробнее</Button>
-
-                                            </Col>
-                                        </Row>
-                                    </div>
-                                )
-                                }
-                            </Link> </ListGroup.Item>
-                            <ListGroup.Item > <Link to="/uroven">
-                                {product7.filter(searchingFor(item)).map(product7 =>
-                                    <div key={product7.id}>
-                                        <Row>
-                                            <Col>
-                                                <Image style={{ width: "100px", height: "100px" }}
-                                                    src="https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO/28702.png?downsize=*:475px"></Image>
-                                            </Col>
-                                            <Col>
-                                                <h4 style={{ color: "#203367" }}>{product7.second}</h4>
-                                                <h5 style={{ color: "#203367" }}>{product7.first}</h5>
-                                            </Col>
-                                            <Col>
-                                                <Button style={{
-                                                    color: "#203367", backgroundColor: "#50e3c2", borderColor: "#50e3c2",
-                                                    width: "100px", fontSize: "12px"
-                                                }}>
-                                                    Подробнее</Button>
-
-                                            </Col>
-                                        </Row>
-                                    </div>
-                                )
-                                }
-                            </Link> </ListGroup.Item>
+                                 </ListGroup.Item>
+                         
                         </ListGroup>
                     </Card>
                 </CardDeck>

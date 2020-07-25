@@ -23,7 +23,9 @@ function UrovenPage(props) {
             <Container fluid={true} >
 
                 <CardDeck style={{ marginTop: "2rem" }}>
+                    <div style={{top:"0"}}>
                     <SideBar />
+                    </div>
                     <Card style={{
                         backgroundColor: "#dedede", borderRadius: "10px", marginBottom: "2rem", height: "100%",
                         width: "300px", display: "flex", justifyContent: "center",position:"relative"

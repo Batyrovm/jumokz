@@ -170,7 +170,7 @@ class App extends React.Component{
                 <Link className="nav-link" to="/" >Главная</Link>
                     <Link className="nav-link" to="/product" >Товары</Link>
                     <Link className="nav-link" to="/catalogs" >Проспекты</Link>
-                   {/* <Link className="nav-link" to="/example" >Example</Link>*/}
+                    {/*<Link className="nav-link" to="/example" >Example</Link>*/}
                     
 
                    <NavDropdown title="О Нас" to="/about"  id="collasible-nav-dropdown">

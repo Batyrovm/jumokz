@@ -1,7 +1,10 @@
 import React from 'react';
-import { Container, Card, Image, Button, Row, Col } from 'react-bootstrap';
+import { Container, Card, Button, CardDeck } from 'react-bootstrap';
 import SideBar from '../components/SideBar'
-import file1 from '../files/1_statia.pdf';
+
+import et1 from '../profiles/etf/etron_t.pdf';
+import et2 from '../profiles/etf/etron_m.pdf';
+import et3 from '../profiles/etf/tb_tw.pdf';
 
 
 
@@ -10,171 +13,149 @@ function EtPage(props) {
 
     return (
 
-        <div content="width=device-width" style={{ margin: "auto", minWidth: "1000px", maxWidth: "100%", padding: "0" }}>
+        <div style={{ color: "#233048" }}>
 
 
-            <Container >
-                <Row>
-                    <Col>
+            <Container fluid={true} >
+
+                <CardDeck style={{ marginTop: "2rem" }}>
+                    <div style={{ top: "0" }}>
                         <SideBar />
-                    </Col>
-                    <Col xs={6}>
-
-
-                        <h1 style={{ textAlign: "center", color: "#233048", marginTop: "2rem" }}>Электронные термостаты</h1>
-                        <ul style={{ listStyle: "none" }}>
-                            <li>
-                                <Card style={{
-                                    backgroundColor: "#dedede", borderRadius: "10px", marginBottom: "2rem", height: "500px",
-                                    width: "600px", display: "flex", justifyContent: "center"
-                                }}>
-                                    <Row style={{ margin: "auto" }}>
-                                        <Col>
-
-                                            <Image variant="top" src="https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO/28712.png?downsize=*:297px"
-                                                style={{ height: "180px", width: "180px", margin: "auto", marginTop: "2rem", display: "flex", justifyContent: "center", alignSelf: "center" }} />
-
-                                        </Col>
-                                        <Col style={{ marginRight: "2rem", textAlign: "center" }}>
-
-                                            <Card.Body>
-                                                <Card.Title style={{ textAlign: "center", color: "#233048", fontSize: "1.5rem" }}>
-                                                    <h3>Встроенный термостат</h3>
-                                                </Card.Title>
-                                                <Card.Text style={{ textAlign: "center", color: "#233048", fontSize: "1rem" }}>
-                                                    Тип серии EM до 500 ° C
+                    </div>
+                    <Card style={{
+                        backgroundColor: "#dedede", borderRadius: "10px", marginBottom: "2rem", height: "100%",
+                        width: "300px", display: "flex", justifyContent: "center", position: "relative"
+                    }}>
+                        <Card.Body>
+                            <Card.Img variant="top" src="https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294972403.png?downsize=*:475px"
+                                style={{ height: "180px", width: "180px", margin: "auto", marginTop: "2rem", display: "flex", justifyContent: "center", alignSelf: "center" }} />
+                            <Card.Title style={{ textAlign: "center", color: "#233048", fontSize: "1.5rem" }}>
+                                <h3>ecoTRON T</h3>
+                            </Card.Title>
+                            <Card.Text style={{ textAlign: "center", color: "#233048", fontSize: "1rem" }}>
+                                Тип: 70.1050
                                </Card.Text>
+                            
+                            <Card.Title style={{ textAlign: "center", color: "#233048", fontSize: "1rem" }}>
+                                Технические характеристики
+                                </Card.Title>
+                            <Card.Text style={{ textAlign: "justify", color: "#233048", fontSize: "1rem" }}>
 
-                                                <Card.Text style={{ textAlign: "center", color: "#233048", fontSize: "1rem" }}>
-                                                    Основной тип: 602021
-                                </Card.Text>
-
-                                                <Card.Title style={{ textAlign: "center", color: "#233048", fontSize: "1rem" }}>
-                                                    <ul style={{ listStyle: "none" }}>
-                                                        <li>Материал: нержавеющая сталь / медь</li>
-                                                        <li>Максимум. Междугородняя линия: 5000 мм</li>
-                                                        <li>Диапазон регулирования: до 500 ° C</li>
-                                                    </ul>
-                                                </Card.Title>
-
-                                            </Card.Body>
-                                        </Col>
-
-
-
-                                    </Row>
-                                    <Card.Footer>
-
-                                        <Row >
-                                            <Col>
-                                            </Col>
-                                            <Col>
-                                                <a href={file1} target="_blank" rel="noopener noreferrer" download
-                                                    style={{ color: "#233048" }}  >
-                                                    <Button>
-                                                        <i className="fas fa-download" />
+                                <ul style={{ listStyle: "none" }}>
+                                    <Card.Text>Цифровой термостат с ЖК-индикатором для монтажа на DIN-рейку</Card.Text>
+                                </ul>
+                                <br></br>
+                                <br></br>
+                                
+                            </Card.Text>
+                        </Card.Body>
+                        <Card.Footer className=" justify-content-between p-3" >
+                         
+                                    <a href={et1} target="_blank" rel="noopener noreferrer" download
+                                        style={{ color: "#233048" }}  >
+                                        <Button style={{
+                                            backgroundColor: "#50e3c2",
+                                            color: "#203367", borderColor: "#50e3c2",
+                                            borderRadius: "10px", width: "150px", fontSize: "12px", padding: "0"
+                                        }}>
+                                            <i className="fas fa-download" />
                                              Скачать на русском
                                        </Button>
 
-                                                </a>
-                                            </Col>
-                                            <Col>
-                                                <p style={{ textAlign: "center", justifyContent: "center", alignSelf: "center" }}>
-                                                    <Button style={{
-                                                        backgroundColor: "#50e3c2",
-                                                        color: "#203367", alignItems: "center", borderColor: "#50e3c2",
-                                                        borderRadius: "10px"
-                                                    }}>Подробнее</Button>
-                                                </p>
-                                            </Col>
+                                    </a>
 
 
-                                        </Row>
-                                    </Card.Footer>
+                        </Card.Footer>
 
-                                </Card>
-                            </li>
-                            <li>
-                                <Card style={{
-                                    backgroundColor: "#dedede", borderRadius: "10px", marginBottom: "2rem", height: "500px",
-                                    width: "600px", display: "flex", justifyContent: "center"
-                                }}>
-                                    <Row style={{ margin: "auto" }}>
-                                        <Col>
+                    </Card>
 
-                                            <Image variant="top" src="https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO/28712.png?downsize=*:297px"
-                                                style={{ height: "180px", width: "180px", margin: "auto", marginTop: "2rem", display: "flex", justifyContent: "center", alignSelf: "center" }} />
-
-                                        </Col>
-                                        <Col style={{ marginRight: "2rem", textAlign: "center" }}>
-
-                                            <Card.Body>
-                                                <Card.Title style={{ textAlign: "center", color: "#233048", fontSize: "1.5rem" }}>
-                                                    <h3>Встроенный термостат</h3>
-                                                </Card.Title>
-                                                <Card.Text style={{ textAlign: "center", color: "#233048", fontSize: "1rem" }}>
-                                                    Тип серии EM до 500 ° C
+                    <Card style={{
+                        backgroundColor: "#dedede", borderRadius: "10px", marginBottom: "2rem", height: "100%",
+                        width: "300px", display: "flex", justifyContent: "center", position: "relative"
+                    }}>
+                        <Card.Body>
+                            <Card.Img variant="top" src="https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294979651.png?downsize=*:475px"
+                                style={{ height: "180px", width: "180px", margin: "auto", marginTop: "2rem", display: "flex", justifyContent: "center", alignSelf: "center" }} />
+                            <Card.Title style={{ textAlign: "center", color: "#233048", fontSize: "1.5rem" }}>
+                                <h3>ecoTRON M</h3>
+                            </Card.Title>
+                            <Card.Text style={{ textAlign: "center", color: "#233048", fontSize: "1rem" }}>
+                                Тип: 70.1060
                                </Card.Text>
-
-                                                <Card.Text style={{ textAlign: "center", color: "#233048", fontSize: "1rem" }}>
-                                                    Основной тип: 602021
-                                </Card.Text>
-
-                                                <Card.Title style={{ textAlign: "center", color: "#233048", fontSize: "1rem" }}>
-                                                    <ul style={{ listStyle: "none" }}>
-                                                        <li>Материал: нержавеющая сталь / медь</li>
-                                                        <li>Максимум. Междугородняя линия: 5000 мм</li>
-                                                        <li>Диапазон регулирования: до 500 ° C</li>
-                                                    </ul>
-                                                </Card.Title>
-
-                                            </Card.Body>
-                                        </Col>
-
-
-
-                                    </Row>
-                                    <Card.Footer>
-
-                                        <Row >
-                                            <Col>
-                                            </Col>
-                                            <Col>
-                                                <a href={file1} target="_blank" rel="noopener noreferrer" download
-                                                    style={{ color: "#233048" }}  >
-                                                    <Button>
-                                                        <i className="fas fa-download" />
+                            
+                            <Card.Title style={{ textAlign: "center", color: "#233048", fontSize: "1rem" }}>
+                                Технические характеристики
+                                </Card.Title>
+                            <Card.Text style={{ textAlign: "justify", color: "#233048", fontSize: "1rem" }}>
+                                <ul style={{ listStyle: "none" }}>
+                                    <Card.Text>Электронный микростат в формате 76х36 мм</Card.Text>
+                                </ul>
+                                <br></br>
+                                <br></br>
+                                <br></br>
+                               
+                            </Card.Text>
+                        </Card.Body>
+                        <Card.Footer className=" justify-content-between p-3" >
+                            
+                                    <a href={et2} target="_blank" rel="noopener noreferrer" download
+                                        style={{ color: "#233048" }}  >
+                                        <Button style={{
+                                            backgroundColor: "#50e3c2",
+                                            color: "#203367", borderColor: "#50e3c2",
+                                            borderRadius: "10px", width: "150px", fontSize: "12px", padding: "0"
+                                        }}>
+                                            <i className="fas fa-download" />
                                              Скачать на русском
                                        </Button>
 
-                                                </a>
-                                            </Col>
-                                            <Col>
-                                                <p style={{ textAlign: "center", justifyContent: "center", alignSelf: "center" }}>
-                                                    <Button style={{
-                                                        backgroundColor: "#50e3c2",
-                                                        color: "#203367", alignItems: "center", borderColor: "#50e3c2",
-                                                        borderRadius: "10px"
-                                                    }}>Подробнее</Button>
-                                                </p>
-                                            </Col>
+                                    </a>
 
+                        </Card.Footer>
 
-                                        </Row>
-                                    </Card.Footer>
+                    </Card>
+                    <Card style={{
+                        backgroundColor: "#dedede", borderRadius: "10px", marginBottom: "2rem", height: "100%",
+                        width: "300px", display: "flex", justifyContent: "center", position: "relative"
+                    }}>
+                        <Card.Body>
+                            <Card.Img variant="top" src="https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294985174.png?downsize=*:475px"
+                                style={{ height: "180px", width: "180px", margin: "auto", marginTop: "2rem", display: "flex", justifyContent: "center", alignSelf: "center" }} />
+                            <Card.Title style={{ textAlign: "center", color: "#233048", fontSize: "1.5rem" }}>
+                                <h3>safetyM TB/TW</h3>
+                            </Card.Title>
+                            <Card.Text style={{ textAlign: "center", color: "#233048", fontSize: "1rem" }}>
+                                Тип: 70.1160
+                               </Card.Text>
 
-                                </Card>
-                            </li>
-                        </ul>
+                            <Card.Title style={{ textAlign: "center", color: "#233048", fontSize: "1rem" }}>
+                                Технические характеристики
+                                </Card.Title>
+                            <Card.Text style={{ textAlign: "justify", color: "#233048", fontSize: "1rem" }}>
+                                <ul style={{ listStyle: "none" }}>
+                                    <Card.Text>Температурный ограничитель / контроллер с ЖК-дисплеем
+                                         для установки на DIN рейку 35 мм в соответствии со стандартом DIN EN 14 597</Card.Text>
+                                </ul>
+                                
+                            </Card.Text>
+                        </Card.Body>
+                        <Card.Footer className=" justify-content-between p-3" >
+                            <a href={et3} target="_blank" rel="noopener noreferrer" download
+                                style={{ color: "#233048" }}  >
+                                <Button style={{
+                                    backgroundColor: "#50e3c2",
+                                    color: "#203367", borderColor: "#50e3c2",
+                                    borderRadius: "10px", width: "150px", fontSize: "12px", padding: "0"
+                                }}>
+                                    <i className="fas fa-download" />
+                                             Скачать на русском
+                                       </Button>
 
-                    </Col>
-
-                    <Col>
-                    </Col>
-                </Row>
-
-
-
+                            </a>
+                        </Card.Footer>
+                    </Card>
+                </CardDeck>
+                
             </Container>
         </div>
     );

@@ -1,7 +1,7 @@
 import React from 'react';
-import { Container, CardDeck} from 'react-bootstrap';
-import SideBar from '../components/SideBar'
-
+import { Container,  Row, Col } from 'react-bootstrap';
+import SideBar from '../components/SideBar';
+import RegulyatoryCards from '../components/RegulyatoryCards'
 
 
 
@@ -10,21 +10,22 @@ function RegulyatoryPage(props) {
 
     return (
 
-        <div style={{ color: "#233048" }}>
+        <Container fluid={true}>
+            
+            <Row > 
+              <Col xl={3} style={{marginTop:"1.5rem"}}>
+                <SideBar/>
+              </Col>
+                <Col xl={9} style={{ marginTop: "2rem" }} >
+                   
+                    <RegulyatoryCards />
+                    
+                   
+                </Col>
+            </Row>
 
-            <Container fluid={true} >
-
-                <CardDeck style={{ marginTop: "2rem" }}>
-
-                    <SideBar />
-
-                </CardDeck>
-
-
-
-
-            </Container>
-        </div>
+            
+        </Container>
     );
 };
 

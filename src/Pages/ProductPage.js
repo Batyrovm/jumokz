@@ -10,6 +10,7 @@ const product = [
         first:'JUMO TDA-300 и JUMO TDA-3000',
         second: 'Термометры',
         link:'/termometry',
+        type: 'Тип: 40.1015',
         imgSrc:'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294970847.png?downsize=*:297px'
     },
     {
@@ -17,6 +18,7 @@ const product = [
         first: 'JUMO IMAGO F3000',
         second: 'Регуляторы',
         link:'/regulyatory',
+        type: 'Тип: 40.1015',
         imgSrc:'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO/28730.png?downsize=*:297px'
     },
      {
@@ -24,6 +26,7 @@ const product = [
         first: 'JUMO MIDAS',
         second: 'Давление',
         link:'/davlenie',
+         type: 'Тип: 40.1015',
          imgSrc:'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294969730.png?downsize=*:297px'
     },
     {
@@ -31,6 +34,7 @@ const product = [
         first: 'JUMO MAERA S25',
         second: 'Уровень',
         link:'/uroven',
+        type:'Тип: 40.1015',
         imgSrc:'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294976981.png?downsize=*:475px'
     },
     {
@@ -38,6 +42,7 @@ const product = [
         first: 'JUMO MAERA S26',
         second: 'Уровень',
         link:'/uroven',
+        type: 'Тип: 40.2090',
         imgSrc:'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294976517.png?downsize=*:475px'
     },
     {
@@ -45,6 +50,7 @@ const product = [
         first: 'JUMO MAERA F27',
         second: 'Уровень',
         link:'/uroven',
+        type: 'Тип: 40.4391',
         imgSrc:'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO/28700.png?downsize=*:475px'
     },
     {
@@ -52,6 +58,7 @@ const product = [
         first: 'JUMO MAERA S28',
         second: 'Уровень',
         link:'/uroven',
+        type: 'Тип: 40.4392',
         imgSrc:'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294976985.png?downsize=*:475px'
     },
     {
@@ -59,6 +66,7 @@ const product = [
         first: 'JUMO dTrans p33',
         second: 'Уровень',
         link:'/uroven',
+        type: 'Тип: 40.4753',
         imgSrc:'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO/28702.png?downsize=*:475px'
     },
     {
@@ -66,84 +74,82 @@ const product = [
         first: 'JUMO dTRANS p02 DELTA',
         second: 'Расход',
         link: '/rashod',
+        type: 'Тип: 40.4382',
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294987380.png?downsize=*:475px'
     },
     {
         id: 10,
-        first: 'JUMO dTRANS p20 DELTA Ex d',
-        second: 'Расход',
-        link: '/rashod',
-        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294983341.png?downsize=*:475px'
-    },
-    {
-        id: 11,
-        first: 'JUMO dTRANS p20 DELTA',
-        second: 'Расход',
-        link: '/rashod',
-        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294981188.png?downsize=*:475px'
-    },
-    {
-        id: 12,
         first: 'JUMO SVS 3000',
         second: 'Программное обеспечение',
         link: '/po',
+        type: 'Тип: 70.0755',
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO/28731.png?downsize=*:475px'
-    },
-     {
-        id: 13,
-         first: 'Измерительные преобразователи относительной влажности',
+      },
+    {
+        id: 11,
+        first: 'Измерительные преобразователи относительной влажности',
         second: 'Влажность',
         link: '/vlazhnost',
-         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294996284.png?downsize=*:475px'
-    },
+        type: 'Тип: 90.7020',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294996284.png?downsize=*:475px'
+        },
     {
-        id: 14,
+        id: 12,
         first: 'Искробезопасные измерительные преобразователи относительной влажности',
         second: 'Влажность',
         link: '/vlazhnost',
+        type: 'Тип: 90.7025',
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294979684.png?downsize=*:475px'
-    },
+        },
+     {
+        id: 13,
+         first: 'Измерительные преобразователи относительной влажности(промышленная серия)',
+         second: 'Влажность',
+         link: '/vlazhnost',
+         type: 'Тип: 90.7023',
+         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294981083.png?downsize=*:475px'
+        },
     {
-        id: 15,
-        first: 'Измерительные преобразователи относительной влажности(промышленная серия)',
-        second: 'Влажность',
-        link: '/vlazhnost',
-        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294981083.png?downsize=*:475px'
-    },
-    {
-        id: 16,
+        id: 14,
         first: 'Измерительные преобразователи относительной влажности (с гигрометрическими полимерными волокнами) и температуры',
         second: 'Влажность',
         link: '/vlazhnost',
+        type: 'Тип: 90.7031',
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294996338.png?downsize=*:475px'
-    },
+         },
     {
-        id: 17,
+        id: 15,
         first: 'Гигростаты',
         second: 'Влажность',
         link: '/vlazhnost',
+        type: 'Тип: 90.7032',
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO/28867.png?downsize=*:475px'
-    },
+        },
     {
-        id: 18,
+        id: 16,
         first: 'Измерительные преобразователи относительной влажности (с емкостным сенсором)',
         second: 'Влажность',
         link: '/vlazhnost',
+        type: 'Тип: 90.7027',
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294987301.png?downsize=*:475px'
-    },
+        },
     {
-        id: 19,
+        id: 17,
         first: 'Измерительные преобразователи относительной влажности  температуры и концентрации CO2',
         second: 'Влажность',
         link: '/vlazhnost',
+        type: 'Тип: 90.7021',
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294988425.png?downsize=*:475px'
-    }
+       },
+    
+   
 ]
 
 
 function searchingFor(term) {
     return function (x) {
-        return x.first.toLowerCase().includes(term.toLowerCase()) || x.second.toLowerCase().includes(term.toLowerCase()) || !term;
+        return x.first.toLowerCase().includes(term.toLowerCase()) || x.second.toLowerCase().includes(term.toLowerCase()) ||
+            x.type.toLowerCase().includes(term.toLowerCase()) || !term;
         
     }
 }
@@ -208,6 +214,7 @@ class ProductPage extends React.Component  {
                                         <Col>
                                                 <h4 style={{ color: "#203367" }}>{product.second}</h4>
                                                 <h5 style={{ color: "#203367" }}>{product.first}</h5>
+                                                <h5 style={{color:"#203367"}}>{product.type}</h5>
                                                 
                                                 <br></br>
                                                 <br></br>

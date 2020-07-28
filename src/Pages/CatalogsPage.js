@@ -83,10 +83,7 @@ function Catalog(props) {
                     <Card.Body>
                             <a href={pp} target="_blank" rel="noopener noreferrer">
                      <Card.Img  variant="top" src={b0f} style={{ height: 280, width: 200 }}/>
-                                <Card.Title style={{ color: "#203367", fontSize: "1rem"}}>
-                                Датчики и решения по автоматизации
-                                   </Card.Title>
-                       <Card.Text>
+                        <Card.Text>
                                    
                                         <ul className="list-unstyled">
                                             <li>
@@ -95,7 +92,7 @@ function Catalog(props) {
                                                 backgroundColor: "rgba(0,0,0,0)", opacity: "1", fontSize: "0.9rem"
                                             }}>
                                                 <i className="fas fa-download" />
-                                             Производственная программа
+                                             Производственная программа (Датчики и решения по автоматизации)
                                        </Button>
                                             </li>
                                             <li>
@@ -348,8 +345,7 @@ function Catalog(props) {
                         <Card.Body>
                             <a href={avtomat} target="_blank" rel="noopener noreferrer">
                                 <Card.Img variant="top" src={avtophoto} style={{ height: 280, width: 200 }} />
-                                <Card.Title style={{ color: "#203367",fontSize:"1rem" }}>
-                                    Инновационные решения для самых высоких требований</Card.Title>
+                                
                                 <Card.Text>
 
                                     <ul className="list-unstyled">
@@ -359,7 +355,7 @@ function Catalog(props) {
                                                 backgroundColor: "rgba(0,0,0,0)", opacity: "1", fontSize: "0.9rem"
                                             }}>
                                                 <i className="fas fa-download" />
-                                             Автоматизация
+                                             Автоматизация (Инновационные решения для самых высоких требований)
                                        </Button>
                                         </li>
                                         <li>
@@ -385,10 +381,7 @@ function Catalog(props) {
                             <a href={mtron} target="_blank" rel="noopener noreferrer">
                                 
                                 <Card.Img variant="top" src={cfc} style={{ height: 280, width: 200 }} />
-                                <Card.Title style={{ color: "#203367", fontSize: "1rem" }}>
-                                    Автоматизированная система
-                                    управления JUMO mTRON T
-                                   </Card.Title>
+                                
                                 <Card.Text>
                                     <ul className="list-unstyled">
                                         <li>
@@ -397,7 +390,8 @@ function Catalog(props) {
                                                 backgroundColor: "rgba(0,0,0,0)", opacity: "1", fontSize: "0.9rem"
                                             }}>
                                                 <i className="fas fa-download" />
-                                             JUMO mTRON T
+                                             JUMO mTRON T (Автоматизированная система
+                                    управления JUMO mTRON T)
                                        </Button>
                                         </li>
                                         <li>
@@ -420,9 +414,7 @@ function Catalog(props) {
                         <Card.Body>
                             <a href={akva} target="_blank" rel="noopener noreferrer">
                                 <Card.Img variant="top" src={akvakulturaph} style={{ height: 280, width: 200 }} />
-                                <Card.Title style={{ color: "#203367", fontSize: "1rem" }}>
-                                    Инновационные решения для Вашего успеха
-                                   </Card.Title>
+                                
                                 <Card.Text>
 
                                     <ul className="list-unstyled">
@@ -432,7 +424,7 @@ function Catalog(props) {
                                                 backgroundColor: "rgba(0,0,0,0)", opacity: "1", fontSize: "0.9rem"
                                             }}>
                                                 <i className="fas fa-download" />
-                                            Аквакультура
+                                            Аквакультура (Инновационные решения для Вашего успеха)
                                        </Button>
                                         </li>
                                         <li>
@@ -489,9 +481,7 @@ function Catalog(props) {
                         <Card.Body>
                             <a href={iz_ur} target="_blank" rel="noopener noreferrer">
                                 <Card.Img variant="top" src={b96} style={{ height: 280, width: 200 }} />
-                                <Card.Title style={{ color: "#203367", fontSize: "1rem" }}>
-                                    Гидростатические зонды уровня жидкости
-                                   </Card.Title>
+                                
                                 <Card.Text>
                                     <ul className="list-unstyled">
                                         <li>
@@ -500,7 +490,7 @@ function Catalog(props) {
                                                 backgroundColor: "rgba(0,0,0,0)", opacity: "1", fontSize: "0.9rem"
                                             }}>
                                                 <i className="fas fa-download" />
-                                            Измерение уровня
+                                            Измерение уровня (Гидростатические зонды уровня жидкости)
                                            </Button>
                                         </li>
                                         <li>
@@ -523,10 +513,7 @@ function Catalog(props) {
                         <Card.Body>
                             <a href={vlazhnost} target="_blank" rel="noopener noreferrer">
                                 <Card.Img variant="top" src={a468} style={{ height: 280, width: 200 }} />
-                                <Card.Title style={{ color: "#203367", fontSize: "1rem" }}>
-                                    Инновационные решения для самых требовательных клиентов
-                                   </Card.Title>
-
+                                
                                 <Card.Text>
 
                                     <ul className="list-unstyled">
@@ -536,7 +523,7 @@ function Catalog(props) {
                                                 backgroundColor: "rgba(0,0,0,0)", opacity: "1", fontSize: "0.9rem"
                                             }}>
                                                 <i className="fas fa-download" />
-                                            Влажность
+                                            Влажность (Инновационные решения для самых требовательных клиентов)
                                        </Button>
                                         </li>
                                         <li>
@@ -558,9 +545,6 @@ function Catalog(props) {
                         <Card.Body>
                             <a href={vzryvobezopasnye_pribory} target="_blank" rel="noopener noreferrer">
                                 <Card.Img variant="top" src={vpribory} style={{ height: 280, width: 200 }} />
-                                <Card.Title style={{ color: "#203367", fontSize: "1rem" }}>
-                                    Оборудование для взрывоопасных зон согласно Европейским директивам 94/9/ EG
-                                   </Card.Title>
                                 <Card.Text>
 
                                     <ul className="list-unstyled">
@@ -570,7 +554,8 @@ function Catalog(props) {
                                                 backgroundColor: "rgba(0,0,0,0)", opacity: "1", fontSize: "0.9rem"
                                             }}>
                                                 <i className="fas fa-download" />
-                                             Взрывобезопасные приборы
+                                             Взрывобезопасные приборы 
+                                             (Оборудование для взрывоопасных зон согласно Европейским директивам 94/9/ EG)
                                        </Button>
                                         </li>
                                         <li>
@@ -758,9 +743,7 @@ function Catalog(props) {
                     <Card.Body>
                         <a href={wtrans} target="_blank" rel="noopener noreferrer">
                             <Card.Img variant="top" src={b06} style={{ height: 280, width: 200 }} />
-                                <Card.Title style={{ color: "#203367", fontSize: "1rem" }}>
-                                    Преобразователь давления я беспроводной передачей данных
-                                 </Card.Title>
+                                
                             <Card.Text>
 
                                 <ul className="list-unstyled">
@@ -770,7 +753,7 @@ function Catalog(props) {
                                             backgroundColor: "rgba(0,0,0,0)", opacity: "1", fontSize: "0.9rem"
                                         }}>
                                             <i className="fas fa-download" />
-                                             	JUMO Wtrans p
+                                             	JUMO Wtrans p (Преобразователь давления я беспроводной передачей данных)
                                        </Button>
                                     </li>
                                     <li>
@@ -795,9 +778,6 @@ function Catalog(props) {
                         <Card.Body>
                             <a href={ecoline} target="_blank" rel="noopener noreferrer">
                                 <Card.Img variant="top" src={a398} style={{ height: 280, width: 200 }} />
-                                <Card.Title style={{ color: "#203367", fontSize: "1rem" }}>
-                                    Оптический датчик для измерения мутности с индикатором / регулятором JUMO AQUIS 500 RS
-                                 </Card.Title>
                                 <Card.Text>
                                     <ul className="list-unstyled">
                                         <li>
@@ -807,6 +787,7 @@ function Catalog(props) {
                                             }}>
                                                 <i className="fas fa-download" />
                                            JUMO ecoLine NTU
+                                            (Оптический датчик для измерения мутности с индикатором / регулятором JUMO AQUIS 500 RS)
                                        </Button>
                                         </li>
                                         <li>
@@ -829,9 +810,7 @@ function Catalog(props) {
                         <Card.Body>
                             <a href={stb_stx} target="_blank" rel="noopener noreferrer">
                                 <Card.Img variant="top" src={a3fb} style={{ height: 280, width: 200 }} />
-                                <Card.Title style={{ color: "#203367", fontSize: "1rem" }}>
-                                    Предохранительный ограничитель температуры/реле с ATEX-допуском
-                                 </Card.Title>
+                                
                                 <Card.Text>
 
                                     <ul className="list-unstyled">
@@ -841,7 +820,7 @@ function Catalog(props) {
                                                 backgroundColor: "rgba(0,0,0,0)", opacity: "1", fontSize: "0.9rem"
                                             }}>
                                                 <i className="fas fa-download" />
-                                             JUMO safetyM STB/STW Ex
+                                             JUMO safetyM STB/STW Ex (Предохранительный ограничитель температуры/реле с ATEX-допуском)
                                        </Button>
                                         </li>
                                         <li>
@@ -863,9 +842,7 @@ function Catalog(props) {
                         <Card.Body>
                             <a href={midas} target="_blank" rel="noopener noreferrer">
                                 <Card.Img variant="top" src={a465} style={{ height: 280, width: 200 }} />
-                                <Card.Title style={{ color: "#203367", fontSize: "1rem" }}>
-                                    Преобразователь давления для использования на железнодорожном транспорте
-                                 </Card.Title>
+                                
                                 <Card.Text>
 
                                     <ul className="list-unstyled">
@@ -875,7 +852,8 @@ function Catalog(props) {
                                                 backgroundColor: "rgba(0,0,0,0)", opacity: "1", fontSize: "0.9rem"
                                             }}>
                                                 <i className="fas fa-download" />
-                                             		JUMO MIDAS S19 R
+                                             		JUMO MIDAS S19 R 
+                                                     (Преобразователь давления для использования на железнодорожном транспорте)
                                        </Button>
                                         </li>
                                         <li>
@@ -900,9 +878,6 @@ function Catalog(props) {
                         <Card.Body>
                             <a href={frost} target="_blank" rel="noopener noreferrer">
                                 <Card.Img variant="top" src={a2d2} style={{ height: 280, width: 200 }} />
-                                <Card.Title style={{ color: "#203367", fontSize: "1rem" }}>
-                                Термостат защиты от замерзания
-                                 </Card.Title>
                                 <Card.Text>
                                     <ul className="list-unstyled">
                                         <li>
@@ -911,7 +886,7 @@ function Catalog(props) {
                                                 backgroundColor: "rgba(0,0,0,0)", opacity: "1", fontSize: "0.9rem"
                                             }}>
                                                 <i className="fas fa-download" />
-                                           JUMO frostTHERM-AT/-DR
+                                           JUMO frostTHERM-AT/-DR (Термостат защиты от замерзания)
                                        </Button>
                                         </li>
                                         <li>
@@ -934,9 +909,7 @@ function Catalog(props) {
                         <Card.Body>
                             <a href={extherm} target="_blank" rel="noopener noreferrer">
                                 <Card.Img variant="top" src={add8} style={{ height: 280, width: 200 }} />
-                                <Card.Title style={{ color: "#203367", fontSize: "1rem" }}>
-                                    Взрывозащищенный термостат поверхностного монтажа
-                                 </Card.Title>
+                                
                                 <Card.Text>
 
                                     <ul className="list-unstyled">
@@ -946,7 +919,7 @@ function Catalog(props) {
                                                 backgroundColor: "rgba(0,0,0,0)", opacity: "1", fontSize: "0.9rem"
                                             }}>
                                                 <i className="fas fa-download" />
-                                             	JUMO exTHERM-AT
+                                             	JUMO exTHERM-AT (Взрывозащищенный термостат поверхностного монтажа)
                                        </Button>
                                         </li>
                                         <li>
@@ -968,9 +941,7 @@ function Catalog(props) {
                         <Card.Body>
                             <a href={dtrans} target="_blank" rel="noopener noreferrer">
                                 <Card.Img variant="top" src={e1b} style={{ height: 280, width: 200 }} />
-                                <Card.Title style={{ color: "#203367", fontSize: "1rem" }}>
-                                    Программируемый двухпроводный преобразователь с USB-интерфейсом
-                                 </Card.Title>
+                                
                                 <Card.Text>
 
                                     <ul className="list-unstyled">
@@ -980,7 +951,7 @@ function Catalog(props) {
                                                 backgroundColor: "rgba(0,0,0,0)", opacity: "1", fontSize: "0.9rem"
                                             }}>
                                                 <i className="fas fa-download" />
-                                             		JUMO dTRANS T05
+                                             		JUMO dTRANS T05 (Программируемый двухпроводный преобразователь с USB-интерфейсом)
                                        </Button>
                                         </li>
                                         <li>
@@ -1005,10 +976,6 @@ function Catalog(props) {
                         <Card.Body>
                             <a href={dicon} target="_blank" rel="noopener noreferrer">
                                 <Card.Img variant="top" src={f09} style={{ height: 280, width: 200 }} />
-                                <Card.Title style={{ color: "#203367", fontSize: "1rem" }}>
-                                    Двухканальный программный регулятор процесса с
-                                    функцией регистрации и сенсорным экраном
-                                 </Card.Title>
                                 <Card.Text>
                                     <ul className="list-unstyled">
                                         <li>
@@ -1017,7 +984,8 @@ function Catalog(props) {
                                                 backgroundColor: "rgba(0,0,0,0)", opacity: "1", fontSize: "0.9rem"
                                             }}>
                                                 <i className="fas fa-download" />
-                                           JUMO DICON touch
+                                           JUMO DICON touch (Двухканальный программный регулятор процесса с
+                                    функцией регистрации и сенсорным экраном )
                                        </Button>
                                         </li>
                                         <li>
@@ -1040,9 +1008,7 @@ function Catalog(props) {
                         <Card.Body>
                             <a href={maera} target="_blank" rel="noopener noreferrer">
                                 <Card.Img variant="top" src={a36f} style={{ height: 280, width: 200 }} />
-                                <Card.Title style={{ color: "#203367", fontSize: "1rem" }}>
-                                    Высокопрочный зонд уровня из титана
-                                 </Card.Title>
+                                
                                 <Card.Text>
 
                                     <ul className="list-unstyled">
@@ -1052,7 +1018,7 @@ function Catalog(props) {
                                                 backgroundColor: "rgba(0,0,0,0)", opacity: "1", fontSize: "0.9rem"
                                             }}>
                                                 <i className="fas fa-download" />
-                                               JUMO MAERA S29 SW
+                                               JUMO MAERA S29 SW ( Высокопрочный зонд уровня из титана)
                                        </Button>
                                         </li>
                                         <li>
@@ -1074,9 +1040,7 @@ function Catalog(props) {
                         <Card.Body>
                             <a href={midas_s21} target="_blank" rel="noopener noreferrer">
                                 <Card.Img variant="top" src={a2a2} style={{ height: 280, width: 200 }} />
-                                <Card.Title style={{ color: "#203367", fontSize: "1rem" }}>
-                                    Преобразователь давления для взрывоопасных зон
-                                 </Card.Title>
+                                
                                 <Card.Text>
 
                                     <ul className="list-unstyled">
@@ -1086,7 +1050,7 @@ function Catalog(props) {
                                                 backgroundColor: "rgba(0,0,0,0)", opacity: "1", fontSize: "0.9rem"
                                             }}>
                                                 <i className="fas fa-download" />
-                                             		                                    JUMO MIDAS S21 Ex
+                                            JUMO MIDAS S21 Ex (Преобразователь давления для взрывоопасных зон)
 
                                        </Button>
                                         </li>
@@ -1112,9 +1076,7 @@ function Catalog(props) {
                         <Card.Body>
                             <a href={jwtrans} target="_blank" rel="noopener noreferrer">
                                 <Card.Img variant="top" src={a13c} style={{ height: 280, width: 200 }} />
-                                <Card.Title style={{ color: "#203367", fontSize: "1rem" }}>
-                                     Беспроводной системный комплекс измерения температуры
-                                 </Card.Title>
+                                
                                 <Card.Text>
                                     <ul className="list-unstyled">
                                         <li>
@@ -1123,7 +1085,7 @@ function Catalog(props) {
                                                 backgroundColor: "rgba(0,0,0,0)", opacity: "1", fontSize: "0.9rem"
                                             }}>
                                                 <i className="fas fa-download" />
-                                            Серия JUMO Wtrans
+                                            Серия JUMO Wtrans (Беспроводной системный комплекс измерения температуры)
                                      
                                        </Button>
                                         </li>
@@ -1179,11 +1141,7 @@ function Catalog(props) {
                         <Card.Body>
                             <a href={quantrol} target="_blank" rel="noopener noreferrer">
                                 <Card.Img variant="top" src={a1cc} style={{ height: 280, width: 200 }} />
-                                <Card.Title style={{ color: "#203367", fontSize: "1rem" }}>
-                                    
-                                    Универсальный ПИД-регулятор
-
-                                 </Card.Title>
+                                
                                 <Card.Text>
 
                                     <ul className="list-unstyled">
@@ -1193,7 +1151,7 @@ function Catalog(props) {
                                                 backgroundColor: "rgba(0,0,0,0)", opacity: "1", fontSize: "0.9rem"
                                             }}>
                                                 <i className="fas fa-download" />
-                                             		Quantrol LC100 / LC200 / LC300
+                                             		Quantrol LC100 / LC200 / LC300 (Универсальный ПИД-регулятор)
                                        </Button>
                                         </li>
                                         <li>
@@ -1218,12 +1176,7 @@ function Catalog(props) {
                         <Card.Body>
                             <a href={aquis} target="_blank" rel="noopener noreferrer">
                                 <Card.Img variant="top" src={a45d} style={{ height: 280, width: 200 }} />
-                                <Card.Title style={{ color: "#203367", fontSize: "1rem" }}>
-                                    
-                                    Модульные многоканальные измерительные
-                                    преобразователи для анализа параметров жидкости
-                                    с интегрированным регулятором и самописцем
-                                 </Card.Title>
+                                
                                 <Card.Text>
                                     <ul className="list-unstyled">
                                         <li>
@@ -1232,7 +1185,9 @@ function Catalog(props) {
                                                 backgroundColor: "rgba(0,0,0,0)", opacity: "1", fontSize: "0.9rem"
                                             }}>
                                                 <i className="fas fa-download" />
-                                    JUMO AQUIS touch S/P
+                                    JUMO AQUIS touch S/P (Модульные многоканальные измерительные
+                                    преобразователи для анализа параметров жидкости
+                                    с интегрированным регулятором и самописцем)
                                        </Button>
                                         </li>
                                         <li>
@@ -1255,12 +1210,6 @@ function Catalog(props) {
                         <Card.Body>
                             <a href={iip} target="_blank" rel="noopener noreferrer">
                                 <Card.Img variant="top" src={a6f9} style={{ height: 280, width: 200 }} />
-                                <Card.Title style={{ color: "#203367", fontSize: "1rem" }}>
-                                    с гальванической развязкой
-                                    и усилением входного сигнала
-
-                                 </Card.Title>
-
                                 <Card.Text>
 
                                     <ul className="list-unstyled">
@@ -1270,7 +1219,8 @@ function Catalog(props) {
                                                 backgroundColor: "rgba(0,0,0,0)", opacity: "1", fontSize: "0.9rem"
                                             }}>
                                                 <i className="fas fa-download" />
-                                              	Искробезопасный источник питания
+                                              	Искробезопасный источник питания (с гальванической развязкой
+                                    и усилением входного сигнала)
                                                        </Button>
                                         </li>
                                         <li>

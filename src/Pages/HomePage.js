@@ -32,9 +32,9 @@ function HomePage(props) {
       </Card.Text>
 
                             <Card.Title style={{ textAlign: "center", color: "#233048", fontSize: "1.2rem",paddingTop:"4em" }}>
-                                <Link style={{ color: "#233048" }} href="#">Заказать детали
+                                {/*<Link style={{ color: "#233048" }} href="#">Познокомтесь с инженерией
                             <hr style={{ border: "1px solid #50e3c2 " }} />
-                                </Link>
+    </Link>*/}
                             </Card.Title>
                         </Card.Body>
                        
@@ -47,9 +47,9 @@ function HomePage(props) {
                                 Комплексные решения для растений и машин
                             </Card.Text>
                             <Card.Title style={{ textAlign: "center", color: "#233048", fontSize: "1.2rem", paddingTop: "4em" }}>
-                                <Link style={{ color: "#233048" }} href="#">Найти правильное решение
+                                {/*<Link style={{ color: "#233048" }} href="#">Познокомтесь с инженерией
                             <hr style={{ border: "1px solid #50e3c2 " }} />
-                                </Link>
+    </Link>*/}
                             </Card.Title>
                         </Card.Body>
                         
@@ -62,9 +62,9 @@ function HomePage(props) {
                                 Разработка индивидуального проекта и инновации
       </Card.Text>
                             <Card.Title style={{ textAlign: "center", color: "#233048", fontSize: "1.2rem", paddingTop: "1.5em" }}>
-                                <Link style={{ color: "#233048" }} href="#">Познокомтесь с инженерией
+                                {/*<Link style={{ color: "#233048" }} href="#">Познокомтесь с инженерией
                             <hr style={{ border: "1px solid #50e3c2 " }} />
-                                </Link>
+    </Link>*/}
                             </Card.Title>
                         </Card.Body>
                         

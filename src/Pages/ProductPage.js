@@ -7,27 +7,27 @@ import SideBar from '../components/SideBar';
 const product = [
     {
         id: 1,
-        first:'JUMO TDA-300 и JUMO TDA-3000',
-        second: 'Термометры',
-        link:'/termometry',
-        type: 'Тип: 40.1015',
-        imgSrc:'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294970847.png?downsize=*:297px'
+        first:'ecoTRON T',
+        second: 'Электронные термостаты',
+        link:'/et',
+        type: 'Тип: 70.1050',
+        imgSrc:'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294972403.png?downsize=*:475px'
     },
     {
         id: 2,
-        first: 'JUMO IMAGO F3000',
-        second: 'Регуляторы',
-        link:'/regulyatory',
-        type: 'Тип: 40.1015',
-        imgSrc:'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO/28730.png?downsize=*:297px'
+        first: 'ecoTRON M',
+        second: 'Электронные термостаты',
+        link:'/et',
+        type: 'Тип: 70.1060',
+        imgSrc:'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294979651.png?downsize=*:475px'
     },
      {
         id: 3,
-        first: 'JUMO MIDAS',
-        second: 'Давление',
-        link:'/davlenie',
-         type: 'Тип: 40.1015',
-         imgSrc:'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294969730.png?downsize=*:297px'
+         first: 'safetyM TB/TW',
+        second: 'Электронные термостаты',
+        link:'/et',
+         type: 'Тип: 70.1160',
+         imgSrc:'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294985174.png?downsize=*:475px'
     },
     {
         id: 4,
@@ -141,7 +141,776 @@ const product = [
         type: 'Тип: 90.7021',
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294988425.png?downsize=*:475px'
        },
-    
+    {
+        id: 18,
+        first: 'Термостаты для щитового монтажа',
+        second: 'Термостаты',
+        link: '/termostaty',
+        type: 'Тип: 60.2010',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294979383.png?downsize=*:475px'
+    },
+    {
+        id: 19,
+        first: 'Встраиваемый термостат',
+        second: 'Термостаты',
+        link: '/termostaty',
+        type: 'Тип: 60.2026',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294985877.png?downsize=*:475px'
+    },
+    {
+        id: 20,
+        first: 'Термостат наружного монтажа',
+        second: 'Термостаты',
+        link: '/termostaty',
+        type: 'Тип: 60.3021',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO/28715.png?downsize=*:475px'
+    },
+    {
+        id: 21,
+        first: 'Термостат поверхностного монтажа',
+        second: 'Термостаты',
+        link: '/termostaty',
+        type: 'Тип: 60.3026',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO/28716.png?downsize=*:475px'
+    },
+    {
+        id: 22,
+        first: 'Вентиляционный термостат',
+        second: 'Термостаты',
+        link: '/termostaty',
+        type: 'Тип: 60.4514',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294967366.png?downsize=*:475px'
+       },
+    {
+        id: 23,
+        first: 'JUMO exTHERM-AT',
+        second: 'Термостаты',
+        link: '/termostaty',
+        type: 'Тип: 60.5055',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO/28722.png?downsize=*:475px'
+    },
+    {
+        id: 24,
+        first: 'Встроенные термостаты EM до 500°C',
+        second: 'Термостаты',
+        link: '/termostaty',
+        type: 'Тип: 60.2021',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO/28712.png?downsize=*:475px'
+    },
+    {
+        id: 25,
+        first: 'Встраиваемый термостат',
+        second: 'Термостаты',
+        link: '/termostaty',
+        type: 'Тип: 60.3051',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO/28777.png?downsize=*:475px'
+    },
+    {
+        id: 26,
+        first: 'JUMO heatTHERM – AT',
+        second: 'Термостаты',
+        link: '/termostaty',
+        type: 'Тип: 60.3070',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO/28719.png?downsize=*:475px'
+    },
+    {
+        id: 27,
+        first: 'JUMO frostTHERM-AT/-DR',
+        second: 'Термостаты',
+        link: '/termostaty',
+        type: 'Тип: 60.4100',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO/28720.png?downsize=*:475px'
+    },
+    {
+        id: 28,
+        first: 'Термостат дымовых газов',
+        second: 'Термостаты',
+        link: '/termostaty',
+        type: 'Тип: 60.1540',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294967373.png?downsize=*:475px'
+    },
+    {
+        id: 29,
+        first: 'JUMO heatTHERM',
+        second: 'Термостаты',
+        link: '/termostaty',
+        type: 'Тип: 60.2031',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO/28713.png?downsize=*:475px'
+    },
+    {
+        id: 30,
+        first: 'JUMO TYA-432-45',
+        second: 'Тиристорные модули',
+        link: '/tm',
+        type: 'Тип: 70.9010',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294989599.png?downsize=*:475px'
+    },
+    {
+        id: 31,
+        first: 'JUMO TYA-432-100',
+        second: 'Тиристорные модули',
+        link: '/tm',
+        type: 'Тип: 70.9020',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO/28744.png?downsize=*:475px'
+    },
+    {
+        id: 32,
+        first: 'JUMO TYA 201',
+        second: 'Тиристорные модули',
+        link: '/tm',
+        type: 'Тип: 70.9061',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294980107.png?downsize=*:475px'
+    },
+    {
+        id: 33,
+        first: 'JUMO TYA 202',
+        second: 'Тиристорные модули',
+        link: '/tm',
+        type: 'Тип: 70.9062',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294980108.png?downsize=*:475px'
+    },
+    {
+        id: 34,
+        first: 'Барьер искробезопасности',
+        second: 'Блок питания',
+        link: '/bp',
+        type: 'Тип: 70.7530',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294995355.png?downsize=*:475px'
+    },
+    {
+        id: 35,
+        first: 'Сетевой блок питания',
+        second: 'Блок питания',
+        link: '/bp',
+        type: 'Тип: 70.7500',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294969740.png?downsize=*:475px'
+    },
+    {
+        id: 36,
+        first: 'JUMO dTRANS T01 / Т01Т',
+        second: 'Температурные преобразователи',
+        link: '/tp',
+        type: 'Тип:70.7010',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO/28739.png?downsize=*:475px'
+    },
+    {
+        id: 37,
+        first: 'JUMО dTRANS T02',
+        second: 'Температурные преобразователи',
+        link: '/tp',
+        type: 'Тип: 70.7020',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO/28740.png?downsize=*:475px'
+    },
+    {
+        id: 38,
+        first: 'JUMО dTRANS T03 J, B, T',
+        second: 'Температурные преобразователи',
+        link: '/tp',
+        type: 'Тип:70.7030',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO/28741.png?downsize=*:475px'
+    },
+    {
+        id: 39,
+        first: 'JUMO dTRANS T04',
+        second: 'Температурные преобразователи',
+        link: '/tp',
+        type: 'Тип: 70.7040',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294970772.png?downsize=*:475px'
+    },
+    {
+        id: 40,
+        first: 'JUMO Wtrans B',
+        second: 'Температурные преобразователи',
+        link: '/tp',
+        type: 'Тип: 70.7060',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO/28742.png?downsize=*:475px'
+    },
+    {
+        id: 41,
+        first: 'JUMO dTRANS T05',
+        second: 'Температурные преобразователи',
+        link: '/tp',
+        type: 'Тип: 70.7050',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294981272.png?downsize=*:475px'
+    },
+    {
+        id: 42,
+        first: 'JUMO dTRON 304/308/316',
+        second: 'Регуляторы',
+        link: '/regulyatory',
+        type: 'Тип:70.3041',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO/28734.png?downsize=*:475px'
+    },
+    {
+        id: 43,
+        first: 'JUMO DICON 400/500',
+        second: 'Регуляторы',
+        link: '/regulyatory',
+        type: 'Тип: 70.3570',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO/28839.png?downsize=*:475px'
+    },
+    {
+        id: 44,
+        first: 'JUMO DICON 401/501',
+        second: 'Регуляторы',
+        link: '/regulyatory',
+        type: 'Тип:70.3580',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO/28839.png?downsize=*:475px'
+    },
+    {
+        id: 45,
+        first: 'JUMO IMAGO 500',
+        second: 'Регуляторы',
+        link: '/regulyatory',
+        type: 'Тип: 70.3590',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294976711.png?downsize=*:475px'
+    },
+    {
+        id: 46,
+        first: 'JUMO IMAGO F3000',
+        second: 'Регуляторы',
+        link: '/regulyatory',
+        type: 'Тип: 70.0101',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO/28730.png?downsize=*:475px'
+    },
+    {
+        id: 47,
+        first: 'JUMO iTRON DR 100',
+        second: 'Регуляторы',
+        link: '/regulyatory',
+        type: 'Тип:70.2060',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294968193.png?downsize=*:475px'
+    },
+    {
+        id: 48,
+        first: 'JUMO eTRON M100',
+        second: 'Регуляторы',
+        link: '/regulyatory',
+        type: 'Тип:70.1061',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294986313.png?downsize=*:475px'
+    },
+    {
+        id: 49,
+        first: 'JUMO Quantrol LC100/LC200/LC300',
+        second: 'Регуляторы',
+        link: '/regulyatory',
+        type: 'Тип: 70.2030',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294983726.png?downsize=*:475px'
+    },
+    {
+        id: 50,
+        first: 'JUMO LOGOSCREEN fd',
+        second: 'Регистраторы',
+        link: '/registratory',
+        type: 'Тип:70.6585',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294981336.png?downsize=*:475px'
+    },
+    {
+        id: 51,
+        first: 'JUMO LOGOSCREEN nt',
+        second: 'Регистраторы',
+        link: '/registratory',
+        type: 'Тип: 70.6581',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294971454.png?downsize=*:475px'
+    },
+    {
+        id: 52,
+        first: 'JUMO di eco',
+        second: 'Индикаторы',
+        link: '/indicatory',
+        type: 'Тип:70.1540',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294987382.png?downsize=*:475px'
+    },
+    {
+        id: 53,
+        first: 'JUMO di 32/di 08',
+        second: 'Индикаторы',
+        link: '/indicatory',
+        type: 'Тип: 70.1530',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO/28732.png?downsize=*:475px'
+    },
+    {
+        id: 54,
+        first: 'JUMO di 308',
+        second: 'Индикаторы',
+        link: '/indicatory',
+        type: 'Тип:70.1550',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294978189.png?downsize=*:475px'
+    },
+    {
+        id: 55,
+        first: 'JUMO TDA-300 und JUMO TDA-3000',
+        second: 'Индикаторы',
+        link: '/indicatory',
+        type: 'Тип: 70.2540',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294970847.png?downsize=*:475px'
+    },
+    {
+        id: 56,
+        first: 'Термометр стрелочный биметаллический',
+        second: 'Стрелочные термометры',
+        link: '/termometry',
+        type: 'Тип:60.8001',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294987980.png?downsize=*:475px'
+    },
+    {
+        id: 57,
+        first: 'Термометр стрелочный биметаллический',
+        second: 'Стрелочные термометры',
+        link: '/termometry',
+        type: 'Тип: 60.8002',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294987980.png?downsize=*:475px'
+    },
+    {
+        id: 58,
+        first: 'Термометр стрелочный',
+        second: 'Стрелочные термометры',
+        link: '/termometry',
+        type: 'Тип:60.8003',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294995673.png?downsize=*:475px'
+    },
+    {
+        id: 59,
+        first: 'Термометр стрелочный',
+        second: 'Стрелочные термометры',
+        link: '/termometry',
+        type: 'Тип: 60.8005',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294981779.png?downsize=*:475px'
+    }, {
+        id: 60,
+        first: 'Температурный переключатель',
+        second: 'Стрелочные термометры',
+        link: '/termometry',
+        type: 'Тип:60.8301',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294988131.png?downsize=*:475px'
+    }, {
+        id: 61,
+        first: 'Контактный стрелочный термометр',
+        second: 'Стрелочные термометры',
+        link: '/termometry',
+        type: 'Тип: 60.8425',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO/28727.png?downsize=*:475px'
+    }, {
+        id: 62,
+        first: 'MICROSTAT-M',
+        second: 'Стрелочные термометры',
+        link: '/termometry',
+        type: 'Тип:60.8501',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO/28728.png?downsize=*:475px'
+    }, {
+        id: 63,
+        first: 'Контактный показывающий термометр',
+        second: 'Стрелочные термометры',
+        link: '/termometry',
+        type: 'Тип:60.8520',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294992642.png?downsize=*:475px'
+    }, {
+        id: 64,
+        first: 'Контактный показывающий термометр',
+        second: 'Стрелочные термометры',
+        link: '/termometry',
+        type: 'Тип: 60.8523',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294977735.png?downsize=*:475px'
+    }, {
+        id: 65,
+        first: 'MICROSTAT и стрелочного контактного термометра',
+        second: 'Стрелочные термометры',
+        link: '/termometry',
+        type: 'Тип:60.8730',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294995825.png?downsize=*:475px'
+    }, {
+        id: 66,
+        first: 'Термометр сопротивления для учета тепла с присоединительной головкой, допуск РТВ',
+        second: 'Термометры сопротивления',
+        link: '/termometry',
+        type: 'Тип: 90.2424',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294995081.png?downsize=*:475px'
+    },
+    {
+        id: 67,
+        first: 'Термометр сопротивления для пищевой и фармацевтической промышленности',
+        second: 'Термометры сопротивления',
+        link: '/termometry',
+        type: 'Тип: 90.2810',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294988585.png?downsize=*:475px'
+    },
+    {
+        id: 68,
+        first: 'JUMO PROCESStemp Термометр сопротивления для технологических процессов с Ех (ATEX)-допуском',
+        second: 'Термометры сопротивления',
+        link: '/termometry',
+        type: 'Тип: 90.2820',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294968861.png?downsize=*:475px'
+    },
+    {
+        id: 69,
+        first: 'Вставной термометр сопротивления с герметичным исполнением для водяного пара',
+        second: 'Термометры сопротивления',
+        link: '/termometry',
+        type: 'Тип: 90.2830',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294981087.png?downsize=*:475px'
+    },
+    {
+        id: 70,
+        first: 'JUMO CANtrans T',
+        second: 'Термометры сопротивления',
+        link: '/termometry',
+        type: 'Тип: 90.2910',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294987368.png?downsize=*:475px'
+    },
+    {
+        id: 71,
+        first: 'JUMO Dtrans T100',
+        second: 'Термометры сопротивления',
+        link: '/termometry',
+        type: 'Тип: 90.2815',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294989181.png?downsize=*:475px'
+    },
+    {
+        id: 72,
+        first: 'JUMO Wtrans RF-series',
+        second: 'Термометры сопротивления',
+        link: '/termometry',
+        type: 'Тип: 90.2931',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294981422.png?downsize=*:475px'
+    },
+    {
+        id: 73,
+        first: 'JUMO Wtrans',
+        second: 'Термометры сопротивления',
+        link: '/termometry',
+        type: 'Тип:90.2930',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294987361.png?downsize=*:475px'
+    },
+    {
+        id: 74,
+        first: 'Термометры сопротивления комнатного, наружного и канального исполнения',
+        second: 'Термометры сопротивления',
+        link: '/termometry',
+        type: 'Тип: 90.2520',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294989458.png?downsize=*:475px'
+    },
+    {
+        id: 75,
+        first: 'JUMO Etemp B',
+        second: 'Термометры сопротивления',
+        link: '/termometry',
+        type: 'Тип:90.2023',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294996924.png?downsize=*:475px'
+    },
+    {
+        id: 76,
+        first: 'JUMO VIBROtemp Винчивающийся термометр',
+        second: 'Термометры сопротивления',
+        link: '/termometry',
+        type: 'Тип:90.2040',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294989666.png?downsize=*:475px'
+    },
+    {
+        id: 77,
+        first: 'JUMO Etemp B',
+        second: 'Термометры сопротивления',
+        link: '/termometry',
+        type: 'Тип:90.2123',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294995822.png?downsize=*:475px'
+    },
+    {
+        id: 78,
+        first: 'Ввинчивающийся термометр',
+        second: 'Термометры сопротивления',
+        link: '/termometry',
+        type: 'Тип:90.2044',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294967932.png?downsize=*:475px'
+    },
+    {
+        id: 79,
+        first: 'Вставной термометр сопротивления с присоединительной головкой формы J',
+        second: 'Термометры сопротивления',
+        link: '/termometry',
+        type: 'Тип:90.2130',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294971837.png?downsize=*:475px'
+    },
+    {
+        id: 80,
+        first: 'Вставной термометр сопротивления с присоединительной головкой формы В',
+        second: 'Термометры сопротивления',
+        link: '/termometry',
+        type: 'Тип:90.2120',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294976184.png?downsize=*:475px'
+    },
+    {
+        id: 81,
+        first: 'Вставной термометр сопротивления с присоединительным проводом для солнечных батарей',
+        second: 'Термометры сопротивления',
+        link: '/termometry',
+        type: 'Тип:90.2153',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294982850.png?downsize=*:475px'
+    },
+    {
+        id: 82,
+        first: 'Ввинчивающийся термометр с присоединительной головкой формы В',
+        second: 'Термометры сопротивления',
+        link: '/termometry',
+        type: 'Тип:90.2020',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294967928.png?downsize=*:475px'
+    },
+    {
+        id: 83,
+        first: 'Ввинчивающийся термометр сопротивления для учета тепла ',
+        second: 'Термометры сопротивления',
+        link: '/termometry',
+        type: 'Тип:90.2434',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294995081.png?downsize=*:475px'
+    },
+    {
+        id: 84,
+        first: 'Термометры сопротивления в оболочке согласно DIN EN 60 751',
+        second: 'Термометры сопротивления',
+        link: '/termometry',
+        type: 'Тип:90.2210',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294987354.png?downsize=*:475px'
+    },
+    {
+        id: 85,
+        first: 'JUMO FOODtemp ',
+        second: 'Термометры сопротивления',
+        link: '/termometry',
+        type: 'Тип: 90.2350',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294970927.png?downsize=*:475px'
+    },
+    {
+        id: 86,
+        first: 'Термометры сопротивления ',
+        second: 'Термометры сопротивления',
+        link: '/termometry',
+        type: 'Тип:90.2425',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294993003.png?downsize=*:475px'
+    },
+    {
+        id: 87,
+        first: 'Вставной термометр сопротивления для учета тепла с присоединительным проводом ',
+        second: 'Термометры сопротивления',
+        link: '/termometry',
+        type: 'Тип: 90.2435',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294993004.png?downsize=*:475px'
+    },
+    {
+        id: 88,
+        first: 'Вставной термометр сопротивления с байонетным присоединением',
+        second: 'Термометры сопротивления',
+        link: '/termometry',
+        type: 'Тип:90.2190',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294980820.png?downsize=*:475px'
+    },
+    {
+        id: 89,
+        first: 'Устройство контроля температуры',
+        second: 'Термометры сопротивления',
+        link: '/termometry',
+        type: 'Тип: 90.2721',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294976572.png?downsize=*:475px'
+    },
+    {
+        id: 90,
+        first: 'Датчик уровня и температуры для автотранспорта',
+        second: 'Термометры сопротивления',
+        link: '/termometry',
+        type: 'Тип:90.2880',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294987367.png?downsize=*:475px'
+    },
+    {
+        id: 91,
+        first: 'Поверхностный термометр сопротивления',
+        second: 'Термометры сопротивления',
+        link: '/termometry',
+        type: 'Тип: 90.2550',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294988318.png?downsize=*:475px'
+    },
+    {
+        id: 92,
+        first: 'JUMO DELOS T',
+        second: 'Термометры сопротивления',
+        link: '/termometry',
+        type: 'Тип: 90.2940',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294987646.png?downsize=*:475px'
+    },
+    {
+        id: 93,
+        first: 'Ввинчивающийся термометр сопротивления с присоединительными проводами',
+        second: 'Термометры сопротивления',
+        link: '/termometry',
+        type: 'Тип: 90.2050',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294977397.png?downsize=*:475px'
+    },
+    {
+        id: 94,
+        first: 'Вставной термометр сопротивления с присоединительными проводами',
+        second: 'Термометры сопротивления',
+        link: '/termometry',
+        type: 'Тип: 90.2150',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294988563.png?downsize=*:475px'
+    },
+    {
+        id: 95,
+        first: 'Ввинчивающийся термоэлемент с присоединительной головкой формы В',
+        second: 'Термопары',
+        link: '/termometry',
+        type: 'Тип: 90.1020',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294967928.png?downsize=*:475px'
+    },
+    {
+        id: 96,
+        first: 'Ввинчивающийся термоэлемент с присоединительной головкой формы J',
+        second: 'Термопары',
+        link: '/termometry',
+        type: 'Тип: 90.1030',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294982448.png?downsize=*:475px'
+    },
+    {
+        id: 97,
+        first: 'Ввинчивающийся термоэлемент с компенсационным проводом',
+        second: 'Термопары',
+        link: '/termometry',
+        type: 'Тип: 90.1050',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294977397.png?downsize=*:475px'
+    },
+    {
+        id: 98,
+        first: 'Ввинчивающийся термоэлемент для измерения температуры расплава',
+        second: 'Термопары',
+        link: '/termometry',
+        type: 'Тип: 90.1090',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294987370.png?downsize=*:475px'
+    },
+    {
+        id: 99,
+        first: 'Вставной термоэлемент с присоединительной головкой',
+        second: 'Термопары',
+        link: '/termometry',
+        type: 'Тип: 90.1110',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294976996.png?downsize=*:475px'
+    },
+    {
+        id: 100,
+        first: 'Вставной термоэлемент с компенсационным проводом',
+        second: 'Термопары',
+        link: '/termometry',
+        type: 'Тип: 90.1090',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294988563.png?downsize=*:475px'
+    },
+    {
+        id: 101,
+        first: 'Вставной термоэлемент с присоединительной головкой ',
+        second: 'Термопары',
+        link: '/termometry',
+        type: 'Тип: 90.1120',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294976184.png?downsize=*:475px'
+    },
+    {
+        id: 102,
+        first: 'Вставной термоэлемент с байонетным присоединением',
+        second: 'Термопары',
+        link: '/termometry',
+        type: 'Тип: 90.1190',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294980820.png?downsize=*:475px'
+    },
+    {
+        id: 103,
+        first: 'Термоэлемент для технологических процессов с Ex-допуском ',
+        second: 'Термопары',
+        link: '/termometry',
+        type: 'Тип: 90.1820',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294976996.png?downsize=*:475px'
+    },
+    {
+        id: 104,
+        first: 'Термоэлементы в оболочке согласно DIN 43 710 и DIN EN 60 584',
+        second: 'Термопары',
+        link: '/termometry',
+        type: 'Тип: 90.1210',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294987354.png?downsize=*:475px'
+    },
+    {
+        id: 105,
+        first: 'Игольчатый термоэлемент ',
+        second: 'Термопары',
+        link: '/termometry',
+        type: 'Тип: 90.1350',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294970927.png?downsize=*:475px'
+    },
+    {
+        id: 106,
+        first: 'Термопары, аттестованные согласно DIN 14597 (DIN 3440)',
+        second: 'Термопары',
+        link: '/termometry',
+        type: 'Тип: 90.1060',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294976725.png?downsize=*:475px'
+    },
+    {
+        id: 107,
+        first: 'Оборудование для монтажа температурных датчиков',
+        second: 'Принадлежности',
+        link: '/termometry',
+        type: 'Тип: 90.2440',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294986530.png?downsize=*:475px'
+    },
+    {
+        id: 108,
+        first: 'Присоединительные головки и цоколи',
+        second: 'Принадлежности',
+        link: '/termometry',
+        type: 'Тип: 90.9715',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294967560.png?downsize=*:475px'
+    },
+    {
+        id: 109,
+        first: 'Компенсационный и присоединительный провода',
+        second: 'Принадлежности',
+        link: '/termometry',
+        type: 'Тип: 90.9735',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294976728.png?downsize=*:475px'
+    },
+    {
+        id: 110,
+        first: 'Измерительные вставки для ввинчивающихся термоэлементов ',
+        second: 'Принадлежности',
+        link: '/termometry',
+        type: 'Тип: 90.9740',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294976726.png?downsize=*:475px'
+    },
+    {
+        id: 111,
+        first: 'Термопары согласно DIN 43 732',
+        second: 'Принадлежности',
+        link: '/termometry',
+        type: 'Тип: 90.9744',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294976727.png?downsize=*:475px'
+    },
+    {
+        id: 112,
+        first: 'Штуцерные присоединения и фланцы',
+        second: 'Принадлежности',
+        link: '/termometry',
+        type: 'Тип: 90.9750',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294980757.png?downsize=*:475px'
+    },
+    {
+        id: 113,
+        first: 'Ввинчивающиеся и приварные защитные гильзы',
+        second: 'Принадлежности',
+        link: '/termometry',
+        type: 'Тип: 90.9710',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294977503.png?downsize=*:475px'
+    },
+    {
+        id: 114,
+        first: 'Разъемы',
+        second: 'Принадлежности',
+        link: '/termometry',
+        type: 'Тип: 90.9760',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294994077.png?downsize=*:475px'
+    },
+
    
 ]
 

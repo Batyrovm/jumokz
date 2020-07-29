@@ -1,8 +1,7 @@
 import React from 'react';
-import { Container, CardDeck } from 'react-bootstrap';
-import SideBar from '../components/SideBar'
-
-
+import { Container, Row, Col } from 'react-bootstrap';
+import SideBar from '../components/SideBar';
+import Card1 from '../components/Analitika1Cards';
 
 
 
@@ -13,13 +12,15 @@ function AnalitikaPage(props) {
         <div style={{ color: "#233048" }}>
 
             <Container fluid={true} >
-
-                <CardDeck style={{ marginTop: "2rem" }}>
-
-                    <SideBar />
-
-                </CardDeck>
-
+                <Row >
+                    <Col xl={3} style={{ marginTop: "1.5rem" }}>
+                        <SideBar />
+                    </Col>
+                    <Col xl={9} style={{ marginTop: "2rem" }} >
+                         <Card1/>
+                        
+                    </Col>
+                </Row>
 
 
 

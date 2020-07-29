@@ -2,7 +2,6 @@ import React from "react"
 import { BrowserRouter as Router, Link } from 'react-router-dom';
 import Nav from 'react-bootstrap/Nav';
 import Image from 'react-bootstrap/Image';
-
 import "./Footer.css"
 import first from '../icons/1.jpg';
 import second from '../icons/2.jpg';
@@ -36,9 +35,9 @@ class SideBar extends React.Component {
                         <Navbar.Collapse id="navbar-toggle">
                 <Nav defaultActiveKey="/home" className="flex-column" >
                                 
+                                
                  <Nav.Link style={{ color: "white" }} href="/termometry ">
-                <Image src={first} style={{borderRadius:"1000px",width:"35px",height:"30px"}}/> Термометры
-                </Nav.Link>
+                <Image src={first} style={{borderRadius:"1000px",width:"35px",height:"30px"}}/> Термометры</Nav.Link>
                  <Nav.Link style={{ color: "white" }} href="/analitika">
                 <Image src={second} style={{ borderRadius: "100px", width: "35px", height: "30px" }} /> Аналитика</Nav.Link>
                 <Nav.Link style={{ color: "white" }} href="/davlenie">

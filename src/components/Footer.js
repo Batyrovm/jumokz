@@ -41,9 +41,9 @@ function Footer(props) {
                         <ul className="list-unstyled">
                                 <li>
                                     <SocialIcon network="whatsapp" style={{ height: 40, width: 40,marginRight:"1em",marginBottom:"1em" }}
-                                     url="http://whatsapp.com" target="_blank" /> 
+                                        url="https://api.whatsapp.com/send?phone=77077173545&text=Добрый%20день!" target="_blank" /> 
                                     <SocialIcon network="instagram" style={{ height: 40, width: 40, marginRight: "1em", marginBottom:"1em"}} 
-                                    url="http://instagram.com" target="_blank" />
+                                        url="http://instagram.com/_bauyrzhan.k" target="_blank" />
                                     <SocialIcon network="facebook" style={{ height: 40, width: 40, marginRight: "1em", marginBottom: "1em"}} 
                                     url="http://facebook.com" target="_blank" />
                                     <SocialIcon network="twitter" style={{ height: 40, width: 40, marginRight: "1em", marginBottom: "1em" }} 

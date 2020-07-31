@@ -1,7 +1,7 @@
 import React from 'react';
 import {Container,Button,Row,Col,InputGroup,FormControl, ListGroup,Image,CardDeck, Card} from 'react-bootstrap';
 import {Link} from 'react-router-dom';
-//import MediaQuery from 'react-responsive';
+import ScrollToTop from "react-scroll-to-top";
 import SideBar from '../components/SideBar';
 
 const product = [
@@ -849,7 +849,7 @@ const product = [
     {
         id: 107,
         first: 'Оборудование для монтажа температурных датчиков',
-        second: 'Принадлежности',
+        second: 'Термометры: Принадлежности',
         link: '/termometry',
         type: 'Тип: 90.2440',
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294986530.png?downsize=*:475px'
@@ -857,7 +857,7 @@ const product = [
     {
         id: 108,
         first: 'Присоединительные головки и цоколи',
-        second: 'Принадлежности',
+        second: 'Термометры: Принадлежности',
         link: '/termometry',
         type: 'Тип: 90.9715',
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294967560.png?downsize=*:475px'
@@ -865,7 +865,7 @@ const product = [
     {
         id: 109,
         first: 'Компенсационный и присоединительный провода',
-        second: 'Принадлежности',
+        second: 'Термометры: Принадлежности',
         link: '/termometry',
         type: 'Тип: 90.9735',
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294976728.png?downsize=*:475px'
@@ -873,7 +873,7 @@ const product = [
     {
         id: 110,
         first: 'Измерительные вставки для ввинчивающихся термоэлементов ',
-        second: 'Принадлежности',
+        second: 'Термометры: Принадлежности',
         link: '/termometry',
         type: 'Тип: 90.9740',
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294976726.png?downsize=*:475px'
@@ -881,7 +881,7 @@ const product = [
     {
         id: 111,
         first: 'Термопары согласно DIN 43 732',
-        second: 'Принадлежности',
+        second: 'Термометры: Принадлежности',
         link: '/termometry',
         type: 'Тип: 90.9744',
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294976727.png?downsize=*:475px'
@@ -889,7 +889,7 @@ const product = [
     {
         id: 112,
         first: 'Штуцерные присоединения и фланцы',
-        second: 'Принадлежности',
+        second: 'Термометры: Принадлежности',
         link: '/termometry',
         type: 'Тип: 90.9750',
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294980757.png?downsize=*:475px'
@@ -897,7 +897,7 @@ const product = [
     {
         id: 113,
         first: 'Ввинчивающиеся и приварные защитные гильзы',
-        second: 'Принадлежности',
+        second: 'Термометры: Принадлежности',
         link: '/termometry',
         type: 'Тип: 90.9710',
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294977503.png?downsize=*:475px'
@@ -905,7 +905,7 @@ const product = [
     {
         id: 114,
         first: 'Разъемы',
-        second: 'Принадлежности',
+        second: 'Термометры: Принадлежности',
         link: '/termometry',
         type: 'Тип: 90.9760',
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294994077.png?downsize=*:475px'
@@ -1294,6 +1294,318 @@ const product = [
         type: 'Тип: 20.1085',
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294969591.png?downsize=*:475px'
     },
+    {
+        id: 163,
+        first: 'JUMO MIDAS',
+        second: 'Преобразователи давления аналоговые',
+        link: '/davlenie',
+        type: 'Тип:  40.1001',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294969730.png?downsize=*:475px'
+    },
+    {
+        id: 164,
+        first: 'JUMO MIDAS HP',
+        second: 'Преобразователи давления аналоговые',
+        link: '/davlenie',
+        type: 'Тип: 40.1005',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO/28766.png?downsize=*:475px'
+    },
+    {
+        id: 165,
+        first: 'JUMO MIDAS SI',
+        second: 'Преобразователи давления аналоговые',
+        link: '/davlenie',
+        type: 'Тип: 40.1006',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294969724.png?downsize=*:475px'
+    },
+    {
+        id: 166,
+        first: 'JUMO MIDAS DP 10',
+        second: 'Преобразователи давления аналоговые',
+        link: '/davlenie',
+        type: 'Тип: 40.1050',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294981903.png?downsize=*:475px'
+    },
+    {
+        id: 167,
+        first: 'JUMO dTRANS p31',
+        second: 'Преобразователи давления аналоговые',
+        link: '/davlenie',
+        type: 'Тип:40.2050',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294979618.png?downsize=*:475px'
+    },
+    {
+        id: 168,
+        first: 'JUMO dTRANS p32',
+        second: 'Преобразователи давления аналоговые',
+        link: '/davlenie',
+        type: 'Тип: 40.2051',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294967836.png?downsize=*:475px'
+    },
+    {
+        id: 169,
+        first: 'JUMO CANtrans p Keramik',
+        second: 'Преобразователи давления аналоговые',
+        link: '/davlenie',
+        type: 'Тип: 40.2055',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294982943.png?downsize=*:475px'
+    },
+    {
+        id: 170,
+        first: 'JUMO CANtrans p',
+        second: 'Преобразователи давления аналоговые',
+        link: '/davlenie',
+        type: 'Тип: 40.2056',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294982943.png?downsize=*:475px'
+    },
+    {
+        id: 171,
+        first: 'JUMO CANtrans pT',
+        second: 'Преобразователи давления аналоговые',
+        link: '/davlenie',
+        type: 'Тип: 40.2057',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294982943.png?downsize=*:475px'
+    },
+    {
+        id: 172,
+        first: 'Преобразователь давления и разности давлений',
+        second: 'Преобразователи давления аналоговые',
+        link: '/davlenie',
+        type: 'Тип: 40.4304',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294967335.png?downsize=*:475px'
+    },
+    {
+        id: 173,
+        first: 'Преобразователь давления для малых диапазонов',
+        second: 'Преобразователи давления аналоговые',
+        link: '/davlenie',
+        type: 'Тип: 40.4327',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294967325.png?downsize=*:475px'
+    },
+    {
+        id: 174,
+        first: 'JUMO dTRANS p30',
+        second: 'Преобразователи давления аналоговые',
+        link: '/davlenie',
+        type: 'Тип: 40.4366',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294979587.png?downsize=*:475px'
+    },
+    {
+        id: 175,
+        first: 'JUMO 4 ADM-35',
+        second: 'Преобразователи давления аналоговые',
+        link: '/davlenie',
+        type: 'Тип: 40.4450',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294974089.png?downsize=*:475px'
+    },
+    {
+        id: 176,
+        first: 'Температурный зонд',
+        second: 'Преобразователи давления аналоговые',
+        link: '/davlenie',
+        type: 'Тип:40.4452',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO/28701.png?downsize=*:475px'
+    },
+    {
+        id: 177,
+        first: 'JUMO DELOS SI',
+        second: 'Преобразователи давления аналоговые',
+        link: '/davlenie',
+        type: 'Тип: 40.5052',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294986646.png?downsize=*:475px'
+    },
+    {
+        id: 178,
+        first: 'JUMO MIDAS C08',
+        second: 'Преобразователи давления аналоговые',
+        link: '/davlenie',
+        type: 'Тип:40.1002',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294979614.png?downsize=*:475px'
+    },
+    {
+        id: 179,
+        first: 'JUMO MIDAS S05',
+        second: 'Преобразователи давления аналоговые',
+        link: '/davlenie',
+        type: 'Тип:40.1010',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294982268.png?downsize=*:475px'
+    },
+    {
+        id: 180,
+        first: 'Многодиапазонный преобразователь давления',
+        second: 'Преобразователи давления аналоговые',
+        link: '/davlenie',
+        type: 'Тип:40.2005',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294978184.png?downsize=*:475px'
+    },
+    {
+        id: 181,
+        first: 'Показывающий преобразователь давления',
+        second: 'Преобразователи давления аналоговые',
+        link: '/davlenie',
+        type: 'Тип:40.4312',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO/28699.png?downsize=*:475px'
+    },
+    {
+        id: 182,
+        first: 'JUMO MIDAS С18 SW',
+        second: 'Преобразователи давления аналоговые',
+        link: '/davlenie',
+        type: 'Тип:40.1012',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294980741.png?downsize=*:475px'
+    },
+    {
+        id: 183,
+        first: 'JUMO dTRANS p02',
+        second: 'Преобразователи давления интеллектуальные',
+        link: '/davlenie',
+        type: 'Тип:40.4385',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294987670.png?downsize=*:475px'
+    },
+    {
+        id: 184,
+        first: 'JUMO dTRANS p02 KERAMIK',
+        second: 'Преобразователи давления интеллектуальные',
+        link: '/davlenie',
+        type: 'Тип:40.4387',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294967887.png?downsize=*:475px'
+    },
+    {
+        id: 185,
+        first: 'JUMO dTRANS p20',
+        second: 'Преобразователи давления интеллектуальные',
+        link: '/davlenie',
+        type: 'Тип:40.3025',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294976989.png?downsize=*:475px'
+    },
+    {
+        id: 186,
+        first: 'JUMO dTRANS p20 Ex d',
+        second: 'Преобразователи давления интеллектуальные',
+        link: '/davlenie',
+        type: 'Тип:40.3026',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294983342.png?downsize=*:475px'
+    },
+    {
+        id: 187,
+        first: 'JUMO dTRANS p02 DELTA',
+        second: 'Преобразователи давления интеллектуальные',
+        link: '/davlenie',
+        type: 'Тип:40.4382',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294987380.png?downsize=*:475px'
+    },
+    {
+        id: 188,
+        first: 'JUMO dTRANS p20 DELTA',
+        second: 'Преобразователи давления интеллектуальные',
+        link: '/davlenie',
+        type: 'Тип:40.3022',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294981188.png?downsize=*:475px'
+    },
+    {
+        id: 189,
+        first: 'Маностат',
+        second: ' Реле давления',
+        link: '/davlenie',
+        type: 'Тип:40.4201',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294973228.png?downsize=*:475px'
+    },
+    {
+        id: 190,
+        first: 'JUMO DELOS SI',
+        second: ' Реле давления',
+        link: '/davlenie',
+        type: 'Тип:40.5052',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294986646.png?downsize=*:475px'
+    },
+    {
+        id: 191,
+        first: 'Манометры из нержавеющей стали',
+        second: 'Манометры',
+        link: '/davlenie',
+        type: 'Тип:40.4110',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO/28699.png?downsize=*:475px'
+    },
+    {
+        id: 192,
+        first: 'Преобразователь давления с индикацией',
+        second: 'Манометры',
+        link: '/davlenie',
+        type: 'Тип:40.4312',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO/28699.png?downsize=*:475px'
+    },
+    {
+        id: 193,
+        first: 'JUMO PEKA',
+        second: 'Давление: Принадлежности',
+        link: '/davlenie',
+        type: 'Тип:40.9711',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294977681.png?downsize=*:475px'
+    },
+    {
+        id: 194,
+        first: 'Мембранный разделитель',
+        second: 'Давление: Принадлежности',
+        link: '/davlenie',
+        type: 'Тип:40.9772',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO/28704.png?downsize=*:475px'
+    },
+    {
+        id: 195,
+        first: 'Мембранный разделитель',
+        second: 'Давление: Принадлежности',
+        link: '/davlenie',
+        type: 'Тип:40.9774',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO/28705.png?downsize=*:475px'
+    },
+    {
+        id: 196,
+        first: 'Мембранный разделитель',
+        second: 'Давление: Принадлежности',
+        link: '/davlenie',
+        type: 'Тип:40.9776',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO/28707.png?downsize=*:475px'
+    },
+    {
+        id: 197,
+        first: 'Мембранный разделитель',
+        second: 'Давление: Принадлежности',
+        link: '/davlenie',
+        type: 'Тип: 40.9778',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO/28711.png?downsize=*:475px'
+    },
+    {
+        id: 198,
+        first: 'Мембранный разделитель',
+        second: 'Давление: Принадлежности',
+        link: '/davlenie',
+        type: 'Тип:40.9784',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO/28708.png?downsize=*:475px'
+    },
+    {
+        id: 199,
+        first: 'Мембранный разделитель',
+        second: 'Давление: Принадлежности',
+        link: '/davlenie',
+        type: 'Тип:40.9786',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO/28709.png?downsize=*:475px'
+    },
+    {
+        id: 200,
+        first: 'Принадлежности для средств измерения давления',
+        second: 'Давление: Принадлежности',
+        link: '/davlenie',
+        type: 'Тип:40.9700',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO/28707.png?downsize=*:475px'
+    },
+    {
+        id: 201,
+        first: 'Вентильные блоки',
+        second: 'Давление: Принадлежности',
+        link: '/davlenie',
+        type: 'Тип:40.9706',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294995824.png?downsize=*:475px'
+    },
 
    
 ]
@@ -1316,6 +1628,7 @@ class ProductPage extends React.Component  {
             item: '',
 
         }
+        
         this.searchHandler = this.searchHandler.bind(this);
     }
     searchHandler(event) {
@@ -1327,6 +1640,7 @@ class ProductPage extends React.Component  {
     
     return (
         <div >
+            <ScrollToTop smooth />
                 <Container fluid={false}>
                 <CardDeck style={{width:"100%"}}>
                     

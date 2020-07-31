@@ -7,6 +7,7 @@ import main2 from '../images/main2.jpg'
 import main3 from '../images/main3.jpg'
 //import home1 from '../images/home1.jpg'
 import Cards from '../components/Cards';
+import ScrollToTop from "react-scroll-to-top";
 
 
 
@@ -14,7 +15,7 @@ import Cards from '../components/Cards';
 function HomePage(props) {
     return (
         <div>
-            
+            <ScrollToTop smooth />
                 <Banner />
 
                 <Container fluid={true}>

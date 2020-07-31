@@ -70,11 +70,12 @@ import tech_arp from '../files/tech_arp.pdf';
 import vlazhnost from '../files/vlazhnost.pdf';
 import vzryvobezopasnye_pribory from '../files/vzryvobezopasnye_pribory.pdf';
 import wtrans from '../files/wtrans.pdf';
-
+import ScrollToTop from "react-scroll-to-top";
 
 function Catalog(props) {
     return(
         <div style={{ margin: "auto", padding: "0", textAlign: "center", color: "#233048"}}>
+            <ScrollToTop smooth />
             <h1 >Проспекты</h1>
             <Container fluid={false} style={{marginTop:"2rem",marginBottom:"2rem"}}>
             <CardDeck>

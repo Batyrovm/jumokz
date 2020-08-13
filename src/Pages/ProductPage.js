@@ -1606,6 +1606,62 @@ const product = [
         type: 'Тип:40.9706',
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294995824.png?downsize=*:475px'
     },
+    {
+        id: 202,
+        first: 'dira VIEW 104/108/116/132',
+        second: 'Индикаторы',
+        link: '/indicatory',
+        type: 'Тип:70.1510',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294994602.png?downsize=*:475px'
+    },
+    {
+        id: 203,
+        first: 'diraTRON 104/108/116/132',
+        second: 'Индикаторы',
+        link: '/indicatory',
+        type: 'Тип:70.2110',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294994574.png?downsize=*:475px'
+    },
+    {
+        id: 204,
+        first: 'DICON touch',
+        second: 'Регуляторы',
+        link: '/regulyatory',
+        type: 'Тип:70.3571',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294987239.png?downsize=*:475px'
+    },
+    {
+        id: 205,
+        first: 'JUMO LOGOSCREEN 600',
+        second: 'Регистраторы',
+        link: '/registratory',
+        type: 'Тип:70.6520',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294988939.png?downsize=*:475px'
+    },
+    {
+        id: 206,
+        first: 'JUMO LOGOSCREEN 601',
+        second: 'Регистраторы',
+        link: '/registratory',
+        type: 'Тип:70.6521',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294996612.png?downsize=*:475px'
+    },
+    {
+        id: 207,
+        first: 'JUMO LOGOSCREEN 700',
+        second: 'Регистраторы',
+        link: '/registratory',
+        type: 'Тип:70.6530',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294995814.png?downsize=*:475px'
+    },
+    {
+        id: 208,
+        first: 'JUMO dTRANS T07',
+        second: 'Температурные преобразователи',
+        link: '/tp',
+        type: 'Тип:70.7080',
+        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO/28743.png?downsize=*:475px'
+    },
 
    
 ]

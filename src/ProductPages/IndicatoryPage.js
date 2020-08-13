@@ -5,6 +5,10 @@ import ind1 from '../profiles/indicatoryf/di_eco.pdf';
 import ind2 from '../profiles/indicatoryf/di32.pdf';
 import ind3 from '../profiles/indicatoryf/di308.pdf';
 import ind4 from '../profiles/indicatoryf/tda3000.pdf';
+import ind5ru from '../profiles/indicatoryf/ind5ru.pdf';
+import ind5kz from '../profiles/indicatoryf/ind5kz.pdf';
+import ind6ru from '../profiles/indicatoryf/ind6ru.pdf';
+import ind6kz from '../profiles/indicatoryf/ind6kz.pdf';
 
 
 
@@ -215,6 +219,143 @@ function IndicatoryPage(props) {
                                 </a>
                             </Card.Footer>
                         </Card>
+                    </CardDeck>
+                    {/*row3 */}
+                    <CardDeck >
+                        <Card style={{
+                            backgroundColor: "#dedede", borderRadius: "10px", marginBottom: "2rem", height: "100%",
+                            width: "300px", display: "flex", justifyContent: "center", position: "relative"
+                        }}>
+                            <Card.Body>
+                                <Card.Img variant="top" src="https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294994602.png?downsize=*:475px"
+                                    style={{ height: "180px", width: "180px", margin: "auto", marginTop: "2rem", display: "flex", justifyContent: "center", alignSelf: "center" }} />
+                                <Card.Title style={{ textAlign: "center", color: "#233048", fontSize: "1.5rem" }}>
+                                    <h3>dira VIEW 104/108/116/132</h3>
+                                </Card.Title>
+                                <Card.Text style={{ textAlign: "center", color: "#233048", fontSize: "1rem" }}>
+                                    Тип:70.1510
+                               </Card.Text>
+                                <Card.Title style={{ textAlign: "center", color: "#233048", fontSize: "1rem" }}>
+                                    Технические характеристики
+                                </Card.Title>
+                                <Card.Text style={{ textAlign: "justify", color: "#233048", fontSize: "0.8rem" }}>
+                                    <ul style={{ listStyle: "none" }}>
+                                        <ul>
+                                            <li>Хранение и отображение мин./макс. значений</li>
+                                            <li>Функция удержания</li>
+                                            <li>Функция тарирования для приложений взвешивания грузов</li>
+                                            <li>Функция таймера</li>
+                                         
+                                        </ul>
+                                    </ul>
+
+                                </Card.Text>
+                            </Card.Body>
+                            <Card.Footer className=" justify-content-between p-3" >
+                                <Row  >
+                                    <Col className="p-0 d-flex justify-content-start">
+                                        <a href={ind5ru} target="_blank" rel="noopener noreferrer" download
+                                            style={{ color: "#233048" }}  >
+                                            <Button style={{
+                                                backgroundColor: "#50e3c2",
+                                                color: "#203367", borderColor: "#50e3c2",
+                                                borderRadius: "10px", width: "150px", fontSize: "12px", padding: "0"
+                                            }}>
+                                                <i className="fas fa-download" />
+                                             Скачать на русском
+                                       </Button>
+
+                                        </a>
+
+                                    </Col>
+                                    <Col className="p-0 d-flex justify-content-end" >
+                                        <a href={ind5kz} target="_blank" rel="noopener noreferrer" download
+                                            style={{ color: "#233048" }}  >
+                                            <Button style={{
+                                                backgroundColor: "#50e3c2",
+                                                color: "#203367", borderColor: "#50e3c2",
+                                                borderRadius: "10px", width: "150px", fontSize: "12px", padding: "0"
+                                            }}>
+                                                <i className="fas fa-download" />
+                                             Скачать на казахском
+                                       </Button>
+
+                                        </a>
+
+                                    </Col>
+                                </Row>
+
+                            </Card.Footer>
+
+                        </Card>
+
+                        <Card style={{
+                            backgroundColor: "#dedede", borderRadius: "10px", marginBottom: "2rem", height: "100%",
+                            width: "300px", display: "flex", justifyContent: "center", position: "relative"
+                        }}>
+                            <Card.Body>
+                                <Card.Img variant="top" src="https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294994574.png?downsize=*:475px"
+                                    style={{ height: "180px", width: "180px", margin: "auto", marginTop: "2rem", display: "flex", justifyContent: "center", alignSelf: "center" }} />
+                                <Card.Title style={{ textAlign: "center", color: "#233048", fontSize: "1.5rem" }}>
+                                    <h3>diraTRON 104/108/116/132</h3>
+                                </Card.Title>
+                                <Card.Text style={{ textAlign: "center", color: "#233048", fontSize: "1rem" }}>
+                                    Тип:70.2110
+                               </Card.Text>
+                                <Card.Title style={{ textAlign: "center", color: "#233048", fontSize: "1rem" }}>
+                                    Технические характеристики
+                                </Card.Title>
+                                <Card.Text style={{ textAlign: "justify", color: "#233048", fontSize: "0.8rem" }}>
+                                    <ul style={{ listStyle: "none" }}>
+                                        <ul>
+                                            <li>Контроллер с фиксированной уставкой или программный контроллер</li>
+                                            <li>2 блока параметров</li>
+                                            <li>Автонастройка</li>
+                                            <li>Изменение уставки (4 значения уставки)</li>
+
+                                        </ul>
+                                    </ul>
+
+                                </Card.Text>
+                            </Card.Body>
+                            <Card.Footer className=" justify-content-between p-3" >
+                                <Row  >
+                                    <Col className="p-0 d-flex justify-content-start">
+                                        <a href={ind6ru} target="_blank" rel="noopener noreferrer" download
+                                            style={{ color: "#233048" }}  >
+                                            <Button style={{
+                                                backgroundColor: "#50e3c2",
+                                                color: "#203367", borderColor: "#50e3c2",
+                                                borderRadius: "10px", width: "150px", fontSize: "12px", padding: "0"
+                                            }}>
+                                                <i className="fas fa-download" />
+                                             Скачать на русском
+                                       </Button>
+
+                                        </a>
+
+                                    </Col>
+                                    <Col className="p-0 d-flex justify-content-end" >
+                                        <a href={ind6kz} target="_blank" rel="noopener noreferrer" download
+                                            style={{ color: "#233048" }}  >
+                                            <Button style={{
+                                                backgroundColor: "#50e3c2",
+                                                color: "#203367", borderColor: "#50e3c2",
+                                                borderRadius: "10px", width: "150px", fontSize: "12px", padding: "0"
+                                            }}>
+                                                <i className="fas fa-download" />
+                                             Скачать на казахском
+                                       </Button>
+
+                                        </a>
+
+                                    </Col>
+                                </Row>
+
+                            </Card.Footer>
+
+                        </Card>
+
                     </CardDeck>
 
 

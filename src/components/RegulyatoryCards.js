@@ -3,8 +3,6 @@ import { Container, CardDeck, Button,Row,Col } from 'react-bootstrap';
 import Card from 'react-bootstrap/Card';
 
 import reg1ru from '../profiles/regulyatoryf/dtron304ru.pdf';
-import reg2ru from '../profiles/regulyatoryf/dicon400ru.pdf';
-import reg3ru from '../profiles/regulyatoryf/dicon401.pdf';
 import reg4ru from '../profiles/regulyatoryf/imago500ru.pdf';
 import reg5ru from '../profiles/regulyatoryf/f3000.pdf';
 import reg6ru from '../profiles/regulyatoryf/itron.pdf';
@@ -66,95 +64,6 @@ function RegulyatoryCards(props) {
                         </Card.Footer>
 
                     </Card>
-
-                    <Card style={{
-                        backgroundColor: "#dedede", borderRadius: "10px", marginBottom: "2rem", height: "100%",
-                        width: "300px", display: "flex", justifyContent: "center", position: "relative"
-                    }}>
-                        <Card.Body>
-                            <Card.Img variant="top" src="https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO/28839.png?downsize=*:475px"
-                                style={{ height: "180px", width: "180px", margin: "auto", marginTop: "2rem", display: "flex", justifyContent: "center", alignSelf: "center" }} />
-                            <Card.Title style={{ textAlign: "center", color: "#233048", fontSize: "1.5rem" }}>
-                                <h3>JUMO DICON 400/500</h3>
-                            </Card.Title>
-                            <Card.Text style={{ textAlign: "center", color: "#233048", fontSize: "1rem" }}>
-                                Тип: 70.3570
-                               </Card.Text>
-                            <Card.Title style={{ textAlign: "center", color: "#233048", fontSize: "1rem" }}>
-                                Технические характеристики
-                                </Card.Title>
-                            <Card.Text style={{ textAlign: "justify", color: "#233048", fontSize: "0.8rem" }}>
-                                <ul style={{ listStyle: "none" }}>
-                                    <Card.Text>Универсальные регуляторы процесса</Card.Text>
-                                </ul>
-
-                            </Card.Text>
-                        </Card.Body>
-                        <Card.Footer className=" justify-content-between p-3" >
-                            
-                                    <a href={reg2ru} target="_blank" rel="noopener noreferrer" download
-                                        style={{ color: "#233048" }}  >
-                                        <Button style={{
-                                            backgroundColor: "#50e3c2",
-                                            color: "#203367", borderColor: "#50e3c2",
-                                            borderRadius: "10px", width: "150px", fontSize: "12px", padding: "0"
-                                        }}>
-                                            <i className="fas fa-download" />
-                                             Скачать на русском
-                                       </Button>
-
-                                    </a>
-
-
-                        </Card.Footer>
-
-                    </Card>
-                </CardDeck>
-                <CardDeck style={{ height: "100%" }}>
-                    <Card style={{
-                        backgroundColor: "#dedede", borderRadius: "10px", marginBottom: "2rem", height: "100%",
-                        width: "300px", display: "flex", justifyContent: "center", position: "relative"
-                    }}>
-                        <Card.Body>
-                            <Card.Img variant="top" src="https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO/28839.png?downsize=*:475px"
-                                style={{ height: "180px", width: "180px", margin: "auto", marginTop: "2rem", display: "flex", justifyContent: "center", alignSelf: "center" }} />
-                            <Card.Title style={{ textAlign: "center", color: "#233048", fontSize: "1.5rem" }}>
-                                <h3>JUMO DICON 401/501</h3>
-                            </Card.Title>
-                            <Card.Text style={{ textAlign: "center", color: "#233048", fontSize: "1rem" }}>
-                                Тип:70.3580
-                               </Card.Text>
-                            <Card.Title style={{ textAlign: "center", color: "#233048", fontSize: "1rem" }}>
-                                Технические характеристики
-                                </Card.Title>
-                            <Card.Text style={{ textAlign: "justify", color: "#233048", fontSize: "0.8rem" }}>
-                                <ul style={{ listStyle: "none" }}>
-                                    <Card.Text>Универсальные программные регуляторы</Card.Text>
-                                </ul>
-
-                            </Card.Text>
-                        </Card.Body>
-                        <Card.Footer className=" justify-content-between p-3" >
-
-                            <a href={reg3ru} target="_blank" rel="noopener noreferrer" download
-                                style={{ color: "#233048" }}  >
-                                <Button style={{
-                                    backgroundColor: "#50e3c2",
-                                    color: "#203367", borderColor: "#50e3c2",
-                                    borderRadius: "10px", width: "150px", fontSize: "12px", padding: "0"
-                                }}>
-                                    <i className="fas fa-download" />
-                                             Скачать на русском
-                                       </Button>
-
-                            </a>
-
-
-
-                        </Card.Footer>
-
-                    </Card>
-
                     <Card style={{
                         backgroundColor: "#dedede", borderRadius: "10px", marginBottom: "2rem", height: "100%",
                         width: "300px", display: "flex", justifyContent: "center", position: "relative"
@@ -197,7 +106,9 @@ function RegulyatoryCards(props) {
                         </Card.Footer>
 
                     </Card>
+                   
                 </CardDeck>
+               
 
                 <CardDeck style={{ height: "100%" }}>
                     <Card style={{

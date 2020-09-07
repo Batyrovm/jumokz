@@ -5,6 +5,7 @@ import logo from '../images/logo.png';
 
 
 
+
 function Cards(props) {
     return(
         <div>
@@ -21,25 +22,38 @@ function Cards(props) {
 
                         
                            <Card.Body>
-                            <Card.Title style={{ textAlign: "center", color: "white", fontSize: "1.66rem" }}>
-                                    Индивидуальное предложение
+                            <Card.Title style={{ textAlign: "center", color: "white", fontSize: "1.6rem" }}>
+                                JUMO өнімдеріне деген сұраныс<br></br>
+                                Запрос на поставку продукции JUMO
+
                                </Card.Title>
                             <Card.Text style={{ textAlign: "center", color: "white", fontSize: "1rem" }}>
-                                    Мы на вашей стороне с вашим проектом и создаем предложение 
-                                    с учетом ваших личных потребностей, которое отвечает вашим потребностям.
-                               </Card.Text>
-                            <Card.Title style={{ textAlign: "center", color: "white", fontSize: "1.3rem" }}>
-                                КОМАНДА ПРОДАЖ
-                               </Card.Title>
+                                Тапсырысшының барлық қажетін коммерциялық ұсыныс кезінде егжей-текжейлі ескеру.
+                                <br></br>
+                                <br></br>
+                            </Card.Text>
+                            <Card.Text style={{ textAlign: "center", color: "white", fontSize: "1rem" }}>
+                                Индивидуальный подход при составлении коммерческого предложение, учет всех пожелании клиента.
+                                <br></br>
+                                <br></br>
+                                
+                            </Card.Text>
+                            
                             <hr style={{border:"1px solid white"}} />
                             <Card.Title style={{ textAlign: "center", color: "white", fontSize: "2rem" }}>
-                                +7(777)777-77-77
+                                +7 (727) 250 56 99
                             </Card.Title>
                             <p style={{ textAlign: "center", justifyContent: "center", alignSelf: "center" }}>
                                 <Button style={{
                                     backgroundColor: "#50e3c2",
                                     color: "#203367", alignItems: "center", borderColor: "#50e3c2", marginTop: "1rem",
-                                    borderRadius: "10px"}}>Запросить цену сейчас!</Button>
+                                    borderRadius: "10px"
+                                }} href="http://www.mail.ru/" target="_blank">
+                                
+                                too-imago@mail.ru
+                                
+                                </Button> 
+                                
                             </p>
                            </Card.Body>
                        
@@ -50,25 +64,30 @@ function Cards(props) {
 
 
                         <Card.Body>
-                            <Card.Title style={{ textAlign: "center", color: "white", fontSize: "1.66rem" }}>
-                                Запрос на обслуживание
+                            <Card.Title style={{ textAlign: "center", color: "white", fontSize: "1.6rem" }}>
+                                Техникалық қолдауды қажет еткен кезде<br></br>
+                                Запрос на техподдержку
+
                                </Card.Title>
                             <Card.Text style={{ textAlign: "center", color: "white", fontSize: "1rem" }}>
-                                Мы позаботимся о ваших проблемах и найдем решение для вас.
-                                 Мы также ваш контакт для ввода в эксплуатацию, технического обслуживания и калибровки.
-                               </Card.Text>
-                            <Card.Title style={{ textAlign: "center", color: "white", fontSize: "1.3rem" }}>
-                                КОМАНДНЫЙ СЕРВИС
-                               </Card.Title>
+                                JUMO аспаптарының кепілдікті мерзімімен шектелмей, аспаптарды қолдану кезінде шектеусіз 
+                                техникалық қолдау көрсету.
+                                </Card.Text>
+                                <Card.Text style={{ textAlign: "center", color: "white", fontSize: "1rem" }}>
+                                Техническая поддержка клиента в процессе эксплуатации оборудования JUMO,
+                                 не ограничиваясь гарантийным сроком.
+                                  </Card.Text>
+                            
                             <hr style={{ border: "1px solid white" }} />
                             <Card.Title style={{ textAlign: "center", color: "white", fontSize: "2rem" }}>
-                                +7(777)777-77-77
+                                +7 (727) 250 56 77
                             </Card.Title>
                             <p style={{ textAlign: "center", justifyContent: "center", alignSelf: "center" }}>
                                 <Button style={{
                                     backgroundColor: "#50e3c2",
                                     color: "#203367", alignItems: "center", borderColor: "#50e3c2", marginTop: "1rem",
-                                    borderRadius: "10px"}}>Связаться сейчас!</Button>
+                                    borderRadius: "10px"
+                                }} href="http://www.mail.ru/" target="_blank">info@jumo.kz</Button>
                                </p>
                         </Card.Body>
 

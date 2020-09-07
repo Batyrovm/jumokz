@@ -39,11 +39,12 @@ function Banner(props) {
                <Card.Body >
                    <Card.Title>
                             <h1 style={{
-                                textAlign: "center", color: "white", marginTop: "1rem", fontSize: "2.3rem", display: "block"
+                                textAlign: "center", color: "white", marginTop: "1rem", fontSize: "2.2rem", display: "block"
                             
                             
                          }}>
-                                Ваш партнер в области сенсорных и автоматических решений</h1>
+                                
+                                Ваш надежный партнер в области измерительной техники и автоматического регулирование процессов</h1>
                    </Card.Title>
                        {/* <p style={{ textAlign: "center", justifyContent: "center", alignSelf: "center" }}>
                             <Button style={{

@@ -8,8 +8,8 @@ import reg3ru from '../profiles/registratoryf/reg3ru.pdf';
 import reg3kz from '../profiles/registratoryf/reg3kz.pdf'; 
 import reg4kz from '../profiles/registratoryf/reg4kz.pdf';
 
-import reg5ru from '../profiles/registratoryf/logoscreen2ru.pdf';
-import reg5kz from '../profiles/registratoryf/logoscreen2kz.pdf'; 
+import reg5ru from '../profiles/registratoryf/reg5ru.pdf';
+import reg5kz from '../profiles/registratoryf/reg5kz.pdf'; 
 
 
 

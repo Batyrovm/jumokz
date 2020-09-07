@@ -27,10 +27,17 @@ function HomePage(props) {
                     <Card>
                         <Card.Img variant="top" src={main1} style={{ height: 300, width: '100%' }} />
                         <Card.Body>
-                            <Card.Title style={{ textAlign: "center", color:"#233048",fontSize:"1rem"}}>Быстрое изменение порядка</Card.Title>
-                            <Card.Text style={{ textAlign: "center", color: "#233048", fontSize: "2rem" }}>
-                                Закажите запчасти и аксессуары снова
-      </Card.Text>
+                            <Card.Title style={{ textAlign: "center", color:"#233048",fontSize:"1rem"}}>
+                                Аспап мүмкіндігін жетілдіру<br></br>
+                                Быстрое изменение опции прибора
+
+                            </Card.Title>
+                            <Card.Text style={{ textAlign: "center", color: "#233048", fontSize: "1.7rem" }}>
+                                Реттегіштер мен өздігінен жазу аспаптарына арналған қосымша платаға тапсырыс жасаңыз </Card.Text>
+                            <Card.Text style={{ textAlign: "center", color: "#233048", fontSize: "1.7rem" }}>
+                            Закажите опционные платы для регуляторов и самописцев
+                            </Card.Text>
+      
 
                             <Card.Title style={{ textAlign: "center", color: "#233048", fontSize: "1.2rem",paddingTop:"4em" }}>
                                 {/*<Link style={{ color: "#233048" }} href="#">Познокомтесь с инженерией
@@ -43,10 +50,18 @@ function HomePage(props) {
                     <Card>
                         <Card.Img variant="top" src={main2} style={{ height: 300, width: '100%' }} />
                         <Card.Body>
-                            <Card.Title style={{ textAlign: "center", color: "#233048", fontSize: "1rem" }}>Решения</Card.Title>
-                            <Card.Text style={{ textAlign: "center", color: "#233048", fontSize: "2rem" }}>
-                                Комплексные решения для растений и машин
+                            <Card.Title style={{ textAlign: "center", color: "#233048", fontSize: "1rem" }}>
+                                Қабылданатын шешімдер<br></br>
+                                Решения
+
+                            </Card.Title>
+                            <Card.Text style={{ textAlign: "center", color: "#233048", fontSize: "1.7rem" }}>
+                                Өнеркәсіп пен ауыл шаруашылығының түрлі салаларына қажет толық қанды шешімдер
+                             </Card.Text>
+                            <Card.Text style={{ textAlign: "center", color: "#233048", fontSize: "1.7rem" }}>
+                                Комплексные решения для различных отраслей промышленности и сельского хозяйства
                             </Card.Text>
+                            
                             <Card.Title style={{ textAlign: "center", color: "#233048", fontSize: "1.2rem", paddingTop: "4em" }}>
                                 {/*<Link style={{ color: "#233048" }} href="#">Познокомтесь с инженерией
                             <hr style={{ border: "1px solid #50e3c2 " }} />
@@ -58,10 +73,17 @@ function HomePage(props) {
                     <Card>
                         <Card.Img variant="top" src={main3} style={{ height: 300, width: '100%' }} />
                         <Card.Body>
-                            <Card.Title style={{ textAlign: "center", color: "#233048", fontSize: "1rem" }}>Инженерные услуги</Card.Title>
-                            <Card.Text style={{ textAlign: "center", color: "#233048", fontSize: "2rem" }}>
-                                Разработка индивидуального проекта и инновации
-      </Card.Text>
+                            <Card.Title style={{ textAlign: "center", color: "#233048", fontSize: "1rem" }}>
+                                Инженерлік қызмет<br></br>
+                                Инженерные услуги
+
+                            </Card.Title>
+                            <Card.Text style={{ textAlign: "center", color: "#233048", fontSize: "1.7rem" }}>
+                                Жобалау кезіндегі техникалық қолдаулар, аспапты бейімдеу мен жөндеу кезінде көмек
+                             </Card.Text>
+                            <Card.Text style={{ textAlign: "center", color: "#233048", fontSize: "1.7rem" }}>
+                                Техническая поддержка проектов, помощь при ремонте и настройке приборов
+                            </Card.Text>
                             <Card.Title style={{ textAlign: "center", color: "#233048", fontSize: "1.2rem", paddingTop: "1.5em" }}>
                                 {/*<Link style={{ color: "#233048" }} href="#">Познокомтесь с инженерией
                             <hr style={{ border: "1px solid #50e3c2 " }} />

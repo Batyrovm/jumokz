@@ -341,24 +341,10 @@ const product = [
         type: 'Тип:70.3041',
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO/28734.png?downsize=*:475px'
     },
+   
+   
     {
         id: 43,
-        first: 'JUMO DICON 400/500',
-        second: 'Регуляторы',
-        link: '/regulyatory',
-        type: 'Тип: 70.3570',
-        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO/28839.png?downsize=*:475px'
-    },
-    {
-        id: 44,
-        first: 'JUMO DICON 401/501',
-        second: 'Регуляторы',
-        link: '/regulyatory',
-        type: 'Тип:70.3580',
-        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO/28839.png?downsize=*:475px'
-    },
-    {
-        id: 45,
         first: 'JUMO IMAGO 500',
         second: 'Регуляторы',
         link: '/regulyatory',
@@ -366,7 +352,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294976711.png?downsize=*:475px'
     },
     {
-        id: 46,
+        id: 44,
         first: 'JUMO IMAGO F3000',
         second: 'Регуляторы',
         link: '/regulyatory',
@@ -374,7 +360,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO/28730.png?downsize=*:475px'
     },
     {
-        id: 47,
+        id: 45,
         first: 'JUMO iTRON DR 100',
         second: 'Регуляторы',
         link: '/regulyatory',
@@ -382,7 +368,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294968193.png?downsize=*:475px'
     },
     {
-        id: 48,
+        id: 46,
         first: 'JUMO eTRON M100',
         second: 'Регуляторы',
         link: '/regulyatory',
@@ -390,7 +376,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294986313.png?downsize=*:475px'
     },
     {
-        id: 49,
+        id: 47,
         first: 'JUMO Quantrol LC100/LC200/LC300',
         second: 'Регуляторы',
         link: '/regulyatory',
@@ -398,7 +384,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294983726.png?downsize=*:475px'
     },
     {
-        id: 50,
+        id: 48,
         first: 'JUMO LOGOSCREEN fd',
         second: 'Регистраторы',
         link: '/registratory',
@@ -406,7 +392,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294981336.png?downsize=*:475px'
     },
     {
-        id: 51,
+        id: 49,
         first: 'JUMO LOGOSCREEN nt',
         second: 'Регистраторы',
         link: '/registratory',
@@ -414,7 +400,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294971454.png?downsize=*:475px'
     },
     {
-        id: 52,
+        id: 50,
         first: 'JUMO di eco',
         second: 'Индикаторы',
         link: '/indicatory',
@@ -422,7 +408,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294987382.png?downsize=*:475px'
     },
     {
-        id: 53,
+        id: 51,
         first: 'JUMO di 32/di 08',
         second: 'Индикаторы',
         link: '/indicatory',
@@ -430,7 +416,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO/28732.png?downsize=*:475px'
     },
     {
-        id: 54,
+        id: 52,
         first: 'JUMO di 308',
         second: 'Индикаторы',
         link: '/indicatory',
@@ -438,7 +424,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294978189.png?downsize=*:475px'
     },
     {
-        id: 55,
+        id: 53,
         first: 'JUMO TDA-300 und JUMO TDA-3000',
         second: 'Индикаторы',
         link: '/indicatory',
@@ -446,7 +432,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294970847.png?downsize=*:475px'
     },
     {
-        id: 56,
+        id: 54,
         first: 'Термометр стрелочный биметаллический',
         second: 'Стрелочные термометры',
         link: '/termometry',
@@ -454,7 +440,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294987980.png?downsize=*:475px'
     },
     {
-        id: 57,
+        id: 55,
         first: 'Термометр стрелочный биметаллический',
         second: 'Стрелочные термометры',
         link: '/termometry',
@@ -462,7 +448,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294987980.png?downsize=*:475px'
     },
     {
-        id: 58,
+        id: 56,
         first: 'Термометр стрелочный',
         second: 'Стрелочные термометры',
         link: '/termometry',
@@ -470,56 +456,56 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294995673.png?downsize=*:475px'
     },
     {
-        id: 59,
+        id: 57,
         first: 'Термометр стрелочный',
         second: 'Стрелочные термометры',
         link: '/termometry',
         type: 'Тип: 60.8005',
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294981779.png?downsize=*:475px'
     }, {
-        id: 60,
+        id: 58,
         first: 'Температурный переключатель',
         second: 'Стрелочные термометры',
         link: '/termometry',
         type: 'Тип:60.8301',
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294988131.png?downsize=*:475px'
     }, {
-        id: 61,
+        id: 59,
         first: 'Контактный стрелочный термометр',
         second: 'Стрелочные термометры',
         link: '/termometry',
         type: 'Тип: 60.8425',
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO/28727.png?downsize=*:475px'
     }, {
-        id: 62,
+        id: 60,
         first: 'MICROSTAT-M',
         second: 'Стрелочные термометры',
         link: '/termometry',
         type: 'Тип:60.8501',
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO/28728.png?downsize=*:475px'
     }, {
-        id: 63,
+        id: 61,
         first: 'Контактный показывающий термометр',
         second: 'Стрелочные термометры',
         link: '/termometry',
         type: 'Тип:60.8520',
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294992642.png?downsize=*:475px'
     }, {
-        id: 64,
+        id: 62,
         first: 'Контактный показывающий термометр',
         second: 'Стрелочные термометры',
         link: '/termometry',
         type: 'Тип: 60.8523',
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294977735.png?downsize=*:475px'
     }, {
-        id: 65,
+        id: 63,
         first: 'MICROSTAT и стрелочного контактного термометра',
         second: 'Стрелочные термометры',
         link: '/termometry',
         type: 'Тип:60.8730',
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294995825.png?downsize=*:475px'
     }, {
-        id: 66,
+        id: 64,
         first: 'Термометр сопротивления для учета тепла с присоединительной головкой, допуск РТВ',
         second: 'Термометры сопротивления',
         link: '/termometry',
@@ -527,7 +513,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294995081.png?downsize=*:475px'
     },
     {
-        id: 67,
+        id: 65,
         first: 'Термометр сопротивления для пищевой и фармацевтической промышленности',
         second: 'Термометры сопротивления',
         link: '/termometry',
@@ -535,7 +521,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294988585.png?downsize=*:475px'
     },
     {
-        id: 68,
+        id: 66,
         first: 'JUMO PROCESStemp Термометр сопротивления для технологических процессов с Ех (ATEX)-допуском',
         second: 'Термометры сопротивления',
         link: '/termometry',
@@ -543,7 +529,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294968861.png?downsize=*:475px'
     },
     {
-        id: 69,
+        id: 67,
         first: 'Вставной термометр сопротивления с герметичным исполнением для водяного пара',
         second: 'Термометры сопротивления',
         link: '/termometry',
@@ -551,7 +537,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294981087.png?downsize=*:475px'
     },
     {
-        id: 70,
+        id: 68,
         first: 'JUMO CANtrans T',
         second: 'Термометры сопротивления',
         link: '/termometry',
@@ -559,7 +545,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294987368.png?downsize=*:475px'
     },
     {
-        id: 71,
+        id: 69,
         first: 'JUMO Dtrans T100',
         second: 'Термометры сопротивления',
         link: '/termometry',
@@ -567,7 +553,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294989181.png?downsize=*:475px'
     },
     {
-        id: 72,
+        id: 70,
         first: 'JUMO Wtrans RF-series',
         second: 'Термометры сопротивления',
         link: '/termometry',
@@ -575,7 +561,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294981422.png?downsize=*:475px'
     },
     {
-        id: 73,
+        id: 71,
         first: 'JUMO Wtrans',
         second: 'Термометры сопротивления',
         link: '/termometry',
@@ -583,7 +569,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294987361.png?downsize=*:475px'
     },
     {
-        id: 74,
+        id: 72,
         first: 'Термометры сопротивления комнатного, наружного и канального исполнения',
         second: 'Термометры сопротивления',
         link: '/termometry',
@@ -591,7 +577,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294989458.png?downsize=*:475px'
     },
     {
-        id: 75,
+        id: 73,
         first: 'JUMO Etemp B',
         second: 'Термометры сопротивления',
         link: '/termometry',
@@ -599,7 +585,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294996924.png?downsize=*:475px'
     },
     {
-        id: 76,
+        id: 74,
         first: 'JUMO VIBROtemp Винчивающийся термометр',
         second: 'Термометры сопротивления',
         link: '/termometry',
@@ -607,7 +593,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294989666.png?downsize=*:475px'
     },
     {
-        id: 77,
+        id: 75,
         first: 'JUMO Etemp B',
         second: 'Термометры сопротивления',
         link: '/termometry',
@@ -615,7 +601,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294995822.png?downsize=*:475px'
     },
     {
-        id: 78,
+        id: 76,
         first: 'Ввинчивающийся термометр',
         second: 'Термометры сопротивления',
         link: '/termometry',
@@ -623,7 +609,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294967932.png?downsize=*:475px'
     },
     {
-        id: 79,
+        id: 77,
         first: 'Вставной термометр сопротивления с присоединительной головкой формы J',
         second: 'Термометры сопротивления',
         link: '/termometry',
@@ -631,7 +617,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294971837.png?downsize=*:475px'
     },
     {
-        id: 80,
+        id: 78,
         first: 'Вставной термометр сопротивления с присоединительной головкой формы В',
         second: 'Термометры сопротивления',
         link: '/termometry',
@@ -639,7 +625,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294976184.png?downsize=*:475px'
     },
     {
-        id: 81,
+        id: 79,
         first: 'Вставной термометр сопротивления с присоединительным проводом для солнечных батарей',
         second: 'Термометры сопротивления',
         link: '/termometry',
@@ -647,7 +633,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294982850.png?downsize=*:475px'
     },
     {
-        id: 82,
+        id: 80,
         first: 'Ввинчивающийся термометр с присоединительной головкой формы В',
         second: 'Термометры сопротивления',
         link: '/termometry',
@@ -655,7 +641,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294967928.png?downsize=*:475px'
     },
     {
-        id: 83,
+        id: 81,
         first: 'Ввинчивающийся термометр сопротивления для учета тепла ',
         second: 'Термометры сопротивления',
         link: '/termometry',
@@ -663,7 +649,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294995081.png?downsize=*:475px'
     },
     {
-        id: 84,
+        id: 82,
         first: 'Термометры сопротивления в оболочке согласно DIN EN 60 751',
         second: 'Термометры сопротивления',
         link: '/termometry',
@@ -671,7 +657,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294987354.png?downsize=*:475px'
     },
     {
-        id: 85,
+        id: 83,
         first: 'JUMO FOODtemp ',
         second: 'Термометры сопротивления',
         link: '/termometry',
@@ -679,7 +665,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294970927.png?downsize=*:475px'
     },
     {
-        id: 86,
+        id: 84,
         first: 'Термометры сопротивления ',
         second: 'Термометры сопротивления',
         link: '/termometry',
@@ -687,7 +673,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294993003.png?downsize=*:475px'
     },
     {
-        id: 87,
+        id: 85,
         first: 'Вставной термометр сопротивления для учета тепла с присоединительным проводом ',
         second: 'Термометры сопротивления',
         link: '/termometry',
@@ -695,7 +681,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294993004.png?downsize=*:475px'
     },
     {
-        id: 88,
+        id: 86,
         first: 'Вставной термометр сопротивления с байонетным присоединением',
         second: 'Термометры сопротивления',
         link: '/termometry',
@@ -703,7 +689,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294980820.png?downsize=*:475px'
     },
     {
-        id: 89,
+        id: 87,
         first: 'Устройство контроля температуры',
         second: 'Термометры сопротивления',
         link: '/termometry',
@@ -711,7 +697,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294976572.png?downsize=*:475px'
     },
     {
-        id: 90,
+        id: 88,
         first: 'Датчик уровня и температуры для автотранспорта',
         second: 'Термометры сопротивления',
         link: '/termometry',
@@ -719,7 +705,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294987367.png?downsize=*:475px'
     },
     {
-        id: 91,
+        id: 89,
         first: 'Поверхностный термометр сопротивления',
         second: 'Термометры сопротивления',
         link: '/termometry',
@@ -727,7 +713,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294988318.png?downsize=*:475px'
     },
     {
-        id: 92,
+        id: 90,
         first: 'JUMO DELOS T',
         second: 'Термометры сопротивления',
         link: '/termometry',
@@ -735,7 +721,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294987646.png?downsize=*:475px'
     },
     {
-        id: 93,
+        id: 91,
         first: 'Ввинчивающийся термометр сопротивления с присоединительными проводами',
         second: 'Термометры сопротивления',
         link: '/termometry',
@@ -743,7 +729,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294977397.png?downsize=*:475px'
     },
     {
-        id: 94,
+        id: 92,
         first: 'Вставной термометр сопротивления с присоединительными проводами',
         second: 'Термометры сопротивления',
         link: '/termometry',
@@ -751,7 +737,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294988563.png?downsize=*:475px'
     },
     {
-        id: 95,
+        id: 93,
         first: 'Ввинчивающийся термоэлемент с присоединительной головкой формы В',
         second: 'Термопары',
         link: '/termometry',
@@ -759,7 +745,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294967928.png?downsize=*:475px'
     },
     {
-        id: 96,
+        id: 94,
         first: 'Ввинчивающийся термоэлемент с присоединительной головкой формы J',
         second: 'Термопары',
         link: '/termometry',
@@ -767,7 +753,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294982448.png?downsize=*:475px'
     },
     {
-        id: 97,
+        id: 95,
         first: 'Ввинчивающийся термоэлемент с компенсационным проводом',
         second: 'Термопары',
         link: '/termometry',
@@ -775,7 +761,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294977397.png?downsize=*:475px'
     },
     {
-        id: 98,
+        id: 96,
         first: 'Ввинчивающийся термоэлемент для измерения температуры расплава',
         second: 'Термопары',
         link: '/termometry',
@@ -783,7 +769,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294987370.png?downsize=*:475px'
     },
     {
-        id: 99,
+        id: 97,
         first: 'Вставной термоэлемент с присоединительной головкой',
         second: 'Термопары',
         link: '/termometry',
@@ -791,7 +777,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294976996.png?downsize=*:475px'
     },
     {
-        id: 100,
+        id: 98,
         first: 'Вставной термоэлемент с компенсационным проводом',
         second: 'Термопары',
         link: '/termometry',
@@ -799,7 +785,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294988563.png?downsize=*:475px'
     },
     {
-        id: 101,
+        id: 99,
         first: 'Вставной термоэлемент с присоединительной головкой ',
         second: 'Термопары',
         link: '/termometry',
@@ -807,7 +793,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294976184.png?downsize=*:475px'
     },
     {
-        id: 102,
+        id: 100,
         first: 'Вставной термоэлемент с байонетным присоединением',
         second: 'Термопары',
         link: '/termometry',
@@ -815,7 +801,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294980820.png?downsize=*:475px'
     },
     {
-        id: 103,
+        id: 101,
         first: 'Термоэлемент для технологических процессов с Ex-допуском ',
         second: 'Термопары',
         link: '/termometry',
@@ -823,7 +809,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294976996.png?downsize=*:475px'
     },
     {
-        id: 104,
+        id: 102,
         first: 'Термоэлементы в оболочке согласно DIN 43 710 и DIN EN 60 584',
         second: 'Термопары',
         link: '/termometry',
@@ -831,7 +817,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294987354.png?downsize=*:475px'
     },
     {
-        id: 105,
+        id: 103,
         first: 'Игольчатый термоэлемент ',
         second: 'Термопары',
         link: '/termometry',
@@ -839,7 +825,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294970927.png?downsize=*:475px'
     },
     {
-        id: 106,
+        id: 104,
         first: 'Термопары, аттестованные согласно DIN 14597 (DIN 3440)',
         second: 'Термопары',
         link: '/termometry',
@@ -847,7 +833,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294976725.png?downsize=*:475px'
     },
     {
-        id: 107,
+        id: 105,
         first: 'Оборудование для монтажа температурных датчиков',
         second: 'Термометры: Принадлежности',
         link: '/termometry',
@@ -855,7 +841,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294986530.png?downsize=*:475px'
     },
     {
-        id: 108,
+        id: 106,
         first: 'Присоединительные головки и цоколи',
         second: 'Термометры: Принадлежности',
         link: '/termometry',
@@ -863,7 +849,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294967560.png?downsize=*:475px'
     },
     {
-        id: 109,
+        id: 107,
         first: 'Компенсационный и присоединительный провода',
         second: 'Термометры: Принадлежности',
         link: '/termometry',
@@ -871,7 +857,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294976728.png?downsize=*:475px'
     },
     {
-        id: 110,
+        id: 108,
         first: 'Измерительные вставки для ввинчивающихся термоэлементов ',
         second: 'Термометры: Принадлежности',
         link: '/termometry',
@@ -879,7 +865,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294976726.png?downsize=*:475px'
     },
     {
-        id: 111,
+        id: 109,
         first: 'Термопары согласно DIN 43 732',
         second: 'Термометры: Принадлежности',
         link: '/termometry',
@@ -887,7 +873,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294976727.png?downsize=*:475px'
     },
     {
-        id: 112,
+        id: 110,
         first: 'Штуцерные присоединения и фланцы',
         second: 'Термометры: Принадлежности',
         link: '/termometry',
@@ -895,7 +881,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294980757.png?downsize=*:475px'
     },
     {
-        id: 113,
+        id: 111,
         first: 'Ввинчивающиеся и приварные защитные гильзы',
         second: 'Термометры: Принадлежности',
         link: '/termometry',
@@ -903,7 +889,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294977503.png?downsize=*:475px'
     },
     {
-        id: 114,
+        id: 112,
         first: 'Разъемы',
         second: 'Термометры: Принадлежности',
         link: '/termometry',
@@ -911,7 +897,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294994077.png?downsize=*:475px'
     },
     {
-        id: 115,
+        id: 113,
         first: 'JUMO dTRANS pH 02',
         second: 'pH и редокс-потенциал',
         link: '/analitika',
@@ -919,7 +905,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO/28683.png?downsize=*:475px'
     },
     {
-        id: 116,
+        id: 114,
         first: 'JUMO dTRANS AS 02',
         second: 'pH и редокс-потенциал',
         link: '/analitika',
@@ -927,7 +913,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO/28685.png?downsize=*:475px'
     },
     {
-        id: 117,
+        id: 115,
         first: 'Двухпроводной измерительный преобразователь',
         second: 'pH и редокс-потенциал',
         link: '/analitika',
@@ -935,7 +921,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294968882.png?downsize=*:475px'
     },
     {
-        id: 118,
+        id: 116,
         first: 'Портативные рН-метры',
         second: 'pH и редокс-потенциал',
         link: '/analitika',
@@ -943,7 +929,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO/28688.png?downsize=*:475px'
     },
     {
-        id: 119,
+        id: 117,
         first: 'JUMO AQUIS 500 pH',
         second: 'pH и редокс-потенциал',
         link: '/analitika',
@@ -951,7 +937,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294984464.png?downsize=*:475px'
     },
     {
-        id: 120,
+        id: 118,
         first: 'JUMO dTRANS pH 03',
         second: 'pH и редокс-потенциал',
         link: '/analitika',
@@ -959,7 +945,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294995392.png?downsize=*:475px'
     },
     {
-        id: 121,
+        id: 119,
         first: 'JUMO AQUIS touch S',
         second: 'pH и редокс-потенциал',
         link: '/analitika',
@@ -967,7 +953,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO/24182.png?downsize=*:475px'
     },
     {
-        id: 122,
+        id: 120,
         first: 'JUMO AQUIS touch P',
         second: 'pH и редокс-потенциал',
         link: '/analitika',
@@ -975,7 +961,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294984316.png?downsize=*:475px'
     },
     {
-        id: 123,
+        id: 121,
         first: 'JUMO CTI-500',
         second: 'Удельная электропроводность',
         link: '/analitika',
@@ -983,7 +969,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO/28690.png?downsize=*:475px'
     },
     {
-        id: 124,
+        id: 122,
         first: 'JUMO CTI-750',
         second: 'Удельная электропроводность',
         link: '/analitika',
@@ -991,7 +977,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294987242.png?downsize=*:475px'
     },
     {
-        id: 125,
+        id: 123,
         first: 'JUMO dTRANS CR 02',
         second: 'Удельная электропроводность',
         link: '/analitika',
@@ -999,7 +985,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO/28684.png?downsize=*:475px'
     },
     {
-        id: 126,
+        id: 124,
         first: 'ecoTRANS Lf 01/02',
         second: 'Удельная электропроводность',
         link: '/analitika',
@@ -1007,7 +993,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294994180.png?downsize=*:475px'
     },
     {
-        id: 127,
+        id: 125,
         first: 'JUMO dTRANS CR 02',
         second: 'Удельная электропроводность',
         link: '/analitika',
@@ -1015,7 +1001,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294977456.png?downsize=*:475px'
     },
     {
-        id: 128,
+        id: 126,
         first: 'JUMO AQUIS 500 CR',
         second: 'Удельная электропроводность',
         link: '/analitika',
@@ -1023,7 +1009,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294982834.png?downsize=*:475px'
     },
     {
-        id: 129,
+        id: 127,
         first: 'JUMO AQUIS 500 Ci',
         second: 'Удельная электропроводность',
         link: '/analitika',
@@ -1031,7 +1017,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294982834.png?downsize=*:475px'
     },
     {
-        id: 130,
+        id: 128,
         first: 'JUMO dTRANS O2 01',
         second: 'Концентрация растворенного кислорода',
         link: '/analitika',
@@ -1039,7 +1025,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO/28686.png?downsize=*:475pxx'
     },
     {
-        id: 131,
+        id: 129,
         first: 'JUMO AQUIS 500 RS',
         second: 'Концентрация растворенного кислорода',
         link: '/analitika',
@@ -1047,7 +1033,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294987743.png?downsize=*:475px'
     },
     {
-        id: 132,
+        id: 130,
         first: 'JUMO ecoLine O-DO',
         second: 'Концентрация растворенного кислорода',
         link: '/analitika',
@@ -1055,7 +1041,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294983568.png?downsize=*:475px'
     },
     {
-        id: 133,
+        id: 131,
         first: 'JUMO ecoLine / JUMO BlackLine',
         second: 'Электроды и сенсоры для электрохимических величин',
         link: '/analitika',
@@ -1063,7 +1049,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO/28677.png?downsize=*:475px'
     },
     {
-        id: 134,
+        id: 132,
         first: 'JUMO tecLine pH / JUMO tecLine Rd',
         second: 'Электроды и сенсоры для электрохимических величин',
         link: '/analitika',
@@ -1071,7 +1057,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294976291.png?downsize=*:475px'
     },
     {
-        id: 135,
+        id: 133,
         first: 'JUMO LabLine pH / JUMO LabLine Rd',
         second: 'Электроды и сенсоры для электрохимических величин',
         link: '/analitika',
@@ -1079,7 +1065,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO/28681.png?downsize=*:475px'
     },
     {
-        id: 136,
+        id: 134,
         first: 'JUMO BlackLine CR-GT/-EC/-GS',
         second: 'Электроды и сенсоры для электрохимических величин',
         link: '/analitika',
@@ -1087,7 +1073,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO/28695.png?downsize=*:475px'
     },
     {
-        id: 137,
+        id: 135,
         first: 'ecoLine Lf-PVC',
         second: 'Электроды и сенсоры для электрохимических величин',
         link: '/analitika',
@@ -1095,7 +1081,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO/28696.png?downsize=*:475px'
     },
     {
-        id: 138,
+        id: 136,
         first: 'JUMO tecLine CR',
         second: 'Электроды и сенсоры для электрохимических величин',
         link: '/analitika',
@@ -1103,7 +1089,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO/28697.png?downsize=*:475px'
     },
     {
-        id: 139,
+        id: 137,
         first: 'tecLine Lf-GT',
         second: 'Электроды и сенсоры для электрохимических величин',
         link: '/analitika',
@@ -1111,7 +1097,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294967315.png?downsize=*:475px'
     },
     {
-        id: 140,
+        id: 138,
         first: 'Ионоселективный сенсор',
         second: 'Электроды и сенсоры для электрохимических величин',
         link: '/analitika',
@@ -1119,7 +1105,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO/28682.png?downsize=*:475px'
     },
     {
-        id: 141,
+        id: 139,
         first: 'JUMO LF-4C',
         second: 'Электроды и сенсоры для электрохимических величин',
         link: '/analitika',
@@ -1127,7 +1113,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO/28698.png?downsize=*:475px'
     },
     {
-        id: 142,
+        id: 140,
         first: 'JUMO tecLine Ci',
         second: 'Электроды и сенсоры для электрохимических величин',
         link: '/analitika',
@@ -1135,7 +1121,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294986766.png?downsize=*:475px'
     },
     {
-        id: 143,
+        id: 141,
         first: 'JUMO tecLine Ci-S',
         second: 'Электроды и сенсоры для электрохимических величин',
         link: '/analitika',
@@ -1143,7 +1129,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294986228.png?downsize=*:475px'
     },
     {
-        id: 144,
+        id: 142,
         first: 'ISFET pH-электрод',
         second: 'Электроды и сенсоры для электрохимических величин',
         link: '/analitika',
@@ -1151,7 +1137,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294983052.png?downsize=*:475px'
     },
     {
-        id: 145,
+        id: 143,
         first: 'JUMO ecoLine Ci',
         second: 'Электроды и сенсоры для электрохимических величин',
         link: '/analitika',
@@ -1159,7 +1145,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294979972.png?downsize=*:475px'
     },
     {
-        id: 146,
+        id: 144,
         first: 'Стеклянные рН-метрические электроды JUMO',
         second: 'Электроды и сенсоры для электрохимических величин',
         link: '/analitika',
@@ -1167,7 +1153,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294975501.png?downsize=*:475px'
     },
     {
-        id: 147,
+        id: 145,
         first: 'Одинарные/двойные редокс-электроды JUMO',
         second: 'Электроды и сенсоры для электрохимических величин',
         link: '/analitika',
@@ -1175,7 +1161,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294995827.png?downsize=*:475px'
     },
     {
-        id: 148,
+        id: 146,
         first: 'Электроды сравнения JUMO',
         second: 'Электроды и сенсоры для электрохимических величин',
         link: '/analitika',
@@ -1183,7 +1169,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294975501.png?downsize=*:475px'
     },
     {
-        id: 149,
+        id: 147,
         first: 'JUMO tecLine Cl2',
         second: 'Электроды и сенсоры для электрохимических величин',
         link: '/analitika',
@@ -1191,7 +1177,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294993981.png?downsize=*:475px'
     },
     {
-        id: 150,
+        id: 148,
         first: 'JUMO tecLine TC',
         second: 'Электроды и сенсоры для электрохимических величин',
         link: '/analitika',
@@ -1199,7 +1185,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294993981.png?downsize=*:475px'
     },
     {
-        id: 151,
+        id: 149,
         first: 'JUMO tecLine ClO2, JUMO tecLine O3',
         second: 'Электроды и сенсоры для электрохимических величин',
         link: '/analitika',
@@ -1207,7 +1193,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294993981.png?downsize=*:475px'
     },
     {
-        id: 152,
+        id: 150,
         first: 'JUMO tecLine H2O2, JUMO tecLine PAA',
         second: 'Электроды и сенсоры для электрохимических величин',
         link: '/analitika',
@@ -1215,7 +1201,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294993981.png?downsize=*:475px'
     },
     {
-        id: 153,
+        id: 151,
         first: 'Проточная арматура',
         second: 'Защитная арматура',
         link: '/analitika',
@@ -1223,7 +1209,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO/28691.png?downsize=*:475px'
     },
     {
-        id: 154,
+        id: 152,
         first: 'Погружная арматура',
         second: 'Защитная арматура',
         link: '/analitika',
@@ -1231,7 +1217,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO/28692.png?downsize=*:475px'
     },
     {
-        id: 155,
+        id: 153,
         first: 'Арматура со шлюзовым устройством',
         second: 'Защитная арматура',
         link: '/analitika',
@@ -1239,7 +1225,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO/28693.png?downsize=*:475px'
     },
     {
-        id: 156,
+        id: 154,
         first: 'Арматура для технологических процессов',
         second: 'Защитная арматура',
         link: '/analitika',
@@ -1247,7 +1233,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO/28694.png?downsize=*:475px'
     },
     {
-        id: 157,
+        id: 155,
         first: 'Погружная арматура для технологических процессов',
         second: 'Защитная арматура',
         link: '/analitika',
@@ -1255,7 +1241,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO/28692.png?downsize=*:475px'
     },
     {
-        id: 158,
+        id: 156,
         first: 'Пневматическая шлюзовая арматура',
         second: 'Защитная арматура',
         link: '/analitika',
@@ -1263,7 +1249,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294982898.png?downsize=*:475px'
     },
     {
-        id: 159,
+        id: 157,
         first: 'Принадлежности для сенсоров',
         second: 'Аналитика: Принадлежности',
         link: '/analitika',
@@ -1271,7 +1257,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294969851.png?downsize=*:475px'
     },
     {
-        id: 160,
+        id: 158,
         first: 'Преобразователь импеданса ',
         second: 'Аналитика: Принадлежности',
         link: '/analitika',
@@ -1279,7 +1265,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294992641.png?downsize=*:475px'
     },
     {
-        id: 161,
+        id: 159,
         first: 'Имитаторы и калибровочные адаптеры ',
         second: 'Аналитика: Принадлежности',
         link: '/analitika',
@@ -1287,7 +1273,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO/28689.png?downsize=*:475px'
     },
     {
-        id: 162,
+        id: 160,
         first: 'Компенсационный термометр JUMO ',
         second: 'Аналитика: Принадлежности',
         link: '/analitika',
@@ -1295,7 +1281,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294969591.png?downsize=*:475px'
     },
     {
-        id: 163,
+        id: 161,
         first: 'JUMO MIDAS',
         second: 'Преобразователи давления аналоговые',
         link: '/davlenie',
@@ -1303,7 +1289,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294969730.png?downsize=*:475px'
     },
     {
-        id: 164,
+        id: 162,
         first: 'JUMO MIDAS HP',
         second: 'Преобразователи давления аналоговые',
         link: '/davlenie',
@@ -1311,7 +1297,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO/28766.png?downsize=*:475px'
     },
     {
-        id: 165,
+        id: 163,
         first: 'JUMO MIDAS SI',
         second: 'Преобразователи давления аналоговые',
         link: '/davlenie',
@@ -1319,7 +1305,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294969724.png?downsize=*:475px'
     },
     {
-        id: 166,
+        id: 164,
         first: 'JUMO MIDAS DP 10',
         second: 'Преобразователи давления аналоговые',
         link: '/davlenie',
@@ -1327,7 +1313,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294981903.png?downsize=*:475px'
     },
     {
-        id: 167,
+        id: 165,
         first: 'JUMO dTRANS p31',
         second: 'Преобразователи давления аналоговые',
         link: '/davlenie',
@@ -1335,7 +1321,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294979618.png?downsize=*:475px'
     },
     {
-        id: 168,
+        id: 166,
         first: 'JUMO dTRANS p32',
         second: 'Преобразователи давления аналоговые',
         link: '/davlenie',
@@ -1343,7 +1329,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294967836.png?downsize=*:475px'
     },
     {
-        id: 169,
+        id: 167,
         first: 'JUMO CANtrans p Keramik',
         second: 'Преобразователи давления аналоговые',
         link: '/davlenie',
@@ -1351,7 +1337,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294982943.png?downsize=*:475px'
     },
     {
-        id: 170,
+        id: 168,
         first: 'JUMO CANtrans p',
         second: 'Преобразователи давления аналоговые',
         link: '/davlenie',
@@ -1359,7 +1345,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294982943.png?downsize=*:475px'
     },
     {
-        id: 171,
+        id: 169,
         first: 'JUMO CANtrans pT',
         second: 'Преобразователи давления аналоговые',
         link: '/davlenie',
@@ -1367,7 +1353,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294982943.png?downsize=*:475px'
     },
     {
-        id: 172,
+        id: 170,
         first: 'Преобразователь давления и разности давлений',
         second: 'Преобразователи давления аналоговые',
         link: '/davlenie',
@@ -1375,7 +1361,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294967335.png?downsize=*:475px'
     },
     {
-        id: 173,
+        id: 171,
         first: 'Преобразователь давления для малых диапазонов',
         second: 'Преобразователи давления аналоговые',
         link: '/davlenie',
@@ -1383,7 +1369,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294967325.png?downsize=*:475px'
     },
     {
-        id: 174,
+        id: 172,
         first: 'JUMO dTRANS p30',
         second: 'Преобразователи давления аналоговые',
         link: '/davlenie',
@@ -1391,7 +1377,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294979587.png?downsize=*:475px'
     },
     {
-        id: 175,
+        id: 173,
         first: 'JUMO 4 ADM-35',
         second: 'Преобразователи давления аналоговые',
         link: '/davlenie',
@@ -1399,7 +1385,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294974089.png?downsize=*:475px'
     },
     {
-        id: 176,
+        id: 174,
         first: 'Температурный зонд',
         second: 'Преобразователи давления аналоговые',
         link: '/davlenie',
@@ -1407,7 +1393,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO/28701.png?downsize=*:475px'
     },
     {
-        id: 177,
+        id: 175,
         first: 'JUMO DELOS SI',
         second: 'Преобразователи давления аналоговые',
         link: '/davlenie',
@@ -1415,7 +1401,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294986646.png?downsize=*:475px'
     },
     {
-        id: 178,
+        id: 176,
         first: 'JUMO MIDAS C08',
         second: 'Преобразователи давления аналоговые',
         link: '/davlenie',
@@ -1423,7 +1409,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294979614.png?downsize=*:475px'
     },
     {
-        id: 179,
+        id: 177,
         first: 'JUMO MIDAS S05',
         second: 'Преобразователи давления аналоговые',
         link: '/davlenie',
@@ -1431,7 +1417,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294982268.png?downsize=*:475px'
     },
     {
-        id: 180,
+        id: 178,
         first: 'Многодиапазонный преобразователь давления',
         second: 'Преобразователи давления аналоговые',
         link: '/davlenie',
@@ -1439,7 +1425,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294978184.png?downsize=*:475px'
     },
     {
-        id: 181,
+        id: 179,
         first: 'Показывающий преобразователь давления',
         second: 'Преобразователи давления аналоговые',
         link: '/davlenie',
@@ -1447,7 +1433,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO/28699.png?downsize=*:475px'
     },
     {
-        id: 182,
+        id: 180,
         first: 'JUMO MIDAS С18 SW',
         second: 'Преобразователи давления аналоговые',
         link: '/davlenie',
@@ -1455,7 +1441,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294980741.png?downsize=*:475px'
     },
     {
-        id: 183,
+        id: 181,
         first: 'JUMO dTRANS p02',
         second: 'Преобразователи давления интеллектуальные',
         link: '/davlenie',
@@ -1463,7 +1449,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294987670.png?downsize=*:475px'
     },
     {
-        id: 184,
+        id: 182,
         first: 'JUMO dTRANS p02 KERAMIK',
         second: 'Преобразователи давления интеллектуальные',
         link: '/davlenie',
@@ -1471,7 +1457,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294967887.png?downsize=*:475px'
     },
     {
-        id: 185,
+        id: 183,
         first: 'JUMO dTRANS p20',
         second: 'Преобразователи давления интеллектуальные',
         link: '/davlenie',
@@ -1479,7 +1465,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294976989.png?downsize=*:475px'
     },
     {
-        id: 186,
+        id: 184,
         first: 'JUMO dTRANS p20 Ex d',
         second: 'Преобразователи давления интеллектуальные',
         link: '/davlenie',
@@ -1487,7 +1473,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294983342.png?downsize=*:475px'
     },
     {
-        id: 187,
+        id: 185,
         first: 'JUMO dTRANS p02 DELTA',
         second: 'Преобразователи давления интеллектуальные',
         link: '/davlenie',
@@ -1495,7 +1481,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294987380.png?downsize=*:475px'
     },
     {
-        id: 188,
+        id: 186,
         first: 'JUMO dTRANS p20 DELTA',
         second: 'Преобразователи давления интеллектуальные',
         link: '/davlenie',
@@ -1503,7 +1489,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294981188.png?downsize=*:475px'
     },
     {
-        id: 189,
+        id: 187,
         first: 'Маностат',
         second: ' Реле давления',
         link: '/davlenie',
@@ -1511,31 +1497,17 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294973228.png?downsize=*:475px'
     },
     {
-        id: 190,
+        id: 188,
         first: 'JUMO DELOS SI',
         second: ' Реле давления',
         link: '/davlenie',
         type: 'Тип:40.5052',
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294986646.png?downsize=*:475px'
     },
+    
+   
     {
-        id: 191,
-        first: 'Манометры из нержавеющей стали',
-        second: 'Манометры',
-        link: '/davlenie',
-        type: 'Тип:40.4110',
-        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO/28699.png?downsize=*:475px'
-    },
-    {
-        id: 192,
-        first: 'Преобразователь давления с индикацией',
-        second: 'Манометры',
-        link: '/davlenie',
-        type: 'Тип:40.4312',
-        imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO/28699.png?downsize=*:475px'
-    },
-    {
-        id: 193,
+        id: 189,
         first: 'JUMO PEKA',
         second: 'Давление: Принадлежности',
         link: '/davlenie',
@@ -1543,7 +1515,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294977681.png?downsize=*:475px'
     },
     {
-        id: 194,
+        id: 190,
         first: 'Мембранный разделитель',
         second: 'Давление: Принадлежности',
         link: '/davlenie',
@@ -1551,7 +1523,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO/28704.png?downsize=*:475px'
     },
     {
-        id: 195,
+        id: 191,
         first: 'Мембранный разделитель',
         second: 'Давление: Принадлежности',
         link: '/davlenie',
@@ -1559,7 +1531,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO/28705.png?downsize=*:475px'
     },
     {
-        id: 196,
+        id: 192,
         first: 'Мембранный разделитель',
         second: 'Давление: Принадлежности',
         link: '/davlenie',
@@ -1567,7 +1539,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO/28707.png?downsize=*:475px'
     },
     {
-        id: 197,
+        id: 193,
         first: 'Мембранный разделитель',
         second: 'Давление: Принадлежности',
         link: '/davlenie',
@@ -1575,7 +1547,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO/28711.png?downsize=*:475px'
     },
     {
-        id: 198,
+        id: 194,
         first: 'Мембранный разделитель',
         second: 'Давление: Принадлежности',
         link: '/davlenie',
@@ -1583,7 +1555,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO/28708.png?downsize=*:475px'
     },
     {
-        id: 199,
+        id: 195,
         first: 'Мембранный разделитель',
         second: 'Давление: Принадлежности',
         link: '/davlenie',
@@ -1591,7 +1563,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO/28709.png?downsize=*:475px'
     },
     {
-        id: 200,
+        id: 196,
         first: 'Принадлежности для средств измерения давления',
         second: 'Давление: Принадлежности',
         link: '/davlenie',
@@ -1599,7 +1571,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO/28707.png?downsize=*:475px'
     },
     {
-        id: 201,
+        id: 197,
         first: 'Вентильные блоки',
         second: 'Давление: Принадлежности',
         link: '/davlenie',
@@ -1607,7 +1579,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294995824.png?downsize=*:475px'
     },
     {
-        id: 202,
+        id: 198,
         first: 'dira VIEW 104/108/116/132',
         second: 'Индикаторы',
         link: '/indicatory',
@@ -1615,7 +1587,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294994602.png?downsize=*:475px'
     },
     {
-        id: 203,
+        id: 199,
         first: 'diraTRON 104/108/116/132',
         second: 'Индикаторы',
         link: '/indicatory',
@@ -1623,7 +1595,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294994574.png?downsize=*:475px'
     },
     {
-        id: 204,
+        id: 200,
         first: 'DICON touch',
         second: 'Регуляторы',
         link: '/regulyatory',
@@ -1631,7 +1603,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294987239.png?downsize=*:475px'
     },
     {
-        id: 205,
+        id: 201,
         first: 'JUMO LOGOSCREEN 600',
         second: 'Регистраторы',
         link: '/registratory',
@@ -1639,7 +1611,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294988939.png?downsize=*:475px'
     },
     {
-        id: 206,
+        id: 202,
         first: 'JUMO LOGOSCREEN 601',
         second: 'Регистраторы',
         link: '/registratory',
@@ -1647,7 +1619,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294996612.png?downsize=*:475px'
     },
     {
-        id: 207,
+        id: 203,
         first: 'JUMO LOGOSCREEN 700',
         second: 'Регистраторы',
         link: '/registratory',
@@ -1655,7 +1627,7 @@ const product = [
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294995814.png?downsize=*:475px'
     },
     {
-        id: 208,
+        id: 204,
         first: 'JUMO dTRANS T07',
         second: 'Температурные преобразователи',
         link: '/tp',

@@ -2,12 +2,19 @@ import React from 'react';
 import { Container, Card, Button, CardDeck,Col,Row } from 'react-bootstrap';
 import SideBar from '../components/SideBar'
 import ip from '../profiles/vlazhnostf/izmeritelnye_preobrazovateli.pdf';
+import ipkz from '../profiles/vlazhnostf/izmeritelnye_preobrazovatelikz.pdf';
 import ip2 from '../profiles/vlazhnostf/iskrobezopasnye_promyshlennosti.pdf';
+import ip2kz from '../profiles/vlazhnostf/iskrobezopasnye_promyshlennostikz.pdf';
 import ip3 from '../profiles/vlazhnostf/izmeritelnye_preobrazovateli_ov.pdf';
+import ip3kz from '../profiles/vlazhnostf/izmeritelnye_preobrazovateli_ovkz.pdf';
 import ip4 from '../profiles/vlazhnostf/izmeritelnye_preobrazovateli_ovt.pdf';
+import ip4kz from '../profiles/vlazhnostf/izmeritelnye_preobrazovateli_ovtkz.pdf';
 import hydro from '../profiles/vlazhnostf/hygrostaty.pdf';
+import hydrokz from '../profiles/vlazhnostf/hygrostatykz.pdf';
 import ip5 from '../profiles/vlazhnostf/izmeritelnye_preobrazovateli_vl.pdf';
+import ip5kz from '../profiles/vlazhnostf/izmeritelnye_preobrazovateli_vlkz.pdf';
 import ip6 from '../profiles/vlazhnostf/izmeritelnue_preobrazovateli_vt.pdf';
+import ip6kz from '../profiles/vlazhnostf/izmeritelnue_preobrazovateli_vtkz.pdf';
 
 
 
@@ -62,20 +69,38 @@ function VlazhnostPage(props) {
                                     </Card.Text>
                                 </Card.Body>
                                 <Card.Footer className=" justify-content-between p-3" >
-
-                                    <a href={ip} target="_blank" rel="noopener noreferrer" download
-                                        style={{ color: "#233048" }}  >
-                                        <Button style={{
-                                            backgroundColor: "#50e3c2",
-                                            color: "#203367", borderColor: "#50e3c2",
-                                            borderRadius: "10px", width: "150px", fontSize: "12px", padding: "0"
-                                        }}>
-                                            <i className="fas fa-download" />
+                                    <Row>
+                                        <Col className="p-0 d-flex justify-content-start">
+                                            <a href={ip} target="_blank" rel="noopener noreferrer" download
+                                                style={{ color: "#233048" }}  >
+                                                <Button style={{
+                                                    backgroundColor: "#50e3c2",
+                                                    color: "#203367", borderColor: "#50e3c2",
+                                                    borderRadius: "10px", width: "150px", fontSize: "12px", padding: "0"
+                                                }}>
+                                                    <i className="fas fa-download" />
                                              Скачать на русском
                                        </Button>
 
-                                    </a>
+                                            </a>
 
+                                        </Col>
+                                        <Col className="p-0 d-flex justify-content-end">
+                                            <a href={ipkz} target="_blank" rel="noopener noreferrer" download
+                                                style={{ color: "#233048" }}  >
+                                                <Button style={{
+                                                    backgroundColor: "#50e3c2",
+                                                    color: "#203367", borderColor: "#50e3c2",
+                                                    borderRadius: "10px", width: "150px", fontSize: "12px", padding: "0"
+                                                }}>
+                                                    <i className="fas fa-download" />
+                                             Скачать на казахском
+                                       </Button>
+
+                                            </a>
+
+                                        </Col>
+                                    </Row>
                                 </Card.Footer>
 
                             </Card>
@@ -112,20 +137,38 @@ function VlazhnostPage(props) {
                                     </Card.Text>
                                 </Card.Body>
                                 <Card.Footer className=" justify-content-between p-3" >
-
-                                    <a href={ip2} target="_blank" rel="noopener noreferrer" download
-                                        style={{ color: "#233048" }}  >
-                                        <Button style={{
-                                            backgroundColor: "#50e3c2",
-                                            color: "#203367", borderColor: "#50e3c2",
-                                            borderRadius: "10px", width: "150px", fontSize: "12px", padding: "0"
-                                        }}>
-                                            <i className="fas fa-download" />
+                                    <Row>
+                                        <Col className="p-0 d-flex justify-content-start">
+                                            <a href={ip2} target="_blank" rel="noopener noreferrer" download
+                                                style={{ color: "#233048" }}  >
+                                                <Button style={{
+                                                    backgroundColor: "#50e3c2",
+                                                    color: "#203367", borderColor: "#50e3c2",
+                                                    borderRadius: "10px", width: "150px", fontSize: "12px", padding: "0"
+                                                }}>
+                                                    <i className="fas fa-download" />
                                              Скачать на русском
                                        </Button>
 
-                                    </a>
+                                            </a>
 
+                                        </Col>
+                                        <Col className="p-0 d-flex justify-content-end">
+                                            <a href={ip2kz} target="_blank" rel="noopener noreferrer" download
+                                                style={{ color: "#233048" }}  >
+                                                <Button style={{
+                                                    backgroundColor: "#50e3c2",
+                                                    color: "#203367", borderColor: "#50e3c2",
+                                                    borderRadius: "10px", width: "150px", fontSize: "12px", padding: "0"
+                                                }}>
+                                                    <i className="fas fa-download" />
+                                             Скачать на казахском
+                                       </Button>
+
+                                            </a>
+
+                                        </Col>
+                                    </Row>
                                 </Card.Footer>
 
                             </Card>
@@ -169,20 +212,38 @@ function VlazhnostPage(props) {
                                     </Card.Text>
                                 </Card.Body>
                                 <Card.Footer className=" justify-content-between p-3" >
-
-                                    <a href={ip3} target="_blank" rel="noopener noreferrer" download
-                                        style={{ color: "#233048" }}  >
-                                        <Button style={{
-                                            backgroundColor: "#50e3c2",
-                                            color: "#203367", borderColor: "#50e3c2",
-                                            borderRadius: "10px", width: "150px", fontSize: "12px", padding: "0"
-                                        }}>
-                                            <i className="fas fa-download" />
+                                    <Row>
+                                        <Col className="p-0 d-flex justify-content-start">
+                                            <a href={ip3} target="_blank" rel="noopener noreferrer" download
+                                                style={{ color: "#233048" }}  >
+                                                <Button style={{
+                                                    backgroundColor: "#50e3c2",
+                                                    color: "#203367", borderColor: "#50e3c2",
+                                                    borderRadius: "10px", width: "150px", fontSize: "12px", padding: "0"
+                                                }}>
+                                                    <i className="fas fa-download" />
                                              Скачать на русском
                                        </Button>
 
-                                    </a>
+                                            </a>
 
+                                        </Col>
+                                        <Col className="p-0 d-flex justify-content-end">
+                                            <a href={ip3kz} target="_blank" rel="noopener noreferrer" download
+                                                style={{ color: "#233048" }}  >
+                                                <Button style={{
+                                                    backgroundColor: "#50e3c2",
+                                                    color: "#203367", borderColor: "#50e3c2",
+                                                    borderRadius: "10px", width: "150px", fontSize: "12px", padding: "0"
+                                                }}>
+                                                    <i className="fas fa-download" />
+                                             Скачать на казахском
+                                       </Button>
+
+                                            </a>
+
+                                        </Col>
+                                    </Row>
                                 </Card.Footer>
 
                             </Card>
@@ -223,20 +284,38 @@ function VlazhnostPage(props) {
                                     </Card.Text>
                                 </Card.Body>
                                 <Card.Footer className=" justify-content-between p-3" >
-
-                                    <a href={ip4} target="_blank" rel="noopener noreferrer" download
-                                        style={{ color: "#233048" }}  >
-                                        <Button style={{
-                                            backgroundColor: "#50e3c2",
-                                            color: "#203367", borderColor: "#50e3c2",
-                                            borderRadius: "10px", width: "150px", fontSize: "12px", padding: "0"
-                                        }}>
-                                            <i className="fas fa-download" />
+                                    <Row>
+                                        <Col className="p-0 d-flex justify-content-start">
+                                            <a href={ip4} target="_blank" rel="noopener noreferrer" download
+                                                style={{ color: "#233048" }}  >
+                                                <Button style={{
+                                                    backgroundColor: "#50e3c2",
+                                                    color: "#203367", borderColor: "#50e3c2",
+                                                    borderRadius: "10px", width: "150px", fontSize: "12px", padding: "0"
+                                                }}>
+                                                    <i className="fas fa-download" />
                                              Скачать на русском
                                        </Button>
 
-                                    </a>
+                                            </a>
 
+                                        </Col>
+                                        <Col className="p-0 d-flex justify-content-end">
+                                            <a href={ip4kz} target="_blank" rel="noopener noreferrer" download
+                                                style={{ color: "#233048" }}  >
+                                                <Button style={{
+                                                    backgroundColor: "#50e3c2",
+                                                    color: "#203367", borderColor: "#50e3c2",
+                                                    borderRadius: "10px", width: "150px", fontSize: "12px", padding: "0"
+                                                }}>
+                                                    <i className="fas fa-download" />
+                                             Скачать на казахском
+                                       </Button>
+
+                                            </a>
+
+                                        </Col>
+                                    </Row>
                                 </Card.Footer>
 
                             </Card>
@@ -276,20 +355,38 @@ function VlazhnostPage(props) {
                                     </Card.Text>
                                 </Card.Body>
                                 <Card.Footer className=" justify-content-between p-3" >
-
-                                    <a href={hydro} target="_blank" rel="noopener noreferrer" download
-                                        style={{ color: "#233048" }}  >
-                                        <Button style={{
-                                            backgroundColor: "#50e3c2",
-                                            color: "#203367", borderColor: "#50e3c2",
-                                            borderRadius: "10px", width: "150px", fontSize: "12px", padding: "0"
-                                        }}>
-                                            <i className="fas fa-download" />
+                                    <Row>
+                                        <Col className="p-0 d-flex justify-content-start">
+                                            <a href={hydro} target="_blank" rel="noopener noreferrer" download
+                                                style={{ color: "#233048" }}  >
+                                                <Button style={{
+                                                    backgroundColor: "#50e3c2",
+                                                    color: "#203367", borderColor: "#50e3c2",
+                                                    borderRadius: "10px", width: "150px", fontSize: "12px", padding: "0"
+                                                }}>
+                                                    <i className="fas fa-download" />
                                              Скачать на русском
                                        </Button>
 
-                                    </a>
+                                            </a>
 
+                                        </Col>
+                                        <Col className="p-0 d-flex justify-content-end">
+                                            <a href={hydrokz} target="_blank" rel="noopener noreferrer" download
+                                                style={{ color: "#233048" }}  >
+                                                <Button style={{
+                                                    backgroundColor: "#50e3c2",
+                                                    color: "#203367", borderColor: "#50e3c2",
+                                                    borderRadius: "10px", width: "150px", fontSize: "12px", padding: "0"
+                                                }}>
+                                                    <i className="fas fa-download" />
+                                             Скачать на казахском
+                                       </Button>
+
+                                            </a>
+
+                                        </Col>
+                                    </Row>
                                 </Card.Footer>
 
                             </Card>
@@ -333,20 +430,38 @@ function VlazhnostPage(props) {
                                     </Card.Text>
                                 </Card.Body>
                                 <Card.Footer className=" justify-content-between p-3" >
-
-                                    <a href={ip5} target="_blank" rel="noopener noreferrer" download
-                                        style={{ color: "#233048" }}  >
-                                        <Button style={{
-                                            backgroundColor: "#50e3c2",
-                                            color: "#203367", borderColor: "#50e3c2",
-                                            borderRadius: "10px", width: "150px", fontSize: "12px", padding: "0"
-                                        }}>
-                                            <i className="fas fa-download" />
+                                    <Row>
+                                        <Col className="p-0 d-flex justify-content-start">
+                                            <a href={ip5} target="_blank" rel="noopener noreferrer" download
+                                                style={{ color: "#233048" }}  >
+                                                <Button style={{
+                                                    backgroundColor: "#50e3c2",
+                                                    color: "#203367", borderColor: "#50e3c2",
+                                                    borderRadius: "10px", width: "150px", fontSize: "12px", padding: "0"
+                                                }}>
+                                                    <i className="fas fa-download" />
                                              Скачать на русском
                                        </Button>
 
-                                    </a>
+                                            </a>
 
+                                        </Col>
+                                        <Col className="p-0 d-flex justify-content-end">
+                                            <a href={ip5kz} target="_blank" rel="noopener noreferrer" download
+                                                style={{ color: "#233048" }}  >
+                                                <Button style={{
+                                                    backgroundColor: "#50e3c2",
+                                                    color: "#203367", borderColor: "#50e3c2",
+                                                    borderRadius: "10px", width: "150px", fontSize: "12px", padding: "0"
+                                                }}>
+                                                    <i className="fas fa-download" />
+                                             Скачать на казахском
+                                       </Button>
+
+                                            </a>
+
+                                        </Col>
+                                    </Row>
                                 </Card.Footer>
 
                             </Card>
@@ -387,20 +502,38 @@ function VlazhnostPage(props) {
                                     </Card.Text>
                                 </Card.Body>
                                 <Card.Footer className=" justify-content-between p-3" >
-
-                                    <a href={ip6} target="_blank" rel="noopener noreferrer" download
-                                        style={{ color: "#233048" }}  >
-                                        <Button style={{
-                                            backgroundColor: "#50e3c2",
-                                            color: "#203367", borderColor: "#50e3c2",
-                                            borderRadius: "10px", width: "150px", fontSize: "12px", padding: "0"
-                                        }}>
-                                            <i className="fas fa-download" />
+                                    <Row>
+                                        <Col className="p-0 d-flex justify-content-start">
+                                            <a href={ip6} target="_blank" rel="noopener noreferrer" download
+                                                style={{ color: "#233048" }}  >
+                                                <Button style={{
+                                                    backgroundColor: "#50e3c2",
+                                                    color: "#203367", borderColor: "#50e3c2",
+                                                    borderRadius: "10px", width: "150px", fontSize: "12px", padding: "0"
+                                                }}>
+                                                    <i className="fas fa-download" />
                                              Скачать на русском
                                        </Button>
 
-                                    </a>
+                                            </a>
 
+                                        </Col>
+                                        <Col className="p-0 d-flex justify-content-end">
+                                            <a href={ip6kz} target="_blank" rel="noopener noreferrer" download
+                                                style={{ color: "#233048" }}  >
+                                                <Button style={{
+                                                    backgroundColor: "#50e3c2",
+                                                    color: "#203367", borderColor: "#50e3c2",
+                                                    borderRadius: "10px", width: "150px", fontSize: "12px", padding: "0"
+                                                }}>
+                                                    <i className="fas fa-download" />
+                                             Скачать на казахском
+                                       </Button>
+
+                                            </a>
+
+                                        </Col>
+                                    </Row>
                                 </Card.Footer>
 
                             </Card>

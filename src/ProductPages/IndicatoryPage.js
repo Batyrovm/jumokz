@@ -2,9 +2,13 @@ import React from 'react';
 import { Container, Card, Button, Row, Col, CardDeck } from 'react-bootstrap';
 import SideBar from '../components/SideBar';
 import ind1 from '../profiles/indicatoryf/di_eco.pdf';
+import ind1kz from '../profiles/indicatoryf/di_ecokz.pdf';
 import ind2 from '../profiles/indicatoryf/di32.pdf';
+import ind2kz from '../profiles/indicatoryf/di32kz.pdf';
 import ind3 from '../profiles/indicatoryf/di308.pdf';
+import ind3kz from '../profiles/indicatoryf/di308kz.pdf';
 import ind4 from '../profiles/indicatoryf/tda3000.pdf';
+import ind4kz from '../profiles/indicatoryf/tda3000kz.pdf';
 import ind5ru from '../profiles/indicatoryf/ind5ru.pdf';
 import ind5kz from '../profiles/indicatoryf/ind5kz.pdf';
 import ind6ru from '../profiles/indicatoryf/ind6ru.pdf';
@@ -57,20 +61,40 @@ function IndicatoryPage(props) {
                                 </Card.Text>
                             </Card.Body>
                             <Card.Footer className=" justify-content-between p-3" >
-
-                                <a href={ind1} target="_blank" rel="noopener noreferrer" download
-                                    style={{ color: "#233048" }}  >
-                                    <Button style={{
-                                        backgroundColor: "#50e3c2",
-                                        color: "#203367", borderColor: "#50e3c2",
-                                        borderRadius: "10px", width: "150px", fontSize: "12px", padding: "0"
-                                    }}>
-                                        <i className="fas fa-download" />
+                                <Row  >
+                                    <Col className="p-0 d-flex justify-content-start">
+                                        <a href={ind1} target="_blank" rel="noopener noreferrer" download
+                                            style={{ color: "#233048" }}  >
+                                            <Button style={{
+                                                backgroundColor: "#50e3c2",
+                                                color: "#203367", borderColor: "#50e3c2",
+                                                borderRadius: "10px", width: "150px", fontSize: "12px", padding: "0"
+                                            }}>
+                                                <i className="fas fa-download" />
                                              Скачать на русском
                                        </Button>
 
-                                </a>
-                              </Card.Footer>
+                                        </a>
+
+                                    </Col>
+                                    <Col className="p-0 d-flex justify-content-end" >
+                                        <a href={ind1kz} target="_blank" rel="noopener noreferrer" download
+                                            style={{ color: "#233048" }}  >
+                                            <Button style={{
+                                                backgroundColor: "#50e3c2",
+                                                color: "#203367", borderColor: "#50e3c2",
+                                                borderRadius: "10px", width: "150px", fontSize: "12px", padding: "0"
+                                            }}>
+                                                <i className="fas fa-download" />
+                                             Скачать на казахском
+                                       </Button>
+
+                                        </a>
+
+                                    </Col>
+                                </Row>
+
+                            </Card.Footer>
 
                         </Card>
 
@@ -104,7 +128,8 @@ function IndicatoryPage(props) {
                                 </Card.Text>
                             </Card.Body>
                             <Card.Footer className=" justify-content-between p-3" >
-                              
+                                <Row  >
+                                    <Col className="p-0 d-flex justify-content-start">
                                         <a href={ind2} target="_blank" rel="noopener noreferrer" download
                                             style={{ color: "#233048" }}  >
                                             <Button style={{
@@ -115,8 +140,28 @@ function IndicatoryPage(props) {
                                                 <i className="fas fa-download" />
                                              Скачать на русском
                                        </Button>
-                                             </a>
-                                     </Card.Footer>
+
+                                        </a>
+
+                                    </Col>
+                                    <Col className="p-0 d-flex justify-content-end" >
+                                        <a href={ind2kz} target="_blank" rel="noopener noreferrer" download
+                                            style={{ color: "#233048" }}  >
+                                            <Button style={{
+                                                backgroundColor: "#50e3c2",
+                                                color: "#203367", borderColor: "#50e3c2",
+                                                borderRadius: "10px", width: "150px", fontSize: "12px", padding: "0"
+                                            }}>
+                                                <i className="fas fa-download" />
+                                             Скачать на казахском
+                                       </Button>
+
+                                        </a>
+
+                                    </Col>
+                                </Row>
+
+                            </Card.Footer>
                                   </Card>
                     </CardDeck>
                     <CardDeck >
@@ -154,19 +199,39 @@ function IndicatoryPage(props) {
                                 </Card.Text>
                             </Card.Body>
                             <Card.Footer className=" justify-content-between p-3" >
-
-                                <a href={ind3} target="_blank" rel="noopener noreferrer" download
-                                    style={{ color: "#233048" }}  >
-                                    <Button style={{
-                                        backgroundColor: "#50e3c2",
-                                        color: "#203367", borderColor: "#50e3c2",
-                                        borderRadius: "10px", width: "150px", fontSize: "12px", padding: "0"
-                                    }}>
-                                        <i className="fas fa-download" />
+                                <Row  >
+                                    <Col className="p-0 d-flex justify-content-start">
+                                        <a href={ind3} target="_blank" rel="noopener noreferrer" download
+                                            style={{ color: "#233048" }}  >
+                                            <Button style={{
+                                                backgroundColor: "#50e3c2",
+                                                color: "#203367", borderColor: "#50e3c2",
+                                                borderRadius: "10px", width: "150px", fontSize: "12px", padding: "0"
+                                            }}>
+                                                <i className="fas fa-download" />
                                              Скачать на русском
                                        </Button>
 
-                                </a>
+                                        </a>
+
+                                    </Col>
+                                    <Col className="p-0 d-flex justify-content-end" >
+                                        <a href={ind3kz} target="_blank" rel="noopener noreferrer" download
+                                            style={{ color: "#233048" }}  >
+                                            <Button style={{
+                                                backgroundColor: "#50e3c2",
+                                                color: "#203367", borderColor: "#50e3c2",
+                                                borderRadius: "10px", width: "150px", fontSize: "12px", padding: "0"
+                                            }}>
+                                                <i className="fas fa-download" />
+                                             Скачать на казахском
+                                       </Button>
+
+                                        </a>
+
+                                    </Col>
+                                </Row>
+
                             </Card.Footer>
 
                         </Card>
@@ -205,18 +270,39 @@ function IndicatoryPage(props) {
                                 </Card.Text>
                             </Card.Body>
                             <Card.Footer className=" justify-content-between p-3" >
-
-                                <a href={ind4} target="_blank" rel="noopener noreferrer" download
-                                    style={{ color: "#233048" }}  >
-                                    <Button style={{
-                                        backgroundColor: "#50e3c2",
-                                        color: "#203367", borderColor: "#50e3c2",
-                                        borderRadius: "10px", width: "150px", fontSize: "12px", padding: "0"
-                                    }}>
-                                        <i className="fas fa-download" />
+                                <Row  >
+                                    <Col className="p-0 d-flex justify-content-start">
+                                        <a href={ind4} target="_blank" rel="noopener noreferrer" download
+                                            style={{ color: "#233048" }}  >
+                                            <Button style={{
+                                                backgroundColor: "#50e3c2",
+                                                color: "#203367", borderColor: "#50e3c2",
+                                                borderRadius: "10px", width: "150px", fontSize: "12px", padding: "0"
+                                            }}>
+                                                <i className="fas fa-download" />
                                              Скачать на русском
                                        </Button>
-                                </a>
+
+                                        </a>
+
+                                    </Col>
+                                    <Col className="p-0 d-flex justify-content-end" >
+                                        <a href={ind4kz} target="_blank" rel="noopener noreferrer" download
+                                            style={{ color: "#233048" }}  >
+                                            <Button style={{
+                                                backgroundColor: "#50e3c2",
+                                                color: "#203367", borderColor: "#50e3c2",
+                                                borderRadius: "10px", width: "150px", fontSize: "12px", padding: "0"
+                                            }}>
+                                                <i className="fas fa-download" />
+                                             Скачать на казахском
+                                       </Button>
+
+                                        </a>
+
+                                    </Col>
+                                </Row>
+
                             </Card.Footer>
                         </Card>
                     </CardDeck>

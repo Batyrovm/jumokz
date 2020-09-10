@@ -3,8 +3,11 @@ import { Container, Card, Button, CardDeck,Col,Row } from 'react-bootstrap';
 import SideBar from '../components/SideBar'
 
 import et1 from '../profiles/etf/etron_t.pdf';
+import et1kz from '../profiles/etf/etron_tkz.pdf';
 import et2 from '../profiles/etf/etron_m.pdf';
+import et2kz from '../profiles/etf/etron_mkz.pdf';
 import et3 from '../profiles/etf/tb_tw.pdf';
+import et3kz from '../profiles/etf/tb_twkz.pdf';
 
 
 
@@ -50,21 +53,38 @@ function EtPage(props) {
                                     </Card.Text>
                                 </Card.Body>
                                 <Card.Footer className=" justify-content-between p-3" >
-
-                                    <a href={et1} target="_blank" rel="noopener noreferrer" download
-                                        style={{ color: "#233048" }}  >
-                                        <Button style={{
-                                            backgroundColor: "#50e3c2",
-                                            color: "#203367", borderColor: "#50e3c2",
-                                            borderRadius: "10px", width: "150px", fontSize: "12px", padding: "0"
-                                        }}>
-                                            <i className="fas fa-download" />
+                                    <Row>
+                                        <Col className="p-0 d-flex justify-content-start">
+                                            <a href={et1} target="_blank" rel="noopener noreferrer" download
+                                                style={{ color: "#233048" }}  >
+                                                <Button style={{
+                                                    backgroundColor: "#50e3c2",
+                                                    color: "#203367", borderColor: "#50e3c2",
+                                                    borderRadius: "10px", width: "150px", fontSize: "12px", padding: "0"
+                                                }}>
+                                                    <i className="fas fa-download" />
                                              Скачать на русском
                                        </Button>
 
-                                    </a>
+                                            </a>
 
+                                        </Col>
+                                        <Col className="p-0 d-flex justify-content-end">
+                                            <a href={et1kz} target="_blank" rel="noopener noreferrer" download
+                                                style={{ color: "#233048" }}  >
+                                                <Button style={{
+                                                    backgroundColor: "#50e3c2",
+                                                    color: "#203367", borderColor: "#50e3c2",
+                                                    borderRadius: "10px", width: "150px", fontSize: "12px", padding: "0"
+                                                }}>
+                                                    <i className="fas fa-download" />
+                                             Скачать на казахском
+                                       </Button>
 
+                                            </a>
+
+                                        </Col>
+                                    </Row>
                                 </Card.Footer>
 
                             </Card>
@@ -94,8 +114,9 @@ function EtPage(props) {
 
                                     </Card.Text>
                                 </Card.Body>
-                                <Card.Footer className=" justify-content-between p-3" >
-
+                              <Card.Footer className=" justify-content-between p-3" >
+                            <Row>
+                                <Col className="p-0 d-flex justify-content-start">
                                     <a href={et2} target="_blank" rel="noopener noreferrer" download
                                         style={{ color: "#233048" }}  >
                                         <Button style={{
@@ -109,8 +130,24 @@ function EtPage(props) {
 
                                     </a>
 
-                                </Card.Footer>
+                                </Col>
+                                <Col className="p-0 d-flex justify-content-end">
+                                    <a href={et2kz} target="_blank" rel="noopener noreferrer" download
+                                        style={{ color: "#233048" }}  >
+                                        <Button style={{
+                                            backgroundColor: "#50e3c2",
+                                            color: "#203367", borderColor: "#50e3c2",
+                                            borderRadius: "10px", width: "150px", fontSize: "12px", padding: "0"
+                                        }}>
+                                            <i className="fas fa-download" />
+                                             Скачать на казахском
+                                       </Button>
 
+                                    </a>
+
+                                </Col>
+                            </Row>
+                              </Card.Footer>
                             </Card>
                             
                         </CardDeck>
@@ -141,18 +178,38 @@ function EtPage(props) {
                                     </Card.Text>
                                 </Card.Body>
                                 <Card.Footer className=" justify-content-between p-3" >
-                                    <a href={et3} target="_blank" rel="noopener noreferrer" download
-                                        style={{ color: "#233048" }}  >
-                                        <Button style={{
-                                            backgroundColor: "#50e3c2",
-                                            color: "#203367", borderColor: "#50e3c2",
-                                            borderRadius: "10px", width: "150px", fontSize: "12px", padding: "0"
-                                        }}>
-                                            <i className="fas fa-download" />
+                                    <Row>
+                                        <Col className="p-0 d-flex justify-content-start">
+                                            <a href={et3} target="_blank" rel="noopener noreferrer" download
+                                                style={{ color: "#233048" }}  >
+                                                <Button style={{
+                                                    backgroundColor: "#50e3c2",
+                                                    color: "#203367", borderColor: "#50e3c2",
+                                                    borderRadius: "10px", width: "150px", fontSize: "12px", padding: "0"
+                                                }}>
+                                                    <i className="fas fa-download" />
                                              Скачать на русском
                                        </Button>
 
-                                    </a>
+                                            </a>
+
+                                        </Col>
+                                        <Col className="p-0 d-flex justify-content-end">
+                                            <a href={et3kz} target="_blank" rel="noopener noreferrer" download
+                                                style={{ color: "#233048" }}  >
+                                                <Button style={{
+                                                    backgroundColor: "#50e3c2",
+                                                    color: "#203367", borderColor: "#50e3c2",
+                                                    borderRadius: "10px", width: "150px", fontSize: "12px", padding: "0"
+                                                }}>
+                                                    <i className="fas fa-download" />
+                                             Скачать на казахском
+                                       </Button>
+
+                                            </a>
+
+                                        </Col>
+                                    </Row>
                                 </Card.Footer>
                             </Card>
                             <Card style={{

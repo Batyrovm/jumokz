@@ -6,12 +6,13 @@ import d1kz from '../profiles/davlenief/card2f/d1kz.pdf';
 import d2ru from '../profiles/davlenief/card2f/d2ru.pdf';
 import d2kz from '../profiles/davlenief/card2f/d2kz.pdf';
 import d3ru from '../profiles/davlenief/card2f/d3ru.pdf';
+import d3kz from '../profiles/davlenief/card2f/d3kz.pdf';
 import d4ru from '../profiles/davlenief/card2f/d4ru.pdf';
 import d4kz from '../profiles/davlenief/card2f/d4kz.pdf';
 import d5ru from '../profiles/davlenief/card2f/d5ru.pdf';
 import d5kz from '../profiles/davlenief/card2f/d5kz.pdf';
 import d6ru from '../profiles/davlenief/card2f/d6ru.pdf';
-
+import d6kz from '../profiles/davlenief/card2f/d6kz.pdf';
 
 
 
@@ -196,7 +197,8 @@ function Davlenie2Cards(props) {
                         </Card.Body>
                         <Card.Footer className=" justify-content-between p-3" >
 
-                            
+                            <Row>
+                                <Col className="p-0 d-flex justify-content-start">
                                     <a href={d3ru} target="_blank" rel="noopener noreferrer" download
                                         style={{ color: "#233048" }}  >
                                         <Button style={{
@@ -209,7 +211,23 @@ function Davlenie2Cards(props) {
                                        </Button>
 
                                     </a>
-                                
+                                </Col>
+                                <Col className="p-0 d-flex justify-content-end">
+                                    <a href={d3kz} target="_blank" rel="noopener noreferrer" download
+                                        style={{ color: "#233048" }}  >
+                                        <Button style={{
+                                            backgroundColor: "#50e3c2",
+                                            color: "#203367", borderColor: "#50e3c2",
+                                            borderRadius: "10px", width: "150px", fontSize: "12px", padding: "0"
+                                        }}>
+                                            <i className="fas fa-download" />
+                                             Скачать на казахском
+                                       </Button>
+
+                                    </a>
+                                </Col>
+                            </Row>
+
 
                         </Card.Footer>
 
@@ -386,6 +404,8 @@ function Davlenie2Cards(props) {
                         </Card.Body>
                         <Card.Footer className=" justify-content-between p-3" >
 
+                            <Row>
+                                <Col className="p-0 d-flex justify-content-start">
                                     <a href={d6ru} target="_blank" rel="noopener noreferrer" download
                                         style={{ color: "#233048" }}  >
                                         <Button style={{
@@ -398,8 +418,25 @@ function Davlenie2Cards(props) {
                                        </Button>
 
                                     </a>
-                                 </Card.Footer>
+                                </Col>
+                                <Col className="p-0 d-flex justify-content-end">
+                                    <a href={d6kz} target="_blank" rel="noopener noreferrer" download
+                                        style={{ color: "#233048" }}  >
+                                        <Button style={{
+                                            backgroundColor: "#50e3c2",
+                                            color: "#203367", borderColor: "#50e3c2",
+                                            borderRadius: "10px", width: "150px", fontSize: "12px", padding: "0"
+                                        }}>
+                                            <i className="fas fa-download" />
+                                             Скачать на казахском
+                                       </Button>
 
+                                    </a>
+                                </Col>
+                            </Row>
+
+
+                        </Card.Footer>
                     </Card>
                 </CardDeck>
             </Container>

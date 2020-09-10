@@ -3,11 +3,17 @@ import { Container, CardDeck, Button,Row,Col } from 'react-bootstrap';
 import Card from 'react-bootstrap/Card';
 
 import reg1ru from '../profiles/regulyatoryf/dtron304ru.pdf';
+import reg1kz from '../profiles/regulyatoryf/dtron304kz.pdf';
 import reg4ru from '../profiles/regulyatoryf/imago500ru.pdf';
+import reg4kz from '../profiles/regulyatoryf/imago500kz.pdf';
 import reg5ru from '../profiles/regulyatoryf/f3000.pdf';
+import reg5kz from '../profiles/regulyatoryf/f3000kz.pdf';
 import reg6ru from '../profiles/regulyatoryf/itron.pdf';
+import reg6kz from '../profiles/regulyatoryf/itronkz.pdf';
 import reg7ru from '../profiles/regulyatoryf/etron.pdf';
+import reg7kz from '../profiles/regulyatoryf/etronkz.pdf';
 import reg8ru from '../profiles/regulyatoryf/quantrol.pdf';
+import reg8kz from '../profiles/regulyatoryf/quantrolkz.pdf';
 import reg9ru from '../profiles/regulyatoryf/reg9ru.pdf';
 import reg9kz from '../profiles/regulyatoryf/reg9kz.pdf';
 
@@ -45,7 +51,8 @@ function RegulyatoryCards(props) {
                             </Card.Text>
                         </Card.Body>
                         <Card.Footer className=" justify-content-between p-3" >
-                            
+                            <Row  >
+                                <Col className="p-0 d-flex justify-content-start">
                                     <a href={reg1ru} target="_blank" rel="noopener noreferrer" download
                                         style={{ color: "#233048" }}  >
                                         <Button style={{
@@ -59,7 +66,23 @@ function RegulyatoryCards(props) {
 
                                     </a>
 
-                            
+                                </Col>
+                                <Col className="p-0 d-flex justify-content-end" >
+                                    <a href={reg1kz} target="_blank" rel="noopener noreferrer" download
+                                        style={{ color: "#233048" }}  >
+                                        <Button style={{
+                                            backgroundColor: "#50e3c2",
+                                            color: "#203367", borderColor: "#50e3c2",
+                                            borderRadius: "10px", width: "150px", fontSize: "12px", padding: "0"
+                                        }}>
+                                            <i className="fas fa-download" />
+                                             Скачать на казахском
+                                       </Button>
+
+                                    </a>
+
+                                </Col>
+                            </Row>
 
                         </Card.Footer>
 
@@ -88,20 +111,38 @@ function RegulyatoryCards(props) {
                             </Card.Text>
                         </Card.Body>
                         <Card.Footer className=" justify-content-between p-3" >
-
-                            <a href={reg4ru} target="_blank" rel="noopener noreferrer" download
-                                style={{ color: "#233048" }}  >
-                                <Button style={{
-                                    backgroundColor: "#50e3c2",
-                                    color: "#203367", borderColor: "#50e3c2",
-                                    borderRadius: "10px", width: "150px", fontSize: "12px", padding: "0"
-                                }}>
-                                    <i className="fas fa-download" />
+                            <Row  >
+                                <Col className="p-0 d-flex justify-content-start">
+                                    <a href={reg4ru} target="_blank" rel="noopener noreferrer" download
+                                        style={{ color: "#233048" }}  >
+                                        <Button style={{
+                                            backgroundColor: "#50e3c2",
+                                            color: "#203367", borderColor: "#50e3c2",
+                                            borderRadius: "10px", width: "150px", fontSize: "12px", padding: "0"
+                                        }}>
+                                            <i className="fas fa-download" />
                                              Скачать на русском
                                        </Button>
 
-                            </a>
+                                    </a>
 
+                                </Col>
+                                <Col className="p-0 d-flex justify-content-end" >
+                                    <a href={reg4kz} target="_blank" rel="noopener noreferrer" download
+                                        style={{ color: "#233048" }}  >
+                                        <Button style={{
+                                            backgroundColor: "#50e3c2",
+                                            color: "#203367", borderColor: "#50e3c2",
+                                            borderRadius: "10px", width: "150px", fontSize: "12px", padding: "0"
+                                        }}>
+                                            <i className="fas fa-download" />
+                                             Скачать на казахском
+                                       </Button>
+
+                                    </a>
+
+                                </Col>
+                            </Row>
 
                         </Card.Footer>
 
@@ -135,20 +176,38 @@ function RegulyatoryCards(props) {
                             </Card.Text>
                         </Card.Body>
                         <Card.Footer className=" justify-content-between p-3" >
-
-                            <a href={reg5ru} target="_blank" rel="noopener noreferrer" download
-                                style={{ color: "#233048" }}  >
-                                <Button style={{
-                                    backgroundColor: "#50e3c2",
-                                    color: "#203367", borderColor: "#50e3c2",
-                                    borderRadius: "10px", width: "150px", fontSize: "12px", padding: "0"
-                                }}>
-                                    <i className="fas fa-download" />
+                            <Row  >
+                                <Col className="p-0 d-flex justify-content-start">
+                                    <a href={reg5ru} target="_blank" rel="noopener noreferrer" download
+                                        style={{ color: "#233048" }}  >
+                                        <Button style={{
+                                            backgroundColor: "#50e3c2",
+                                            color: "#203367", borderColor: "#50e3c2",
+                                            borderRadius: "10px", width: "150px", fontSize: "12px", padding: "0"
+                                        }}>
+                                            <i className="fas fa-download" />
                                              Скачать на русском
                                        </Button>
 
-                            </a>
+                                    </a>
 
+                                </Col>
+                                <Col className="p-0 d-flex justify-content-end" >
+                                    <a href={reg5kz} target="_blank" rel="noopener noreferrer" download
+                                        style={{ color: "#233048" }}  >
+                                        <Button style={{
+                                            backgroundColor: "#50e3c2",
+                                            color: "#203367", borderColor: "#50e3c2",
+                                            borderRadius: "10px", width: "150px", fontSize: "12px", padding: "0"
+                                        }}>
+                                            <i className="fas fa-download" />
+                                             Скачать на казахском
+                                       </Button>
+
+                                    </a>
+
+                                </Col>
+                            </Row>
 
                         </Card.Footer>
 
@@ -179,21 +238,38 @@ function RegulyatoryCards(props) {
                             </Card.Text>
                         </Card.Body>
                         <Card.Footer className=" justify-content-between p-3" >
-
-                            <a href={reg6ru} target="_blank" rel="noopener noreferrer" download
-                                style={{ color: "#233048" }}  >
-                                <Button style={{
-                                    backgroundColor: "#50e3c2",
-                                    color: "#203367", borderColor: "#50e3c2",
-                                    borderRadius: "10px", width: "150px", fontSize: "12px", padding: "0"
-                                }}>
-                                    <i className="fas fa-download" />
+                            <Row  >
+                                <Col className="p-0 d-flex justify-content-start">
+                                    <a href={reg6ru} target="_blank" rel="noopener noreferrer" download
+                                        style={{ color: "#233048" }}  >
+                                        <Button style={{
+                                            backgroundColor: "#50e3c2",
+                                            color: "#203367", borderColor: "#50e3c2",
+                                            borderRadius: "10px", width: "150px", fontSize: "12px", padding: "0"
+                                        }}>
+                                            <i className="fas fa-download" />
                                              Скачать на русском
                                        </Button>
 
-                            </a>
+                                    </a>
 
+                                </Col>
+                                <Col className="p-0 d-flex justify-content-end" >
+                                    <a href={reg6kz} target="_blank" rel="noopener noreferrer" download
+                                        style={{ color: "#233048" }}  >
+                                        <Button style={{
+                                            backgroundColor: "#50e3c2",
+                                            color: "#203367", borderColor: "#50e3c2",
+                                            borderRadius: "10px", width: "150px", fontSize: "12px", padding: "0"
+                                        }}>
+                                            <i className="fas fa-download" />
+                                             Скачать на казахском
+                                       </Button>
 
+                                    </a>
+
+                                </Col>
+                            </Row>
 
                         </Card.Footer>
 
@@ -224,21 +300,38 @@ function RegulyatoryCards(props) {
                             </Card.Text>
                         </Card.Body>
                         <Card.Footer className=" justify-content-between p-3" >
-
-                            <a href={reg7ru} target="_blank" rel="noopener noreferrer" download
-                                style={{ color: "#233048" }}  >
-                                <Button style={{
-                                    backgroundColor: "#50e3c2",
-                                    color: "#203367", borderColor: "#50e3c2",
-                                    borderRadius: "10px", width: "150px", fontSize: "12px", padding: "0"
-                                }}>
-                                    <i className="fas fa-download" />
+                            <Row  >
+                                <Col className="p-0 d-flex justify-content-start">
+                                    <a href={reg7ru} target="_blank" rel="noopener noreferrer" download
+                                        style={{ color: "#233048" }}  >
+                                        <Button style={{
+                                            backgroundColor: "#50e3c2",
+                                            color: "#203367", borderColor: "#50e3c2",
+                                            borderRadius: "10px", width: "150px", fontSize: "12px", padding: "0"
+                                        }}>
+                                            <i className="fas fa-download" />
                                              Скачать на русском
                                        </Button>
 
-                            </a>
+                                    </a>
 
+                                </Col>
+                                <Col className="p-0 d-flex justify-content-end" >
+                                    <a href={reg7kz} target="_blank" rel="noopener noreferrer" download
+                                        style={{ color: "#233048" }}  >
+                                        <Button style={{
+                                            backgroundColor: "#50e3c2",
+                                            color: "#203367", borderColor: "#50e3c2",
+                                            borderRadius: "10px", width: "150px", fontSize: "12px", padding: "0"
+                                        }}>
+                                            <i className="fas fa-download" />
+                                             Скачать на казахском
+                                       </Button>
 
+                                    </a>
+
+                                </Col>
+                            </Row>
 
                         </Card.Footer>
 
@@ -270,23 +363,40 @@ function RegulyatoryCards(props) {
                             </Card.Text>
                         </Card.Body>
                         <Card.Footer className=" justify-content-between p-3" >
-
-                            <a href={reg8ru} target="_blank" rel="noopener noreferrer" download
-                                style={{ color: "#233048" }}  >
-                                <Button style={{
-                                    backgroundColor: "#50e3c2",
-                                    color: "#203367", borderColor: "#50e3c2",
-                                    borderRadius: "10px", width: "150px", fontSize: "12px", padding: "0"
-                                }}>
-                                    <i className="fas fa-download" />
+                            <Row  >
+                                <Col className="p-0 d-flex justify-content-start">
+                                    <a href={reg8ru} target="_blank" rel="noopener noreferrer" download
+                                        style={{ color: "#233048" }}  >
+                                        <Button style={{
+                                            backgroundColor: "#50e3c2",
+                                            color: "#203367", borderColor: "#50e3c2",
+                                            borderRadius: "10px", width: "150px", fontSize: "12px", padding: "0"
+                                        }}>
+                                            <i className="fas fa-download" />
                                              Скачать на русском
                                        </Button>
 
-                            </a>
+                                    </a>
 
+                                </Col>
+                                <Col className="p-0 d-flex justify-content-end" >
+                                    <a href={reg8kz} target="_blank" rel="noopener noreferrer" download
+                                        style={{ color: "#233048" }}  >
+                                        <Button style={{
+                                            backgroundColor: "#50e3c2",
+                                            color: "#203367", borderColor: "#50e3c2",
+                                            borderRadius: "10px", width: "150px", fontSize: "12px", padding: "0"
+                                        }}>
+                                            <i className="fas fa-download" />
+                                             Скачать на казахском
+                                       </Button>
+
+                                    </a>
+
+                                </Col>
+                            </Row>
 
                         </Card.Footer>
-
                     </Card>
                 </CardDeck>
                 <CardDeck >

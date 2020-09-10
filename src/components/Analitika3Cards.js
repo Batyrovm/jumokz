@@ -1,9 +1,12 @@
 import React from 'react';
-import { Container, Card, Button, CardDeck } from 'react-bootstrap';
+import { Container, Card, Button, CardDeck,Row,Col } from 'react-bootstrap';
 
 import a1 from '../profiles/analitkaf/card3f/anc1ru.pdf';
+import a1kz from '../profiles/analitkaf/card3f/anc1kz.pdf';
 import a2 from '../profiles/analitkaf/card3f/anc2ru.pdf';
+import a2kz from '../profiles/analitkaf/card3f/anc2kz.pdf';
 import a3 from '../profiles/analitkaf/card3f/anc3ru.pdf';
+import a3kz from '../profiles/analitkaf/card3f/anc3kz.pdf';
 
 
 
@@ -45,20 +48,38 @@ function Analitika3Cards(props) {
                             </Card.Text>
                         </Card.Body>
                         <Card.Footer className=" justify-content-between p-3" >
-
-                            <a href={a1} target="_blank" rel="noopener noreferrer" download
-                                style={{ color: "#233048" }}  >
-                                <Button style={{
-                                    backgroundColor: "#50e3c2",
-                                    color: "#203367", borderColor: "#50e3c2",
-                                    borderRadius: "10px", width: "150px", fontSize: "12px", padding: "0"
-                                }}>
-                                    <i className="fas fa-download" />
+                            <Row>
+                                <Col className="p-0 d-flex justify-content-start">
+                                    <a href={a1} target="_blank" rel="noopener noreferrer" download
+                                        style={{ color: "#233048" }}  >
+                                        <Button style={{
+                                            backgroundColor: "#50e3c2",
+                                            color: "#203367", borderColor: "#50e3c2",
+                                            borderRadius: "10px", width: "150px", fontSize: "12px", padding: "0"
+                                        }}>
+                                            <i className="fas fa-download" />
                                              Скачать на русском
                                        </Button>
 
-                            </a>
+                                    </a>
 
+                                </Col>
+                                <Col className="p-0 d-flex justify-content-end">
+                                    <a href={a1kz} target="_blank" rel="noopener noreferrer" download
+                                        style={{ color: "#233048" }}  >
+                                        <Button style={{
+                                            backgroundColor: "#50e3c2",
+                                            color: "#203367", borderColor: "#50e3c2",
+                                            borderRadius: "10px", width: "150px", fontSize: "12px", padding: "0"
+                                        }}>
+                                            <i className="fas fa-download" />
+                                             Скачать на казахском
+                                       </Button>
+
+                                    </a>
+
+                                </Col>
+                            </Row>
                         </Card.Footer>
 
                     </Card>
@@ -94,21 +115,38 @@ function Analitika3Cards(props) {
                             </Card.Text>
                         </Card.Body>
                         <Card.Footer className=" justify-content-between p-3" >
-
-                            <a href={a2} target="_blank" rel="noopener noreferrer" download
-                                style={{ color: "#233048" }}  >
-                                <Button style={{
-                                    backgroundColor: "#50e3c2",
-                                    color: "#203367", borderColor: "#50e3c2",
-                                    borderRadius: "10px", width: "150px", fontSize: "12px", padding: "0"
-                                }}>
-                                    <i className="fas fa-download" />
+                            <Row>
+                                <Col className="p-0 d-flex justify-content-start">
+                                    <a href={a2} target="_blank" rel="noopener noreferrer" download
+                                        style={{ color: "#233048" }}  >
+                                        <Button style={{
+                                            backgroundColor: "#50e3c2",
+                                            color: "#203367", borderColor: "#50e3c2",
+                                            borderRadius: "10px", width: "150px", fontSize: "12px", padding: "0"
+                                        }}>
+                                            <i className="fas fa-download" />
                                              Скачать на русском
                                        </Button>
 
-                            </a>
+                                    </a>
 
+                                </Col>
+                                <Col className="p-0 d-flex justify-content-end">
+                                    <a href={a2kz} target="_blank" rel="noopener noreferrer" download
+                                        style={{ color: "#233048" }}  >
+                                        <Button style={{
+                                            backgroundColor: "#50e3c2",
+                                            color: "#203367", borderColor: "#50e3c2",
+                                            borderRadius: "10px", width: "150px", fontSize: "12px", padding: "0"
+                                        }}>
+                                            <i className="fas fa-download" />
+                                             Скачать на казахском
+                                       </Button>
 
+                                    </a>
+
+                                </Col>
+                            </Row>
                         </Card.Footer>
 
                     </Card>
@@ -144,20 +182,38 @@ function Analitika3Cards(props) {
                             </Card.Text>
                         </Card.Body>
                         <Card.Footer className=" justify-content-between p-3" >
-
-                            <a href={a3} target="_blank" rel="noopener noreferrer" download
-                                style={{ color: "#233048" }}  >
-                                <Button style={{
-                                    backgroundColor: "#50e3c2",
-                                    color: "#203367", borderColor: "#50e3c2",
-                                    borderRadius: "10px", width: "150px", fontSize: "12px", padding: "0"
-                                }}>
-                                    <i className="fas fa-download" />
+                            <Row>
+                                <Col className="p-0 d-flex justify-content-start">
+                                    <a href={a3} target="_blank" rel="noopener noreferrer" download
+                                        style={{ color: "#233048" }}  >
+                                        <Button style={{
+                                            backgroundColor: "#50e3c2",
+                                            color: "#203367", borderColor: "#50e3c2",
+                                            borderRadius: "10px", width: "150px", fontSize: "12px", padding: "0"
+                                        }}>
+                                            <i className="fas fa-download" />
                                              Скачать на русском
                                        </Button>
 
-                            </a>
+                                    </a>
 
+                                </Col>
+                                <Col className="p-0 d-flex justify-content-end">
+                                    <a href={a3kz} target="_blank" rel="noopener noreferrer" download
+                                        style={{ color: "#233048" }}  >
+                                        <Button style={{
+                                            backgroundColor: "#50e3c2",
+                                            color: "#203367", borderColor: "#50e3c2",
+                                            borderRadius: "10px", width: "150px", fontSize: "12px", padding: "0"
+                                        }}>
+                                            <i className="fas fa-download" />
+                                             Скачать на казахском
+                                       </Button>
+
+                                    </a>
+
+                                </Col>
+                            </Row>
                         </Card.Footer>
 
                     </Card>

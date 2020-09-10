@@ -11,6 +11,7 @@ import sopt3kz from '../profiles/termometryf/soprotivlenief/sopt3kz.pdf';
 import sopt4ru from '../profiles/termometryf/soprotivlenief/sopt4ru.pdf';
 import sopt4kz from '../profiles/termometryf/soprotivlenief/sopt4kz.pdf';
 import sopt5ru from '../profiles/termometryf/soprotivlenief/sopt5ru.pdf';
+import sopt5kz from '../profiles/termometryf/soprotivlenief/sopt5kz.pdf';
 import sopt6ru from '../profiles/termometryf/soprotivlenief/sopt6ru.pdf';
 import sopt6kz from '../profiles/termometryf/soprotivlenief/sopt6kz.pdf';
 import sopt7ru from '../profiles/termometryf/soprotivlenief/sopt7ru.pdf';
@@ -51,6 +52,7 @@ import sopt24kz from '../profiles/termometryf/soprotivlenief/sopt24kz.pdf';
 import sopt25ru from '../profiles/termometryf/soprotivlenief/sopt25ru.pdf';
 import sopt25kz from '../profiles/termometryf/soprotivlenief/sopt25kz.pdf';
 import sopt26ru from '../profiles/termometryf/soprotivlenief/sopt26ru.pdf';
+import sopt26kz from '../profiles/termometryf/soprotivlenief/sopt26kz.pdf';
 import sopt27ru from '../profiles/termometryf/soprotivlenief/sopt27ru.pdf';
 import sopt27kz from '../profiles/termometryf/soprotivlenief/sopt27kz.pdf';
 import sopt28ru from '../profiles/termometryf/soprotivlenief/sopt28ru.pdf';
@@ -365,7 +367,8 @@ function SoprotivlenieCards(props) {
                             </Card.Text>
                         </Card.Body>
                         <Card.Footer className=" justify-content-between p-3" >
-                            
+                            <Row>
+                                <Col className="p-0 d-flex justify-content-start">
                                     <a href={sopt5ru} target="_blank" rel="noopener noreferrer" download
                                         style={{ color: "#233048" }}  >
                                         <Button style={{
@@ -379,6 +382,23 @@ function SoprotivlenieCards(props) {
 
                                     </a>
 
+                                </Col>
+                                <Col className="p-0 d-flex justify-content-end">
+                                    <a href={sopt5kz} target="_blank" rel="noopener noreferrer" download
+                                        style={{ color: "#233048" }}  >
+                                        <Button style={{
+                                            backgroundColor: "#50e3c2",
+                                            color: "#203367", borderColor: "#50e3c2",
+                                            borderRadius: "10px", width: "150px", fontSize: "12px", padding: "0"
+                                        }}>
+                                            <i className="fas fa-download" />
+                                             Скачать на казахском
+                                       </Button>
+
+                                    </a>
+
+                                </Col>
+                            </Row>
                         </Card.Footer>
 
                     </Card>
@@ -1692,7 +1712,8 @@ function SoprotivlenieCards(props) {
                             </Card.Text>
                         </Card.Body>
                         <Card.Footer className=" justify-content-between p-3" >
-                            
+                            <Row>
+                                <Col className="p-0 d-flex justify-content-start">
                                     <a href={sopt26ru} target="_blank" rel="noopener noreferrer" download
                                         style={{ color: "#233048" }}  >
                                         <Button style={{
@@ -1706,7 +1727,23 @@ function SoprotivlenieCards(props) {
 
                                     </a>
 
-                                
+                                </Col>
+                                <Col className="p-0 d-flex justify-content-end">
+                                    <a href={sopt26kz} target="_blank" rel="noopener noreferrer" download
+                                        style={{ color: "#233048" }}  >
+                                        <Button style={{
+                                            backgroundColor: "#50e3c2",
+                                            color: "#203367", borderColor: "#50e3c2",
+                                            borderRadius: "10px", width: "150px", fontSize: "12px", padding: "0"
+                                        }}>
+                                            <i className="fas fa-download" />
+                                             Скачать на казахском
+                                       </Button>
+
+                                    </a>
+
+                                </Col>
+                            </Row>
                         </Card.Footer>
 
                     </Card>

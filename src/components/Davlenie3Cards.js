@@ -1,8 +1,9 @@
 import React from 'react';
-import { Container, Card, Button, CardDeck } from 'react-bootstrap';
+import { Container, Card, Button, CardDeck,Row,Col } from 'react-bootstrap';
 
 import d1ru from '../profiles/davlenief/card3f/d1ru.pdf';
 import d2ru from '../profiles/davlenief/card3f/d2ru.pdf';
+import d2kz from '../profiles/davlenief/card3f/d2kz.pdf';
 
 
 
@@ -88,7 +89,10 @@ function Davlenie3Cards(props) {
                             </Card.Text>
                         </Card.Body>
                         <Card.Footer className=" justify-content-between p-3" >
-                                <a href={d2ru} target="_blank" rel="noopener noreferrer" download
+
+                            <Row>
+                                <Col className="p-0 d-flex justify-content-start">
+                                    <a href={d2ru} target="_blank" rel="noopener noreferrer" download
                                         style={{ color: "#233048" }}  >
                                         <Button style={{
                                             backgroundColor: "#50e3c2",
@@ -98,8 +102,27 @@ function Davlenie3Cards(props) {
                                             <i className="fas fa-download" />
                                              Скачать на русском
                                        </Button>
-                                        </a>
-                               </Card.Footer>
+
+                                    </a>
+                                </Col>
+                                <Col className="p-0 d-flex justify-content-end">
+                                    <a href={d2kz} target="_blank" rel="noopener noreferrer" download
+                                        style={{ color: "#233048" }}  >
+                                        <Button style={{
+                                            backgroundColor: "#50e3c2",
+                                            color: "#203367", borderColor: "#50e3c2",
+                                            borderRadius: "10px", width: "150px", fontSize: "12px", padding: "0"
+                                        }}>
+                                            <i className="fas fa-download" />
+                                             Скачать на казахском
+                                       </Button>
+
+                                    </a>
+                                </Col>
+                            </Row>
+
+
+                        </Card.Footer>
                               </Card>
                 </CardDeck>
                  </Container>

@@ -37,7 +37,7 @@ import d17kz from '../profiles/davlenief/card1f/d17kz.pdf';
 import d18ru from '../profiles/davlenief/card1f/d18ru.pdf';
 import d18kz from '../profiles/davlenief/card1f/d18kz.pdf';
 import d19ru from '../profiles/davlenief/card1f/d19ru.pdf';
-
+import d20kz from '../profiles/davlenief/card1f/d20kz.pdf';
 import d20ru from '../profiles/davlenief/card1f/d20ru.pdf';
 
 
@@ -1298,6 +1298,8 @@ function Davlenie1Cards(props) {
                         </Card.Body>
                         <Card.Footer className=" justify-content-between p-3" >
 
+                            <Row>
+                                <Col className="p-0 d-flex justify-content-start">
                                     <a href={d20ru} target="_blank" rel="noopener noreferrer" download
                                         style={{ color: "#233048" }}  >
                                         <Button style={{
@@ -1310,7 +1312,22 @@ function Davlenie1Cards(props) {
                                        </Button>
 
                                     </a>
-                                
+                                </Col>
+                                <Col className="p-0 d-flex justify-content-end">
+                                    <a href={d20kz} target="_blank" rel="noopener noreferrer" download
+                                        style={{ color: "#233048" }}  >
+                                        <Button style={{
+                                            backgroundColor: "#50e3c2",
+                                            color: "#203367", borderColor: "#50e3c2",
+                                            borderRadius: "10px", width: "150px", fontSize: "12px", padding: "0"
+                                        }}>
+                                            <i className="fas fa-download" />
+                                             Скачать на казахском
+                                       </Button>
+
+                                    </a>
+                                </Col>
+                            </Row>
 
 
                         </Card.Footer>

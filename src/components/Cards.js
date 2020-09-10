@@ -10,7 +10,9 @@ function Cards(props) {
     return(
         <div>
             <Container fluid={false} >
-                <h1 style={{ textAlign: "center", color: "#233048", marginTop: "2rem" }}>Вы ищете поддержку?</h1>
+                <h1 style={{ textAlign: "center", color: "#233048", marginTop: "2rem" }}>
+                    Қолдау көрсетейік пе? <br></br>
+                    Вы ищете поддержку?</h1>
                 
 
                

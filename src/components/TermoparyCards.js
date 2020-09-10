@@ -19,7 +19,7 @@ import t7kz from '../profiles/termometryf/termoparyf/termopary7kz.pdf';
 import t8ru from '../profiles/termometryf/termoparyf/termopary8ru.pdf';
 import t8kz from '../profiles/termometryf/termoparyf/termopary8kz.pdf';
 import t9ru from '../profiles/termometryf/termoparyf/termopary9ru.pdf';
-//import t9kz from '../profiles/termometryf/termoparyf/termopary9kz.pdf';
+import t9kz from '../profiles/termometryf/termoparyf/termopary9kz.pdf';
 import t10ru from '../profiles/termometryf/termoparyf/termopary10ru.pdf';
 import t10kz from '../profiles/termometryf/termoparyf/termopary10kz.pdf';
 import t11ru from '../profiles/termometryf/termoparyf/termopary11ru.pdf';
@@ -588,7 +588,8 @@ function TermoparyCards(props) {
                             </Card.Text>
                         </Card.Body>
                         <Card.Footer className=" justify-content-between p-3" >
-                            
+                            <Row>
+                                <Col className="p-0 d-flex justify-content-start">
                                     <a href={t9ru} target="_blank" rel="noopener noreferrer" download
                                         style={{ color: "#233048" }}  >
                                         <Button style={{
@@ -602,6 +603,23 @@ function TermoparyCards(props) {
 
                                     </a>
 
+                                </Col>
+                                <Col className="p-0 d-flex justify-content-end">
+                                    <a href={t9kz} target="_blank" rel="noopener noreferrer" download
+                                        style={{ color: "#233048" }}  >
+                                        <Button style={{
+                                            backgroundColor: "#50e3c2",
+                                            color: "#203367", borderColor: "#50e3c2",
+                                            borderRadius: "10px", width: "150px", fontSize: "12px", padding: "0"
+                                        }}>
+                                            <i className="fas fa-download" />
+                                             Скачать на казахском
+                                       </Button>
+
+                                    </a>
+
+                                </Col>
+                            </Row>
                         </Card.Footer>
 
                     </Card>

@@ -20,7 +20,7 @@ function HomePage(props) {
 
                 <Container fluid={true}>
                 <Link to="/catalogs" style={{color:"white"}}> <h1 style={{ textAlign: "center", color: "#233048", marginTop: "10rem" }} >
-                    Наши предложения</h1>
+                    ҰСЫНЫСТАРЫМЫЗ<br></br>  Наши предложения</h1>
                     </Link>
                 
                 <CardDeck style={{marginLeft:"1rem",marginRight:"1rem",marginTop:"2rem",marginBottom:"2rem"}}>
@@ -103,15 +103,23 @@ function HomePage(props) {
                     <div classname="justify-content-end" style={{paddingTop:"5rem",justifyContent:"center",display:"flex"}}>
                         <Card style={{
                             backgroundColor: "rgba(255,255,255,.9)",
-                            height: "270px", width: "500px", borderRadius: "70px", padding: "1rem"
+                            height: "330px", width: "500px", borderRadius: "70px", padding: "1rem"
                         }}>
                             <Card.Body>
-                                <Card.Title style={{ textAlign: "center", fontSize: "2.5rem", color: "#233048" }}>
-                                    Jumo на выставках
+                                <Card.Title style={{ textAlign: "center", fontSize: "1.7rem", color: "#233048" }}>
+                                    Көрме төріндегі JUMO
                             </Card.Title>
-                                <Card.Text style={{ textAlign: "center", fontSize: "1.2rem", color: "#233048" }}>
+                                <Card.Text style={{ textAlign: "center", fontSize: "1rem", color: "#233048" }}>
+                                    Көрмеде болған кезде уақыт тауып JUMO мүйісіне бас бұрып, 
+                                    біраз кідірсеңіз мамандарымызбен барлық мәселелерді талқылай аласыз.
+                            </Card.Text>
+                            
+                                <Card.Title style={{ textAlign: "center", fontSize: "1.7rem", color: "#233048" }}>
+                                    JUMO на выставках
+                            </Card.Title>
+                                <Card.Text style={{ textAlign: "center", fontSize: "1rem", color: "#233048" }}>
                                     Посетите нас на нашем стенде и лично обсудите ваши проблемы
-                                    с нашими специалистами по продажам и проектированию.
+                                     с нашими специалистами по продажам и проектированию.
                             </Card.Text>
                                 {/*<p style={{ textAlign: "center", justifyContent: "center", alignSelf: "center" }}>
                                     <Button style={{

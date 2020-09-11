@@ -1498,10 +1498,10 @@ const product = [
     },
     {
         id: 188,
-        first: 'JUMO DELOS SI',
+        first: 'JUMO DELOS HP',
         second: ' Реле давления',
         link: '/davlenie',
-        type: 'Тип:40.5052',
+        type: 'Тип:40.5054',
         imgSrc: 'https://content-us-7.content-cms.com/e06fbe62-9b29-495e-977f-be1ceb82e8f8/dxdam/cumulusAssets/JUMO-pictures/4294986646.png?downsize=*:475px'
     },
     

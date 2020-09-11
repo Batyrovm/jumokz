@@ -30,8 +30,7 @@ function Cards(props) {
 
                                </Card.Title>
                             <Card.Text style={{ textAlign: "center", color: "white", fontSize: "1rem" }}>
-                                Тапсырысшының барлық қажетін коммерциялық ұсыныс кезінде егжей-текжейлі ескеру.
-                                <br></br>
+                                Тапсырысшының көкейіндегі барлық ниетін коммерциялық ұсыныс кезінде егжей-текжейлі ескеру.
                                 <br></br>
                             </Card.Text>
                             <Card.Text style={{ textAlign: "center", color: "white", fontSize: "1rem" }}>
@@ -72,7 +71,7 @@ function Cards(props) {
 
                                </Card.Title>
                             <Card.Text style={{ textAlign: "center", color: "white", fontSize: "1rem" }}>
-                                JUMO аспаптарының кепілдікті мерзімімен шектелмей, аспаптарды қолдану кезінде шектеусіз 
+                                JUMO аспаптарының 12 айлық кепілдікті мерзімімен шектелмей-ақ, аспаптарды қолдану кезінде шектеусіз 
                                 техникалық қолдау көрсету.
                                 </Card.Text>
                                 <Card.Text style={{ textAlign: "center", color: "white", fontSize: "1rem" }}>

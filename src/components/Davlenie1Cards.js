@@ -28,8 +28,8 @@ import d12kz from '../profiles/davlenief/card1f/d12kz.pdf';
 import d13ru from '../profiles/davlenief/card1f/d13ru.pdf';
 import d13kz from '../profiles/davlenief/card1f/d13kz.pdf';
 import d14ru from '../profiles/davlenief/card1f/d14ru.pdf';
-import d15ru from '../profiles/davlenief/card1f/d15ru.pdf';
-
+import d15run from '../profiles/davlenief/card1f/d15run.pdf';
+import d15kz from '../profiles/davlenief/card1f/d15kz.pdf';
 import d16ru from '../profiles/davlenief/card1f/d16ru.pdf';
 import d16kz from '../profiles/davlenief/card1f/d16kz.pdf';
 import d17ru from '../profiles/davlenief/card1f/d17ru.pdf';
@@ -997,9 +997,11 @@ function Davlenie1Cards(props) {
 
                             </Card.Text>
                         </Card.Body>
-                        <Card.Footer className=" justify-content-between p-3" >
+                          <Card.Footer className=" justify-content-between p-3" >
 
-                                    <a href={d15ru} target="_blank" rel="noopener noreferrer" download
+                    <Row>
+                                <Col className="p-0 d-flex justify-content-start">
+                                    <a href={d15run} target="_blank" rel="noopener noreferrer" download
                                         style={{ color: "#233048" }}  >
                                         <Button style={{
                                             backgroundColor: "#50e3c2",
@@ -1011,8 +1013,23 @@ function Davlenie1Cards(props) {
                                        </Button>
 
                                     </a>
-                                
+                        </Col>
+                                <Col className="p-0 d-flex justify-content-end">
+                                    <a href={d15kz} target="_blank" rel="noopener noreferrer" download
+                                        style={{ color: "#233048" }}  >
+                                        <Button style={{
+                                            backgroundColor: "#50e3c2",
+                                            color: "#203367", borderColor: "#50e3c2",
+                                            borderRadius: "10px", width: "150px", fontSize: "12px", padding: "0"
+                                        }}>
+                                            <i className="fas fa-download" />
+                                             Скачать на казахском
+                                       </Button>
 
+                                    </a>
+                        </Col>
+                    </Row>
+                            
 
                         </Card.Footer>
 
